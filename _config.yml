@@ -98,5 +98,5 @@ googleTrackId:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yahsinhuangtw/yahsinhuangtw.github.io.git
+  repo: git@github.com:yahsinhuangtw/yahsinhuangtw.github.io.git
   branch: master
