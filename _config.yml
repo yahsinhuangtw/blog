@@ -82,6 +82,18 @@ menu:
   Contact: /contact
   Archives: /archives
 
+# duoshuo comment
+duoshuo: false
+duoshuo_name:
+
+# disqus comment
+disqus: false
+disqus_shortname:
+
+# google analytics
+googleTrackId:
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
