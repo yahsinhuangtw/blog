@@ -1,9 +1,11 @@
 ---
 title: Selected Works
-date: 2017-10-08
+date: 2017-12-02
 ---
 
 ### Meet Startup
+
+[Probiotic research company Bened Biomedical will represent Taiwan at 2018 Startup World Cup competition in San Francisco](https://meet.bnext.com.tw/intl/articles/view/41906)
 
 [Interview with Mobileye’s sales director David Oberman](https://meet.bnext.com.tw/intl/articles/view/41698)
 
