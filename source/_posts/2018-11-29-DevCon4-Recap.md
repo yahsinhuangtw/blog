@@ -7,7 +7,7 @@ tags:
 
 文：黃雅信 Yahsin Huang
 
-{% asset_img Hualien_photo.jpg %}
+{% asset_img Hualien_meetup_photo.jpg %}
 
 活動名稱：Hualien.py Meetup
 活動時間：2018年11月27日星期二 18:30 — 21:00
@@ -42,7 +42,7 @@ Yahsin Huang is a tech writer based in Taipei. She has been working closely with
 首先，DevCon 4 以太坊開發者大會今年的幾個關鍵數字與各位分享。
 今年舉辦是第四屆，與會人數多達3000人，活動為期四天，大會官方票價售價是1025歐元。
 
-小標：布拉格 DevCon 群星璀璨
+### 布拉格 DevCon 群星璀璨
 在捷克布拉格四天的活動，現場眾星雲集，包括以太坊共同創辦人Vitalik Buterin、以太坊核心開發者 Vlad Zamfir、Virgil Griffith、Justin Drake、Danny Ryan、Hsiao-Wei Wang、Karl Floersch、Philip Daian 等多位明星開發者均亮相舞台，為活動增添光彩。 
 
 大會同時也有邀請少數幾位，與以太坊沒這麼直接相關的大師演講，例如，《Radical Markets》一書的作者E. Glen Weyl.教授，也有在主舞台發表演講。
