@@ -1,7 +1,14 @@
 ---
 title: Selected Works
-date: 2017-12-02
+date: 2019-10-02
 ---
+### Hacker Noon
+
+[Decentralized Public Key Infrastructure (DPKI): What is it and why does it matter?](https://medium.com/hackernoon/decentralized-public-key-infrastructure-dpki-what-is-it-and-why-does-it-matter-babee9d88579)
+
+[What Would it Take to Carry out a Successful Eclipse Attack on Ethereum?](https://medium.com/hackernoon/https-hackernoon-com-eclipse-attack-on-ethereum-a6f61e06e1a3)
+
+[Internet Outrage Caused by Verizon Shows How Fragile the Internet Routing Is](https://medium.com/hackernoon/internet-outrage-caused-by-verizon-shows-how-fragile-the-internet-routing-is-a367241130e8)
 
 ### Meet Startup
 
