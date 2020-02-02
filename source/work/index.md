@@ -1,6 +1,6 @@
 ---
 title: Selected Works
-date: 2019-10-02
+date: 2020-01-02
 ---
 ### Hacker Noon
 
@@ -22,7 +22,7 @@ date: 2019-10-02
 
 ### Thinking Taiwan
 
-[Of Bicycles and War: A Review of Wu Ming-yi’s ‘The Stolen Bicycle’](http://thinking-taiwan.com/of-bicycles-and-war-huang/)
+[Of Bicycles and War: A Review of Wu Ming-yi’s ‘The Stolen Bicycle’](http://thinking-taiwan.com/thinking-taiwan.com/of-bicycles-and-war-huang/index.html)
 
 ### 30雜誌 30+BLOG
 
