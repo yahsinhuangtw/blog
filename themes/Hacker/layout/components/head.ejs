@@ -72,7 +72,12 @@
   <meta property="og:image" content="<%- config.root %>favicon.ico"/>
   <% } %>
 
-  <link href="<%- config.root %>favicon.ico" rel="icon">
+  <link href="<%- config.root %>images/favicon_io/favicon.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="<%- config.root %>images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<%- config.root %>images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<%- config.root %>images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="<%- config.root %>images/favicon_io/site.webmanifest">
+
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
   <link rel="stylesheet" href="<%- config.root %>css/style.css" media="screen" type="text/css">
 </head>
