@@ -1,7 +1,9 @@
 ---
-title: contact
-date: 2017-12-02
+title: Contact
+date: 2020-05-26
 ---
 # Contact me 
 
-You can email me at yahsinhuangtw@gmail.com
+Email me at yahsinhuangtw@gmail.com
+
+[@YahsinHuang](https://twitter.com/YahsinHuang) on Twitter and [@yahsinhuangtw](https://github.com/yahsinhuangtw) on Github.
