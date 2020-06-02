@@ -1,8 +1,9 @@
 ---
-title: "5 Days in Denver Colorado: ETHDenver, Buffalo, and Lots of Snow!"
+title: '5 Days in Denver Colorado: ETHDenver, Buffalo, and Lots of Snow!'
 date: 2020-06-03 01:27:01
 tags:
 ---
+
 
 Pictures and some thoughts from my experience at ETHDenver in Denver, Colorado this year!
 
@@ -18,6 +19,8 @@ And so, I was thrilled to see lots of snow! I’ve never seen this much snow in 
 <figure>{% asset_img yahsin_denver_snow.jpg %}<figcaption>My Denver trip in Februrary was full of snowy memories!</figcaption></figure>
 
 The day we arrived at the Denver airport, there was a storm. I kept worrying about the driver’s ability to see - she was scraping ice and snow off the car windshield while driving on the highway. We stayed at a blockchain startup founder’s house in Littleton in Colorado. 
+
+<figure>{% asset_img yahsin_denver_moresnow.jpg %}<figcaption>My Denver trip in Februrary</figcaption></figure>
 
 The house was huge! I’ve never lived in big houses like the one I stayed in. It was like some six bedrooms, a kitchen, a dining room, a big living room with a fireplace, a library (omg a library!), a puzzle playing room, lots of bathrooms, a garage for cars and bikes, a basement, a pretty garden, and maybe there’s more I just don’t know. I’m so jealous of the space folks in Colorado enjoy. Unlike Taipei City, I feel like there’s plenty of space and room to move about in Colorado.
 
