@@ -48,7 +48,7 @@ I think my ETHDenver experience as a first-timer was pretty cool. I met so many 
 
 I met Kunho, a young Americanized Korean who got his degree in environmental engineering from Harvard. We met briefly when Vitalik and I were just hanging out, checking out the ramp that's inside the Sports Castle. So I think Kunho was injured somehow and was paralyzed from the waist down. But he always seemed so confident, so fearless! About a month ago, he sent me a [YouTube video](https://youtu.be/tt7wI9rBvJg) which he made introducing a COVID-19 campaign he'd initiated. I thought that was pretty cool.
 
-<figure>{% asset_img yahsin_ethdenver_coffeezone_optictopic.jpg %}<figcaption>My favorite spot is the SKALE coffee zone of course.</figcaption></figure>
+<figure>{% asset_img yahsin_ethdenver_coffeezone_optictopic.jpg %}<figcaption>My favorite spot is the SKALE coffee zone of course. Photo: optictopic</figcaption></figure>
 
 [Justin Leroux](https://twitter.com/0xMidnight), a Boston-based marketing and business development lead at [GridPlus](https://gridplus.io/) (a hardware wallet maker), is another fun American I met at ETHDenver. He's also an ETHBoston organizer. I was a bit suprised to learn that he actually speaks pretty good Mandarin. Ah well, but I'm always surprised when I meet Americans who speak more than one language. I recently asked his thoughts on multisig wallets, and he told me about a software based multisig called [Gnosis Safe](https://gnosis-safe.io/). He said their reputation is good and it seems to be the best software option for now. By the way, Justin's got two kids now!! Remy, a little 3 year old, and Sophie the newborn baby. I can't wait to meet them when I'm in Boston!
 
