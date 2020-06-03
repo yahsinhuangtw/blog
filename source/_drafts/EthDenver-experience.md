@@ -39,7 +39,7 @@ We went to grab some tacos across the street. It was probably one of the most me
 
 <figure>{% asset_img yahsin_ethdenver_buidler_badge.jpg %}<figcaption>My First EthDenver! February 2020</figcaption></figure>
 
-## Met a lot of cool friends!
+## Met a lot of cool people!
 I think my ETHDenver experience as a first-timer was pretty cool. I met so many interesting friends! I met Thomas Hsueh, a Boston-based electrical engineer originally from Taiwan. He later started to do a podcast program with a few blockchain startup founders. Last month he did a podcast interview with my boss Dominic Letz, CTO of Diode https://diode.io/, which was super cool. Listen to the episode here https://soundcloud.com/weekly-defi/defi-3-diode-cto-dominic-letz.
 
 Anton, another Taiwanese engineer I met at ETHDenver, was at the time an engineer working at a crypto hardwallet company [CoolWallet](https://www.coolwallet.io/). He recently became a full-time engineer at [Opyn Insurance](https://opyn.co/#/), writing JavaScript and Solidity code. Wayne, a really smart and fun Taiwanese-Chinese-American I met on the last day of ETHDenver, told me a bunch of cool stuff about not just the blockchain space but also lots of cool places in San Francisco,  which was my next stop after Denver. He was working for Alpine/ConsenSys at the time, and now he's become a blockchain startup founder working on decentralized identity projects along with two cofounders. How cool is that! 
