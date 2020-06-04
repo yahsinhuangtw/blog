@@ -3,6 +3,8 @@ title: '5 Days in Denver Colorado: ETHDenver, Buffalo, and Lots of Snow!'
 date: 2020-06-03 01:27:01
 tags:
 ---
+
+
 <figure>{% asset_img yahsin_ethdenver_optictopic_ppl.jpg %}<figcaption>ETHDenver 2020 Photo: optictopic</figcaption></figure>
 
 Pictures and some thoughts from my experience at [ETHDenver](https://www.ethdenver.com/) in Denver, Colorado this year!
