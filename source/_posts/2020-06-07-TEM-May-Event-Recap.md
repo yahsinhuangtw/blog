@@ -4,7 +4,8 @@ date: 2020-06-07 18:30:00
 tags:
 ---
 
-On Wednesday (5/17), [Mikerah Quintyne-Collins](https://twitter.com/badcryptobitch), a blockchain researcher from Toronto, Canada, gave a 30-minute talk on "Ethereum Access Privacy" at [Taipei Ethereum Meetup](https://medium.com/taipei-ethereum-meetup) online event. Watch the livestreamed event on [YouTube](https://youtu.be/A4oNobjHr-8). Presentation [slides](https://hackmd.io/@yBpKEsxORheI8AJoIiZj1Q/Hkb5hM1sL#/).
+
+On Wednesday (5/27), [Mikerah Quintyne-Collins](https://twitter.com/badcryptobitch), a blockchain researcher from Toronto, Canada, gave a 30-minute talk on "Ethereum Access Privacy" at [Taipei Ethereum Meetup](https://medium.com/taipei-ethereum-meetup) online event. Watch the livestreamed event on [YouTube](https://youtu.be/A4oNobjHr-8). Presentation [slides](https://hackmd.io/@yBpKEsxORheI8AJoIiZj1Q/Hkb5hM1sL#/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A4oNobjHr-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
