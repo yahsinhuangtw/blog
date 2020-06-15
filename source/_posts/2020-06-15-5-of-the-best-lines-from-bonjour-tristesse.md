@@ -12,10 +12,6 @@ I can't stop thinking about it after reading it. What the heck did I just read? 
 
 The story is about a seventeen-year-old Cécile, her carefree father Raymond, and Raymond's mistress Elsa haveing a summer vacation in a villa outside of Paris. Cécile met a handsome law student Cyril and was going to have a little summer romance with him. But the arrival of Anne, her late mother's best friend, makes everything fall apart. Raymond quickly transferred his attention to Anne, they fell in love. Elsa was treated very badly and got abandoned by Raymond. Raymond and Anne decided that they want to get married. This is bad news for Cécile because this means that she can no long enjoy the pleasures of life. Anne is a very cultured, sophisticated, intelligent, calm, self-contained, sometimes indifferent, almost tiger mom-like person, whom Cécile is oftentimes afraid of. Since Anny and Raymond planned to get married soon, Anne started to play this godmother role in Cécile's life; she got her boxed in and started to make her study for exams.
 
-Her plan was 
-
-Cécile cherishes the free-spirited moments she and her father share, while plotting her own sexual adventures with a "tall and almost beautiful" law student. But the arrival of her late mother's best friend, Anne, intrudes upon a young girl's pleasures. 
-
 
 ### 5 of the best lines from Bonjour Tristesse
 
