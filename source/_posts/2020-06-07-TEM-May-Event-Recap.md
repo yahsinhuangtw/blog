@@ -1,5 +1,5 @@
 ---
-title: Mikerah-on-Ethereum-Access-Privacy-at-Taipei-Ethereum-Meetup-May-Event
+title: Mikerah on Ethereum Access Privacy at Taipei Ethereum Meetup May Event
 date: 2020-06-07 18:30:00
 tags:
 ---
