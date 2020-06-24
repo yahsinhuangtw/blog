@@ -102,3 +102,17 @@ deploy:
   type: git
   repo: git@github.com:yahsinhuangtw/yahsinhuangtw.github.io.git
   branch: master
+
+# RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 500
+  content_limit_delim: ' '
+  order_by: -date
+  icon: /images/logo.png
+  autodiscovery: true
+  template:
