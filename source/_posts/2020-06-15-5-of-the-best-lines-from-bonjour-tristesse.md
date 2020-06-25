@@ -4,9 +4,9 @@ date: 2020-06-15 17:25:24
 tags:
 ---
 
-<figure><img src="{% asset_path yahsin_bt_eng.jpg %}" style="height:340px"/></figure>
+<figure><img src="{% asset_path yahsin_bt_eng.jpg %}" style="height:340px"/><figcaption>If you want to get a copy of the Irene Ash translation of Bonjour Tristesse (which is the one I have), Penguin has a [beautiful paperback](https://www.amazon.co.uk/Bonjour-Tristesse-Penguin-Essentials-Francoise/dp/0241951569) edition.</figcaption></figure>
 
-I read [Françoise Sagan](https://en.wikipedia.org/wiki/Fran%C3%A7oise_Sagan)'s "[Bonjour Tristess](https://en.wikipedia.org/wiki/Bonjour_Tristesse)," on Sunday morning. The title means "Hello, Sadness" in English. It was published in 1954. It's a slim book; it's a distrubing book. I was planning to wrap up my entire complicated set up of my little Raspberry Pi Zero with a Camera Module v2 on Sunday night, to get the project going and make progress and everything, but I didn't get to it. Because I was so distracted by this little book! 
+I read [Françoise Sagan](https://en.wikipedia.org/wiki/Fran%C3%A7oise_Sagan)'s "[Bonjour Tristess](https://en.wikipedia.org/wiki/Bonjour_Tristesse)," on Sunday morning. The title means "Hello, Sadness" in English. It was published in 1954. It's a slim book; it's a distrubing book. I was planning to wrap up my entire complicated set up of my little Raspberry Pi Zero with a Camera Module v2 on Sunday night, to get the project going and make progress and everything, but I didn't get to it. Because I was so distracted by this little book!
 
 I can't stop thinking about it after reading it. What the heck did I just read? What's going on with this seventeen-year-old girl Cécile? What's up with Cécile and Anne? There's definitely something going on with Cécile and Anne, and with Cécile and Elsa. A few hours after reading it, I realized the story was more about these three women - Cécile, Anne, Elsa fighting for Raymond's attention and affection; that it was less about Cyril and Raymond, or Cécile and Cyril.
 
@@ -20,7 +20,7 @@ Then, some time later, Elsa comes back for her suitcases. Cécile persuades Elsa
 
 Out of agony, she drives away from the house. The pain she feels due to her lover's betrayal is unbearable. She needs a place to sort out her emotions after the shock of her future husband's betrayal. Unfortunately, her car has gone over an edge of a cliff, which leads to her death. After Anne's funeral, Raymond and Cécile go back to their old life -- the father has a new girl, the daughter is in a new relationship. The story concludes with the narrator's recall of memories of the previous summer: "Then something rises in me that I welcome by name, with closed eyes: Bonjour tristesse!"
 
-<figure><img src="{% asset_path yahsin_bt_fr.jpg %}" style="height:340px"/></figure>
+<figure><img src="{% asset_path yahsin_bt_fr.jpg %}" style="height:340px"/><figcaption>I picked up a copy of this very [cute paperback](https://www.librairie-gallimard.com/livre/9782260022053-bonjour-tristesse-francoise-sagan/) at a local bookstore in Paris this March.</figcaption></figure>
 
 ### 5 of the best lines from Bonjour Tristesse
 
