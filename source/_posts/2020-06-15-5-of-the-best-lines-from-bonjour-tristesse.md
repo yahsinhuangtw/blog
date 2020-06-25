@@ -38,4 +38,23 @@ Here are 5 of the best lines from perhaps what is Françoise Sagan's best-loved 
 
 
 
+### A few paragraphs I read in French
+I think started learning French by myself sometime in September last year, and so reading French is still a challenging task. But here's a few paragraphs that I found understandable by my current, very limited French vocabulary:
+
+P20
+-- Pourquoi as-tu invité Anne? Et pourquoi a-t-elle accepté?
+-- Pour voir ton vieux pére, peut-être. On ne sait jamais.
+-- Et Elsa? As-tu pensé à Elsa? Tu t'imagines les conversations entre Anne et Elsa? Moi pas!
+
+P175
+-- Anne, dis-je, Anne, ne partez pas, c'est une erreur, c'est ma faute, je vous expliquerai...
+-- Anne, nous avons besoin de vous!
+
+"Elle se redressa alors, décomposée. Elle pleurait. Alors je compris brusquement que je m'étais attaquée à un être vivant et sensible et non pas à une entité. [...] Elle avait quarante ans, elle était seule, elle aimait un homme et elle avait espéré être heureuse avec lui dix ans, vingt ans peut-être."
+
+-- Vous n'avez besoin de personne, murmura-t-elle, ni vous ni lui.
+-- Pardonnez-moi, je vous en supplie...
+-- Vous pardonner quoi?
+
+
 
