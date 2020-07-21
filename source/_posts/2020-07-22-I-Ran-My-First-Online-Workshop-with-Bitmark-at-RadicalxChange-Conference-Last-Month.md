@@ -4,15 +4,15 @@ date: 2020-07-22 01:48:08
 tags:
 ---
 
-<figure><img src="{% asset_path rxc_workshop_banner.jpg %}" style="height:340px"/><figcaption>The “Restoring Data Dignity in COVID-19: A Taiwanese Experience” online workshop was held on Saturday (6/20) at RadicalxChange Conference.</figcaption></figure>
+<figure><img src="{% asset_path rxc_workshop_banner.jpg %}" /><figcaption>The “Restoring Data Dignity in COVID-19: A Taiwanese Experience” online workshop was held on Saturday (6/20) at RadicalxChange Conference.</figcaption></figure>
 
 On Saturday (6/20) last month, I ran a 1-hour data dignity [workshop](https://www.radicalxchange.org/2020-conference/replay/#vcWBpngNSWrc) with the [Bitmark](https://bitmark.com/) team at a big [RadicalxChange conference](https://www.radicalxchange.org/2020-conference/) event. The workshop was called “Restoring Data Dignity in COVID-19: A Taiwanese Experience”; the primary goal was to gather knowledge from every participant to brainstorm ways to gain awareness on health data. There were three facilitators: Vivian Chen (陳依靖), community advocate at Bitmark, Hai-Ching Chang (張海淨), marketing manager at Bitmark, and I (leader of [RadicalxChange Taipei](https://www.meetup.com/RadicalxChange-Taipei/) group, marketing manager at [Diode](https://diode.io/)).
 
-<figure><img src="{% asset_path rxc_workshop_bitmark.jpg %}" style="height:340px"/><figcaption>A snapshot I took with my phone when we first met at a coffee shop in Taipei City a week prior to the event.</figcaption></figure>
+<figure><img src="{% asset_path rxc_workshop_bitmark.jpg %}" /><figcaption>A snapshot I took with my phone when we first met at a coffee shop in Taipei City a week prior to the event.</figcaption></figure>
 
 Vivian invited me to speak at the workshop (the entire workshop was designed by Vivian and her colleague Hai-Ching!) and talk about the concept of Data as Labor, so that was what I did.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cWBpngNSWrc?start=250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="380" src="https://www.youtube.com/embed/cWBpngNSWrc?start=250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Watch the livestream-ed YouTube [video](https://youtu.be/cWBpngNSWrc) (my part starts at 4:10).
 
