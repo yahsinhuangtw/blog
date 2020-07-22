@@ -17,7 +17,6 @@ Vivian invited me to speak at the workshop (the entire workshop was designed by 
 Watch the livestream-ed YouTube [video](https://youtu.be/cWBpngNSWrc) (my part starts at 4:10).
 
 
-
 Here’s a slightly edited script of what I said at the beginning of the workshop:
 
 ### Data provided by humans can be seen as a form of labor
@@ -43,7 +42,7 @@ Another idea that the book authors mentioned in the chapter was this idea of for
 
 This is why we attend RadicalxChange events. Because we believe in our capacity to evolve, our capacity to grow. The data economy is growing. What would our desired future look like? What if we really controlled our data? What if the tech giants were required to pay for access to our data? This is why companies like Bitmark are interesting. They recently left Facebook, which I think is a brave move for any companies based in Taiwan.
 
-<figure><img src="{% asset_path rxc_workshop_screenshot.jpg %}" style="height:340px"/><figcaption>The “Restoring Data Dignity in COVID-19: A Taiwanese Experience” online workshop was held on Saturday (6/20) at RadicalxChange Conference.</figcaption></figure>
+<figure><img src="{% asset_path rxc_workshop_screenshot.jpg %}"/><figcaption>The “Restoring Data Dignity in COVID-19: A Taiwanese Experience” online workshop was held on Saturday (6/20) at RadicalxChange Conference.</figcaption></figure>
 
 ### Group discussions
 
