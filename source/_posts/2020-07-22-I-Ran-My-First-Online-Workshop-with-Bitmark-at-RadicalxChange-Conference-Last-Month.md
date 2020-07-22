@@ -12,7 +12,9 @@ On Saturday (6/20) last month, I ran a 1-hour data dignity [workshop](https://ww
 
 Vivian invited me to speak at the workshop (the entire workshop was designed by Vivian and her colleague Hai-Ching!) and talk about the concept of Data as Labor, so that was what I did.
 
+<div class="video-wrapper">
 <iframe width="100%" height="380" src="https://www.youtube.com/embed/cWBpngNSWrc?start=250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Watch the livestream-ed YouTube [video](https://youtu.be/cWBpngNSWrc) (my part starts at 4:10).
 
