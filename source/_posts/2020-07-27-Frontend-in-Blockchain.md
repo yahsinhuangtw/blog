@@ -30,7 +30,7 @@ Yuren Ju, engineer at [Decore](https://decore.co/)’s [Strike protocol](https:/
 
 <figure><img src="{% asset_path frontend_y1.png %}" /><figcaption>Got a little discussion going on my Facebook page.</figcaption></figure>
 
-Yuren’s direct quotations in Mandarin:「覺得開發工具有很多值得改進的地方，從 VS Code Solidity plugin 連 jump to definition 都沒有、Truffle/Buidler 這層的基礎開發工具 (Truffle [https://www.trufflesuite.com/](https://www.trufflesuite.com/)、連結 Dapp 的 Web3/ethers 到真的接上 Web 的 Metamask 都有很多可以改...。」、「比如 [Metamask](https://metamask.io/) UX、，Web3、deploy 工具... 有種需要開疆拓土的味道，什麼工具都不太好用。」、「這一路上用起來比較少抱怨的大概就是 ethers.js。」、「最需要的就是 breakpoint 這層的 debug 工具。」
+Yuren’s direct quotations in Mandarin:「覺得開發工具有很多值得改進的地方，從 VS Code Solidity plugin 連 jump to definition 都沒有、Truffle/Buidler 這層的基礎開發工具 (Truffle [https://www.trufflesuite.com/](https://www.trufflesuite.com/)、連結 Dapp 的 Web3/ethers 到真的接上 Web 的 Metamask 都有很多可以改...。」、「比如 [Metamask](https://metamask.io/) 的 UX、Web3、deploy 工具... 有種需要開疆拓土的味道，什麼工具都不太好用。」、「這一路上用起來比較少抱怨的大概就是 ethers.js。」、「最需要的就是 breakpoint 這層的 debug 工具。」
 
 Yuren:「貨幣原本是特許行業，但是區塊鏈就打破了這個規則。不過我覺得特別難讓別人感到有趣的點反倒在於大多數現在最有趣的應用都是金融相關的。大部分的人都對金融沒什麼興趣。」
 
