@@ -24,7 +24,7 @@ I’ve got another Canadian friend [Mikerah](https://twitter.com/badcryptobitch)
 
 Yuren Ju, engineer at [Decore](https://decore.co/)’s [Strike protocol](https://strike.network/), former [AMIS Technologies](https://www.am.is/) engineer, thought there’s a lot of work to do in the space, in particular, building dev tools. For instance, there’s no jump to definition in VS Code Solidity plugin. Truffle/Buildler ([https://www.trufflesuite.com/](https://www.trufflesuite.com/)) this layer’s basic dev tools need improvements, etc. He also indicated that ethers.js is probably something worth checking out, especially for a front-end engineer just starting out in the blockchain space.
 
-<figure><img src="{% asset_path frontend_y1.png %}" /><figcaption>Ethereum creator Vitalik Buterin's tweet on Monday (7/27)</figcaption></figure>
+<figure><img src="{% asset_path frontend_y1.png %}" /><figcaption>A little discussion on Facebook on Monday (7/27)</figcaption></figure>
 
 Yuren’s direct quotations in Mandarin:「覺得開發工具有很多值得改進的地方，從 vscode solidity plugin 連 jump to definition 都沒有、truffle/buidler 這層的基礎開發工具 (Truffle [https://www.trufflesuite.com/](https://www.trufflesuite.com/)、連結 dapp 的 web3/ethers 到真的接上 web 的 metamask 都很多可以改...。」、「比如 [metamask](https://metamask.io/) UX 很奇怪，web3 也很難用，deploy 工具也很難用。有種需要開疆拓土的味道，什麼工具都不太好用。」、「這一路上用起來比較少抱怨的大概就是 ethers.js。」、「最需要的就是 breakpoint 這層的 debug 工具。」
 
