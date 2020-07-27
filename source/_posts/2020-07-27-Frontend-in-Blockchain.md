@@ -10,7 +10,7 @@ Here’s a collection of responses I gathered on Twitter and Facebook. Note that
 
 <figure><img src="{% asset_path frontend_v1.png %}" /><figcaption>Ethereum creator Vitalik Buterin's tweet on Monday (7/27)</figcaption></figure>
 
-In response, Ethereum creator Vitalik Buterin tweeted (7/27):
+In response, Ethereum creator Vitalik Buterin tweeted:
 
 “Make a general-purpose UI generator for contracts. Something more usable than just a list of textboxes and buttons, one for each contract function. Allow customization but try to make it close to impossible to make a misleading UI.” [...] 
 
@@ -22,18 +22,18 @@ I’ve got another Canadian friend [Mikerah](https://twitter.com/badcryptobitch)
 
 [Bitmark](https://bitmark.com/) CEO Sean Moss-Pultz said, “Wallets. You should check out what Christopher Allen is doing around fully noded.”
 
+<figure><img src="{% asset_path frontend_ens.png %}" /><figcaption>ENS developer Makoto Inoue thought solUI was a pretty good tool.</figcaption></figure>
+
+Makoto Inoue, a developer at [Ethereum Name Service (ENS)](https://ens.domains/), tweeted: "[solUI](https://solui.dev/) is pretty good. Spent 30 min (including learning how to use it) building frontend and won [ETHLondonUK](https://ethlondon.com/)"
+
 Yuren Ju, engineer at [Decore](https://decore.co/)’s [Strike protocol](https://strike.network/), former [AMIS Technologies](https://www.am.is/) engineer, thought there’s a lot of work to do in the space, in particular, building dev tools. For instance, there’s no jump to definition in VS Code Solidity plugin. Truffle/Buildler ([https://www.trufflesuite.com/](https://www.trufflesuite.com/)) this layer’s basic dev tools need improvements, etc. He also indicated that ethers.js is probably something worth checking out, especially for a front-end engineer just starting out in the blockchain space.
 
-<figure><img src="{% asset_path frontend_y1.png %}" /><figcaption>A little discussion on Facebook on Monday (7/27)</figcaption></figure>
+<figure><img src="{% asset_path frontend_y1.png %}" /><figcaption>Got a little discussion going on my Facebook page.</figcaption></figure>
 
-Yuren’s direct quotations in Mandarin:「覺得開發工具有很多值得改進的地方，從 vscode solidity plugin 連 jump to definition 都沒有、truffle/buidler 這層的基礎開發工具 (Truffle [https://www.trufflesuite.com/](https://www.trufflesuite.com/)、連結 dapp 的 web3/ethers 到真的接上 web 的 metamask 都很多可以改...。」、「比如 [metamask](https://metamask.io/) UX 很奇怪，web3 也很難用，deploy 工具也很難用。有種需要開疆拓土的味道，什麼工具都不太好用。」、「這一路上用起來比較少抱怨的大概就是 ethers.js。」、「最需要的就是 breakpoint 這層的 debug 工具。」
+Yuren’s direct quotations in Mandarin:「覺得開發工具有很多值得改進的地方，從 VS Code Solidity plugin 連 jump to definition 都沒有、Truffle/Buidler 這層的基礎開發工具 (Truffle [https://www.trufflesuite.com/](https://www.trufflesuite.com/)、連結 Dapp 的 Web3/ethers 到真的接上 Web 的 Metamask 都有很多可以改...。」、「比如 [Metamask](https://metamask.io/) UX、，Web3、deploy 工具... 有種需要開疆拓土的味道，什麼工具都不太好用。」、「這一路上用起來比較少抱怨的大概就是 ethers.js。」、「最需要的就是 breakpoint 這層的 debug 工具。」
 
 Yuren:「貨幣原本是特許行業，但是區塊鏈就打破了這個規則。不過我覺得特別難讓別人感到有趣的點反倒在於大多數現在最有趣的應用都是金融相關的。大部分的人都對金融沒什麼興趣。」
 
-A Taiwan-based Ethereum developer said:「有一堆雷需要踩，對前端來講建立新框架或新套件庫的成名機會很多。」
+A Taiwan-based Ethereum developer said:「有一堆雷需要踩，對前端來講建立新框架或新套件庫的成名機會很多。」Shih-Yuan Lee, a Debian developer:「往好的方面想就是到處都是洞，別人也不會太容易成功。」
 
-Shih-Yuan Lee, a Debian developer:「往好的方面想就是到處都是洞，別人也不會太容易成功。」
-
-Fred Lin, front-end engineer at Bitfinex, mentioned a few projects that were interesting to him such as Aragon and Zapper.
-
-Fred’s direct quotations in Mandarin:「如果要定義的話，就是做一般的產學合作，但拿區塊鏈當 buzzword 的圈。應該很多啊，[Etherscan](https://etherscan.io/)、Gasstation」Fred 說他有在看的 projects 有 [Aragon](https://aragon.one/)、Zapper。「光鏈圈也分多種，ex: 遊戲，同個 uniswap contract 但不同的交易介面，分析追蹤工具等，看個人喜好。」
+Fred Lin, front-end engineer at Bitfinex, mentioned a few projects that were interesting to him such as Aragon and Zapper. Fred’s direct quotations in Mandarin:「如果要定義的話，就是做一般的產學合作，但拿區塊鏈當 buzzword 的圈。應該很多啊，[Etherscan](https://etherscan.io/)、Gasstation」Fred 說他有在看的 projects 有 [Aragon](https://aragon.one/)、Zapper。「光鏈圈也分多種，ex: 遊戲，同個 uniswap contract 但不同的交易介面，分析追蹤工具等，看個人喜好。」
