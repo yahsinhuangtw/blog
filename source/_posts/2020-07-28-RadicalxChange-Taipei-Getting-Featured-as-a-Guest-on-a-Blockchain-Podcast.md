@@ -17,7 +17,8 @@ Interview notes I prepared a day prior to the Friday (7/24) podcast interview. �
 
 Interview notes
 主持人許明恩開場介紹區塊勢節目和來賓。
-邀請二位來賓自我介紹。
+
+### 邀請二位來賓自我介紹
 
 <figure><img src="{% asset_path rxc_podcast_yahsin.jpg %}" /><figcaption>RadicalxChange Taipei chapter leader Yahsin Huang to be featured as a guest on Astro Hsu's BlockTrend podcast.</figcaption></figure>
 
@@ -33,7 +34,7 @@ CC: 大家好，我是[梁智程](https://github.com/ChihChengLiang)，目前在
 
 <figure><img src="{% asset_path rxc_podcast_host.jpg %}" /><figcaption>Astro Hsu is the host of the BlockTrend podcast.</figcaption></figure>
 
-**激進改變基金會是什麼組織？《激進市場》這本書在講什麼？**
+### 激進改變基金會是什麼組織？《激進市場》這本書在講什麼？
 
 Yahsin: [RadicalxChange Foundation 激進改變基金會](https://www.radicalxchange.org/)是由社運推動者、藝術家、學業界發起的一個非營利組織，主要希望提倡競爭、自由、開放的市場機制，降低社會不平等，希望創造出廣泛共享的公平、繁榮與合作。
 
@@ -52,17 +53,17 @@ Yahsin: [RadicalxChange Foundation 激進改變基金會](https://www.radicalxch
 
 <figure><img src="{% asset_path rxc_podcast_book.jpg %}" /><figcaption>The interview discussed several key concepts included in the Radical Markets book.</figcaption></figure>
 
-**《激進市場》這本書特別適合誰閱讀？**
+### 《激進市場》這本書特別適合誰閱讀？
 
 Yahsin: 我覺得這本書適合對經濟學有一點興趣的人看，也適合對科技趨勢好奇的人看、對想了解這個社會還可以怎麼樣運作的朋友看，並且我覺得也會吸引一些希望透過不斷閱讀有趣的書，有新的想法注入的讀者。
 
 另外，還有另一種人我也認為特別適合看這本書，就是還帶有一些理想的人。就是我自己。（笑）對這個世界還有很多理想，很多想像，喜歡思考還有哪些可能性，需要什麼樣的新局，以及如何實現想法，如何開創更多的可能性？我覺得這本書帶我看到不一樣的世界，書中提到的幾個提案，都給了我新的文化刺激，這是最有趣的地方。
 
-**與以太坊基金會的組成為什麼有如此高的重疊？**
+### 與以太坊基金會的組成為什麼有如此高的重疊？
 
 CC: 技術上來說也只有 Vitalik 重疊。如果只看組織註冊的負責人們大概 1/3 重疊。算整個組織裡的人，大概百分之一。
 
-**為什麼以太坊創辦人 Vitalik Buterin** **會對激進市場有興趣？**
+### 為什麼以太坊創辦人 Vitalik Buterin** **會對激進市場有興趣？
 
 CC: 懶人的說法是，主要是來自目前區塊鏈圈的人，在尋找解決區塊鏈專案開發與研究的永續性問題，激進市場的提案提供有經濟效率又能夠去中心化的募資方案。
 
@@ -70,11 +71,11 @@ CC: 懶人的說法是，主要是來自目前區塊鏈圈的人，在尋找解�
 
 但因為這些研究與開發有強烈的公共財性質，傳統解決公共財募資的問題，就是中心化的單位去收稅並分配資源，或是把公共財私有化，然後當私有財解決。
 
-**以太坊基金會常常會贊助特定專案，其中一個贊助的計畫是 Gitcoin Grants，那麼 Gitcoin Grants 在做什麼？平方募資法跟傳統的募資有什麼不同？**
+### 以太坊基金會常常會贊助特定專案，其中一個贊助的計畫是 Gitcoin Grants，那麼 Gitcoin Grants 在做什麼？平方募資法跟傳統的募資有什麼不同？
 CC 會自由發揮負責回答這題。預計提及 Vitalik 這週 7 月 21 日最新發表的一篇文章「[Gitcoin Grants Round 6 Retrospective](https://vitalik.ca/general/2020/04/30/round5.html)」。
 
 <figure><img src="{% asset_path gitcoin_yahsin.png %}" /><figcaption>I donated to 5 projects in Gitcoin's fifth round of grants in April.</figcaption></figure>
 
-**你贊助過哪些 Gitcoin 平台上的專案？他們有哪些特別的地方？**
+### 你贊助過哪些 Gitcoin 平台上的專案？他們有哪些特別的地方？
 
 Yahsin: 今年 4 月底的時候，也就是 [Gitcoin](https://gitcoin.co/grants/) 第 5 輪募資的時候（Round 5 of Gitcoin Grants），我贊助過 5 個放在 Gitcoin 平台上的專案。就是用 Github 帳號和 DAI 穩定幣，贊助了一個 podcast 節目叫 「[Zero Knowledge Podcast](https://www.zeroknowledge.fm/)」、還有贊助其他專案，包括 [Ethereum Magicians](https://ethereum-magicians.org/)、 RadicalxChange Foundation 激進改變基金會、[Week in Ethereum News](https://weekinethereumnews.com/)、以及 [EthHub - Ethereum Information Hub](https://ethhub.io/)。我贊助的比較偏向論壇交流平台、媒體行銷相關的類別，可能也是因為我在加入區塊鏈新創之前是做媒體採訪工作的關係，希望可以支持同業。大概是這樣的選擇。
