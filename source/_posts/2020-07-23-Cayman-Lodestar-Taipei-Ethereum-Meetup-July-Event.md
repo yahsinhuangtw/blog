@@ -1,6 +1,6 @@
 ---
 title: "Cayman introduced Lodestar: Eth2 in the Web at Taipei Ethereum Meetup July Event"
-date: 2020-07-23 00:25:02
+date: 2020-07-23 01:25:02
 tags:
 ---
 
