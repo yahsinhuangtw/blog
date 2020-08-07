@@ -1,12 +1,17 @@
 ---
 title: "RadicalxChange Taipei Getting Featured as a Guest on a Blockchain Podcast for the First Time"
-date: 2020-07-28 01:03:44
+date: 2020-08-5 02:03:44
 tags:
 ---
+<figure><img src="{% asset_path rxc_podcast_feature_01.png %}" /><figcaption>RadicalxChange Taipei chapter leaders CC & Yahsin were featured as guests on Astro Hsu's BlockTrend podcast.</figcaption></figure>
 
-Interview notes I prepared a day prior to the Friday (7/24) podcast interview. 這篇是訪談錄音前一天晚上準備的講稿，當天錄音時並沒有照著這些預先準備的內容講，所以這篇內容單純提供給各位當背景資料參考，實際的訪談內容等區塊勢發表後（預計八月）我再放過來。
+Interview notes I prepared a day prior to the Friday (7/24) podcast interview. 以下內容是訪談前一天準備的講稿，當天錄音時並沒有照著這些預先準備的內容講，所以這篇內容單純提供給各位當背景資料參考。
 
-<figure><img src="{% asset_path rxc_podcast_group.jpg %}" /><figcaption>RadicalxChange Taipei chapter leaders Yahsin Huang, CC Liang to be featured as guests on Astro Hsu's BlockTrend podcast.</figcaption></figure>
+<figure><img src="{% asset_path rxc_podcast_feature_02.png %}" /><figcaption>RadicalxChange Taipei chapter leaders CC & Yahsin were featured as guests on Astro Hsu's BlockTrend podcast.</figcaption></figure>
+
+
+剪輯過的訪談內容，區塊勢 BlockTrend Ep. 75 平方募資法，8 月 5 日[區塊勢 Soundcloud](https://soundcloud.com/blocktrend/ep75) 平台發表，歡迎前往收聽。
+
 
 [區塊勢 BlockTrend podcast](https://podcasts.apple.com/tw/podcast/%E5%8D%80%E5%A1%8A%E5%8B%A2/id1441274280) 節目訪談
 主持人：許明恩 Astro Hsu
@@ -15,12 +20,15 @@ Interview notes I prepared a day prior to the Friday (7/24) podcast interview. �
 錄音時間：7/24 週五 上午 11:00-12:15
 節目主題：平方募資法（Quadratic Funding）
 
+<figure><img src="{% asset_path rxc_podcast_group.jpg %}" /><figcaption>RadicalxChange Taipei chapter leaders Yahsin Huang, CC Liang featured as guests on Astro Hsu's BlockTrend podcast.</figcaption></figure>
+
+
 Interview notes
 主持人許明恩開場介紹區塊勢節目和來賓。
 
 ### 邀請二位來賓自我介紹
 
-<figure><img src="{% asset_path rxc_podcast_yahsin.jpg %}" /><figcaption>RadicalxChange Taipei chapter leader Yahsin Huang to be featured as a guest on Astro Hsu's BlockTrend podcast.</figcaption></figure>
+<figure><img src="{% asset_path rxc_podcast_yahsin.jpg %}" /><figcaption>RadicalxChange Taipei chapter leader Yahsin Huang featured as a guest on Astro Hsu's BlockTrend podcast.</figcaption></figure>
 
 Yahsin: 大家好，我是黃雅信，可以叫我雅信，文雅的雅，自信的信，英文名字是 Yahsin。目前在 [Diode](https://diode.io/) 一家美商區塊鏈新創公司當行銷，每個月舉辦開發者會喜歡的 [meetup 活動](https://diode.io/diode/Diode-Network-and-Video-Streaming-Using-Raspberry-Pi-Zero-W-20189/)、寫很多[文章](https://diode.io/diode/diode-the-first-open-source-blockchain-based-alternative-to-ngrok-20196/)、製作 [YouTube 教學影片](https://youtu.be/Zibg-6CClc4)，和大家介紹 Diode 和 Web 3.0，希望吸引更多工程師使用 Diode。公司網站是 diode 點 io，diode dot io。
 
