@@ -11,9 +11,10 @@ date: 2021-11-19 00:03:01
 #### A video tutorial on how to host a website using ENS+IPFS (December 5, 2019)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oA4oOY5zgU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 ### Selected stories
 
-#### Hacker Noon
+### Hacker Noon
 
 [Decentralized Public Key Infrastructure (DPKI): What is it and why does it matter?](https://medium.com/hackernoon/decentralized-public-key-infrastructure-dpki-what-is-it-and-why-does-it-matter-babee9d88579)
 
@@ -21,7 +22,7 @@ date: 2021-11-19 00:03:01
 
 [Internet Outrage Caused by Verizon Shows How Fragile the Internet Routing Is](https://medium.com/hackernoon/internet-outrage-caused-by-verizon-shows-how-fragile-the-internet-routing-is-a367241130e8)
 
-#### Meet Startup
+### Meet Startup
 
 [Interview with Mobileye’s sales director David Oberman](https://meet.bnext.com.tw/intl/articles/view/41698)
 
