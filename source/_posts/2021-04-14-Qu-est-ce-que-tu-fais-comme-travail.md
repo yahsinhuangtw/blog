@@ -6,7 +6,7 @@ tags:
 
 ## Qu'est-ce que tu fais comme travail?
 
-Bonjour, je m'appelle Yahsin. Enchanteé!
+Bonjour, je m'appelle Yahsin. Enchantée!
 
 Je suis directrice des opérations dans une startup. Elle s’appelle [HashCloak](https://hashcloak.com/). C’est une startup basée à Toronto au Canada.
 
