@@ -5,9 +5,6 @@ date: 2021-11-19 00:03:01
 
 ### Videos
 
-#### Event moderator for Taipei Ethereum Meetup's online meetup (May 27, 2020)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A4oNobjHr-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 #### A video tutorial on how to host a website using ENS+IPFS (December 5, 2019)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oA4oOY5zgU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
