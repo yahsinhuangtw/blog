@@ -1,7 +1,7 @@
 ---
 title: My last trip
 date: 2022-08-20 23:03:51
-tags: Travel, Europe, Culture
+tags: [Travel, Europe, Culture]
 ---
 
 My last trip was a three-month trip to Europe. During the months of April, May, June and July, I visited several small towns and lots of major cities in Europe. I have been to Europe several times since high school, but I wouldn’t say I know Europe well. The last time I visited Europe was some two years ago when I went to a blockchain conference event in Paris.
