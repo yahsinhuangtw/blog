@@ -13,7 +13,7 @@ The one that I’m reading is the original French edition. I’m quite determine
 ## An excerpt from « Combats et métamorphoses d’une femme » d’Edouard Louis
  
 P15
-Je ne voulais pas que tu saches qu'à neuf ou dix ans déjà je connaissais le goût de la mélancolie et du désespoir, que j'étais prématurément vieilli par ces sentiments en moi, que chaque matin je me réveillais avec ces questions dans la tête : pourquoi est-ce que j'étais la personne que j'étais ? Pourquoi est-ce que j'étais né avec ces manières de filles, ces manières que les autres identifiaient, et ils avaient raison, comme la preuve de mon anormalité ?
+>Je ne voulais pas que tu saches qu'à neuf ou dix ans déjà je connaissais le goût de la mélancolie et du désespoir, que j'étais prématurément vieilli par ces sentiments en moi, que chaque matin je me réveillais avec ces questions dans la tête : pourquoi est-ce que j'étais la personne que j'étais ? Pourquoi est-ce que j'étais né avec ces manières de filles, ces manières que les autres identifiaient, et ils avaient raison, comme la preuve de mon anormalité ?
 
 
 ## Networking with people outside your industry
