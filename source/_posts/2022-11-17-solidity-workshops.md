@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What I’ve Been Up To Lately - Solidity workshop, CS50 Lectures, Collège de France lectures
+title: What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures
 date: 2022-11-17 17:49:49
-tags:
+tags: nov-solidity
 ---
 
 ## What I’ve been up to lately
