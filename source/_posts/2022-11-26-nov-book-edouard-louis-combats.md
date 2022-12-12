@@ -7,6 +7,8 @@ tags: nov-books
 
 This week, I finished reading Édouard Louis's book Combats et métamorphoses d’une femme (Seuil, 2021). I enjoyed it very much. It’s a short book published last year in France and now translated in English as A Woman’s Battles and Transformations. In the book, Édouard Louis tells the story of his mother’s struggles of class and gender within a working-class family in northern France. 
 
+<img src="{% asset_path Edouard_Louis_Combats_Book_Cover.jpeg %}" />
+
 - Combats et métamorphoses d'une femme (2021)
 https://www.amazon.com/Combats-m%C3%A9tamorphoses-femme-Cadre-French/dp/2021312542
 - A Woman's Battles and Transformations (2022)
