@@ -64,7 +64,7 @@ The last few days I went to Ueno Park in the Ueno district in Tokyo. I met up wi
 
 I hope Taipei would have large public urban parks one day. Daan Park in the centre of the Daan District of Taipei, Taiwan is actually one of the larger parks in the city; however, unfortunately it still isn’t large enough in my view.
 
-<img src="{% asset_path tokyo_pic_2.jpeg %}" />
+<img src="{% asset_path tokyo_pic_2.jpg %}" />
 
 ## Tokyo Disneyland
 Tokyo Disneyland was my last touristy place to visit. I’ve been there once when I was still in college I believe. So for this time I tried all of the rides that I didn’t dare to get on! I loved the ride I had with Big Thunder Mountain Mining Company roller coaster rides. It wasn’t too scary for adults. The Frontierland really made me feel like I’m in the wild. The theme was American and authentic. I had a lot of fun riding Splash Mountain. CC and I got the first row so our faces got some good splashed with water, which was fun for me and not so fun for CC. It was quite frightening for him -- his face was pale and couldn’t utter a word for a while. I was still excited after the ride but later felt a bit worried about him. At one point he thought his heart was going to stop. 
