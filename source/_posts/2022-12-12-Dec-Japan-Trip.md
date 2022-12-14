@@ -10,7 +10,11 @@ To folks I met in Japan, thanks for the wonderful experience. I had a lot of fun
 Several places I visited:
 
 ## Sumiyoshi-jinja 住吉神社, Kushida-jinja 櫛田神社
-There’s quite a number of old shrines and temples around. I visited Sumiyoshi-jinja shrine (住吉神社) and Kushida-jinja (櫛田神社). Each shrine is unique in its own way. Sumiyoshi-jinja was quite and lovely, almost like a local public park. Kushida-jinja was a bit crowded with tourists around (a lot of tourists from Korea I noticed). There was more things to do. One of the most impressive pieces I saw while visiting Kushida-jinja was this incredible decorative Kazari Yamakasa (飾り山笠) that was on display.
+There’s quite a number of old shrines and temples around. I visited Sumiyoshi-jinja shrine (住吉神社) and Kushida-jinja (櫛田神社). Each shrine is unique in its own way. Sumiyoshi-jinja was quite and lovely, almost like a local public park. Kushida-jinja was a bit crowded with tourists around (a lot of tourists from Korea I noticed). There was more things to do. 
+
+<img src="{% asset_path shrine_pic.jpeg %}" />
+
+One of the most impressive pieces I saw while visiting Kushida-jinja was this incredible decorative Kazari Yamakasa (飾り山笠) that was on display.
 
 ## Tenjin Chikagai
 Spent a couple of hours hanging out at the Tenjin Chikagai, Tenjin Underground Shopping Center (天神地下街). It’s actually not bad. I thought shopping centers/malls could be a bit boring, but this long street located at the Tenjin underground was quite good. The overall design was a bit eastern or southern European style, it feels like, with stained glass windows and other decorations. Clothing stores were stylish, with trendy brands and a wide variety of fashionable petite clothing. Even I picked up a few winter pants myself, in part because hanging out at the warm and lovely Tenjin underground for too long (more than 20 minutes, that is) would inevitably make you want to shop.
@@ -28,6 +32,8 @@ Visiting Kumamoto Castle reminds me of visiting Himeji Castle (姫路城, Himeji
 
 ## 佐賀 Saga Solidity House
 Hanging out in Saga Prefecture (佐賀県, Saga-ken) was a unique option for a city girl. (It was surrendered by mountains. Basically in the middle of nowhere.) The primary reason I was visiting there was simply because the Solidity House was there. I needed to see it! About a dozen folks were hanging out at the Saga Solidity House aka Solidity village when I visited. It was initiated by Shogo Ochiai, a friend of ours. I’ve met him in Taiwan a few times several years ago; last time I met him was in Kyoto. 
+
+<figure><img src="{% asset_path saga_house.jpeg %}" /><figcaption>I was holding a copy of 落合渉悟 Ochiai Shogo's book, "僕たちはメタ国家で暮らすことに決めた". Link: https://www.amazon.co.jp/gp/product/B0B1T6PQ98/ </figcaption></figure>
 
 I believe the developer folks I met hanging out at the house were were doing some kind of a software development bootcamp specifically for learning Solidity smart contract development. The projects they were working on were decentralized autonomous organization DAO related and web3 related projects. I met a CS graduate student from Hiroshima. He was doing his master’s thesis on DAO-related research topics. Hanging out at the Solidity House was great; the only issue I had was it was hard to communicate with these Japanese developer folks in English. 
 
@@ -49,7 +55,11 @@ We went to this street that was full of authentic Monja restaurants. Taishi san 
 
 <img src="{% asset_path tokyo_pic_01.jpeg %}" />
 
-For dinner we went to this Japanese style Shabu-shabu chain restaurant in Akihabara (秋葉原). Shabu-shabu Onyasai Akihabara Showa Doriguchi (しゃぶしゃぶ温野菜 秋葉原昭和通り口店) was the name of the restaurant. It turns our Shabu-shabu is also one of Taishi’s home dishes. He taught us how to do it. It was an authentic Japanese food cultural experience for me. I was really glad I had the meal with him.
+For dinner we went to this Japanese style Shabu-shabu chain restaurant in Akihabara (秋葉原). Shabu-shabu Onyasai Akihabara Showa Doriguchi (しゃぶしゃぶ温野菜 秋葉原昭和通り口店) was the name of the restaurant. 
+
+<img src="{% asset_path tokyo_pic_03.jpeg %}" />
+
+It turns our Shabu-shabu is also one of Taishi’s home dishes. He taught us how to do it. It was an authentic Japanese food cultural experience for me. I was really glad I had the meal with him.
 
 ## Meeting web3/crypto communities in Tokyo
 
@@ -73,6 +83,8 @@ I decided to give up Space Mountain because of the look of CC’s face and ended
 
 ## Biggest culture shock from visiting Japan
 The socalled “human body accident” came as one of the biggest culture shocks I experienced. It occurred on the last day when I was trying to get myself to the airport. I was about to board the train at a station on the Keikyu Line around 8:40 am to go to the Haneda Airport for flying back to Taiwan. The moment when I was going to tap my IC card on the card reader, I heard some urgent tone of voice announcing something serious. 
+
+<img src="{% asset_path tokyo_train.jpeg %}" />
 
 There was a small whiteboard with some handwritten Japanese characters on it. I could read some Japanese Kanji; I suspected it was saying something like  the Keikyu Line had been suspended due to some 人身事故 (jinshin jiko) at 8:17 am. It is scheduled to resume operations around 9:40 am. Jinshin jiko, literally “human body accident”, refers to accidents that may result in an injury or death at train stations. 
 
