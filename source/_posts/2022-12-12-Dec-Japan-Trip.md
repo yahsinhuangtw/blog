@@ -68,7 +68,11 @@ It turns our Shabu-shabu is also one of Taishi’s home dishes. He taught us how
 Meeting Aya Miyaguchi Executive Director at Ethereum Foundation, several founders of Fracton Ventures, a few Japanese web3/crypto startup founders on Thursday night (Dec. 8) at a Roppongi co-working space in Tokyo, Japan.
 
 ## Ueno Park in Tokyo
-The last few days I went to Ueno Park in the Ueno district in Tokyo. I met up with Taishi san again. We took an afternoon walk around the park along some fountains. It reminds me of this big public park in Amsterdam (I’m not sure what’s the name of the park) where you could walk past through it to visit the Van Gogh Museum and Rijks. They were rather similar in part because they both have some lovely tulips blooming in the park. Also, they are both quite big. You could take a long stroll in the park, to which I believe it is quite good for stimulating creativity. 
+The last few days I went to Ueno Park in the Ueno district in Tokyo. I met up with Taishi san again. We took an afternoon walk around the park along some fountains. 
+
+<img src="{% asset_path tokyo_ginkgo_park.jpeg %}" />
+
+It reminds me of this big public park in Amsterdam (I’m not sure what’s the name of the park) where you could walk past through it to visit the Van Gogh Museum and Rijks. They were rather similar in part because they both have some lovely tulips blooming in the park. Also, they are both quite big. You could take a long stroll in the park, to which I believe it is quite good for stimulating creativity. 
 
 <img src="{% asset_path tokyo_ueno_park_01.jpeg %}" />
 
