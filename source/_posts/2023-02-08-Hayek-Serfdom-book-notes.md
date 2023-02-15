@@ -4,6 +4,8 @@ date: 2023-02-08 23:16:48
 tags: Classics, Books, Lit, Notes, Politics
 ---
 
+<img src="{% asset_path hayek_book.jpeg %}" />
+
 ## A short reflection on time spent last month
 Lately I’ve been wondering what self-directed learning means to me. I wondered what subjects or topics interest me deeply. How would I design my own learning path and select resources? What would my curriculum look like? Also, what I could learn over a longer period of time. I feel like I have been shopping around all of these wonderful learning resources out there in the wild.
 
