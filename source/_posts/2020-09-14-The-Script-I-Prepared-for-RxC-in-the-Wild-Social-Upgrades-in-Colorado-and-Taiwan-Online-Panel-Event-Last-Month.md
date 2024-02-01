@@ -1,7 +1,7 @@
 ---
 title: "The Script I Prepared for RxC in the Wild: Social Upgrades in Colorado and Taiwan Online Panel Event Last Month"
 date: 2020-09-14 01:04:22
-tags:
+tags: panel, speech, notes, taiwan
 ---
 
 <figure><img src="{% asset_path rxcwild_event_feature.png %}" /></figure>

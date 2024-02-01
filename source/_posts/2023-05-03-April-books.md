@@ -2,7 +2,7 @@
 layout: post
 title: The Books I Read in April
 date: 2023-05-03 18:16:05
-tags:
+tags: books
 ---
 
 ## The Books I Read in April | 2023

@@ -1,7 +1,7 @@
 ---
 title: Hayek’s The Road to Serfdom to Kick Off the Year
 date: 2023-02-08 23:16:48
-tags: Classics, Books, Lit, Notes, Politics
+tags: classics, books, politics
 ---
 
 <img src="{% asset_path hayek_book.jpeg %}" />

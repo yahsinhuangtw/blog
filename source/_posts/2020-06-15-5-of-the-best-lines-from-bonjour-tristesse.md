@@ -1,7 +1,7 @@
 ---
 title: 5 of the Best Lines from Bonjour Tristesse
 date: 2020-06-15 17:25:24
-tags:
+tags: books
 ---
 
 <figure><img src="{% asset_path yahsin_bt_eng.jpg %}" style="height:340px"/><figcaption>If you want to get a copy of the Irene Ash translation of Bonjour Tristesse (which is the one I have), Penguin has a [beautiful paperback](https://www.amazon.co.uk/Bonjour-Tristesse-Penguin-Essentials-Francoise/dp/0241951569) edition.</figcaption></figure>
