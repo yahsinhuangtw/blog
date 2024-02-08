@@ -1,7 +1,7 @@
 ---
 title: Qu'est-ce que tu fais comme travail?
 date: 2021-04-14 01:59:49
-tags:
+tags: french
 ---
 
 ## Qu'est-ce que tu fais comme travail?
