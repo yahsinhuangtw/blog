@@ -6,12 +6,20 @@ tags:
 
 Bonjour à tous ! Je m'appelle Yahsin, c’est mon prénom chinois. Vous pouvez m'appeler Louise, qui est mon prénom français, si vous le souhaitez. J'ai choisi ce prénom pour sa sonorité douce et élégante. Actuellement, j'habite à Tainan, une ville située au sud de Taiwan. Avant cela, j'ai grandi à Taipei, la capitale de Taiwan.
 
+<img src="{% asset_path image_moi_01.webp %}" />
+
 ### Les sujets qui m'intéressent le plus dans mon travail
 En ce qui concerne mon travail, je suis active dans l'industrie technologique et j'ai eu la chance de collaborer étroitement avec des ingénieurs logiciels. 
 
 Mon intérêt professionnel se concentre sur plusieurs sujets clés. En particulier, je m'intéresse beaucoup à l'évolution des technologies décentralisées et à leur impact sur notre société. La gestion d'équipes d'ingénieurs logiciels m'intéresse beaucoup. Je cherche également les meilleures façons de développer la communauté des développeurs.
 
 Enfin, je considère le recrutement de talents exceptionnels comme un défi stimulant et essentiel pour assurer le succès de toute entreprise technologique. L'identification des talents a été un aspect fondamental de mon travail depuis mes débuts en tant que journaliste spécialisée dans la technologie, et cela continue jusqu'à aujourd'hui.
+
+<div style="display: flex;">
+<img src="{% asset_path image_moi_02.webp %}" style="width: 50%; height: auto;" />
+
+<img src="{% asset_path image_moi_03.webp %}" style="width: 50%; height: auto; margin-left: 10px;"/>
+</div>
 
 ### Mes goûts musicaux
 En dehors du travail, mes activités sont variées. J'aime écouter de la musique classique, des bandes originales de films et du jazz. Je suis également ouverte à découvrir de nouveaux genres musicaux. J'apprécie des groupes pop-rock irlandais, suédois, ainsi que du rap français, et des artistes britanniques et belges. De temps en temps, je vais à des concerts de musique classique. Certains de mes artistes préférés sont Stacey Kent, Diana Panton, Chris Botti, Dirty Loops, Inhaler, John Mayer, James Bay et Adele.
@@ -20,6 +28,8 @@ En dehors du travail, mes activités sont variées. J'aime écouter de la musiqu
 J'apprécie également la lecture. Je lis tous les jours. J'aime les romans littéraires, contemporains et policiers, mais je m'intéresse aussi à la non-fiction, notamment aux neurosciences, à la sociologie, à la politique américaine, ainsi qu'à des ouvrages sur la productivité, les biographies et les mémoires.
 
 Mes écrivains et écrivaines préférés sont Joan Didion, Jonathan Franzen, Cal Newport, Tyler Cowen, David Brooks, Helen Fisher, Ian McEwan, Colm Tóibín, Tove Ditlevsen, Pierre Lemaitre, Delphine de Vigan, Brigitte Giraud, Patrick Modiano, Marian Rojas Estapé, Carmen Laforet et bien d'autres.
+
+<img src="{% asset_path image_moi_04.webp %}" />
 
 ### La Nature, une Source d'Inspiration
 Enfin, j'apprécie énormément la nature et la randonnée en montagne dès que j'en ai l'occasion. J'aime aller dans les parcs nationaux pour profiter de la forêt et des rivières. Pour moi, c’est un moyen de me ressourcer et de trouver l'inspiration.
