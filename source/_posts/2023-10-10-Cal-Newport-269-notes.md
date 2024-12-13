@@ -1,7 +1,7 @@
 ---
 title: Cal Newport Podcast Notes Episode 269 Oct 9 2023
 date: 2023-10-10 22:40:31
-tags: newport, podcast, notes, deeplife
+tags: [newport, podcast, notes, deeplife]
 ---
 Some notes I took while watching Cal Newport’s latest show tonight.
 Episode 269 of the Deep Questions podcast https://www.thedeeplife.com/listen/

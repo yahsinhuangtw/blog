@@ -1,7 +1,7 @@
 ---
 title: Dialogue Scenes in Class Act “Tapie” 2023 Netflix Miniseries
 date: 2023-10-05 16:24:05
-tags: movie, film, tv series, netflix, tapie, class act
+tags: [movie, film, tv series, netflix, tapie, class act]
 ---
 Last night, I finished watching the first season of Class Act “Tapie” 2023 Netflix mini-series, a French biographical drama TV series that came out in mid-September 2023. 
 

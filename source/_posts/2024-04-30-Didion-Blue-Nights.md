@@ -2,7 +2,7 @@
 layout: post
 title: Joan Didion’s 2011 Memoir, Blue Nights
 date: 2024-04-30 17:28:50
-tags: Memoir, Essays, Didion
+tags: [Memoir, Essays, Didion]
 ---
 
 ## Joan Didion’s Blue Nights

@@ -1,7 +1,7 @@
 ---
 title: Notes from a French language class
 date: 2024-05-01 18:14:37
-tags: French, Language, Dépasser, Venir, Aller
+tags: [French, Language, Dépasser, Venir, Aller]
 ---
 
 Some notes I jotted down during a 1.5-hour French language class yesterday.
