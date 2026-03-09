@@ -102,6 +102,12 @@ deploy:
   repo: git@github.com:yahsinhuangtw/yahsinhuangtw.github.io.git
   branch: master
 
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+
 # RSS
 feed:
   type: atom
