@@ -27,7 +27,7 @@ nav:
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/yahsinhuangtw
-  twitter: https://twitter.com/YahsinHuang
+  x-twitter: https://x.com/YahsinHuang
   rss: /atom.xml
   # facebook: /
   # linkedin: /
