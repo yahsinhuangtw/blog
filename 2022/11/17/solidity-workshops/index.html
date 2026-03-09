@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="What I’ve been up to latelyThis past week I have been quite busied with meeting old and new folks at random coffee shops and restaurants. I’m curious to hear what everyone has been up to. Also, I’ve b">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures">
+<meta property="og:url" content="http://yahsin.me/2022/11/17/solidity-workshops/index.html">
+<meta property="og:site_name" content="Yahsin Huang">
+<meta property="og:description" content="What I’ve been up to latelyThis past week I have been quite busied with meeting old and new folks at random coffee shops and restaurants. I’m curious to hear what everyone has been up to. Also, I’ve b">
+<meta property="og:locale">
+<meta property="article:published_time" content="2022-11-17T17:49:49.000Z">
+<meta property="article:modified_time" content="2026-03-09T10:19:09.094Z">
+<meta property="article:author" content="Yahsin Huang">
+<meta property="article:tag" content="nov-solidity">
+<meta name="twitter:card" content="summary">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Yahsin Huang" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2022/11/26/nov-book-edouard-louis-combats/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2022/11/15/Nov-strike-up-conversation-cafe/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://yahsin.me/2022/11/17/solidity-workshops/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://yahsin.me/2022/11/17/solidity-workshops/&text=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yahsin.me/2022/11/17/solidity-workshops/&is_video=false&description=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures&body=Check out this article: http://yahsin.me/2022/11/17/solidity-workshops/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://yahsin.me/2022/11/17/solidity-workshops/&name=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://yahsin.me/2022/11/17/solidity-workshops/&t=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#What-I%E2%80%99ve-been-up-to-lately"><span class="toc-number">1.</span> <span class="toc-text">What I’ve been up to lately</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Sciences-sociales-College-de-France"><span class="toc-number">2.</span> <span class="toc-text">Sciences sociales - Collège de France</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Meeting-blockchain-engineers"><span class="toc-number">3.</span> <span class="toc-text">Meeting blockchain engineers</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#A-Solidity-intro-workshop"><span class="toc-number">4.</span> <span class="toc-text">A Solidity intro workshop</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Yahsin Huang</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-11-17T17:49:49.000Z" itemprop="datePublished">2022-11-17</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/nov-solidity/" rel="tag">nov-solidity</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="What-I’ve-been-up-to-lately"><a href="#What-I’ve-been-up-to-lately" class="headerlink" title="What I’ve been up to lately"></a>What I’ve been up to lately</h2><p>This past week I have been quite busied with meeting old and new folks at random coffee shops and restaurants. I’m curious to hear what everyone has been up to. Also, I’ve been a little obsessed with discovering what’s going on with CS50 course, Solidity smart contract programming stuff in general. Watched way to many YouTube videos. Mostly about fiction writers, Jonathan Franzen, Édouard Louis, Annie Ernaux, Ocean Vuong, to name a few, and public lectures on social science related topics.</p>
+<h2 id="Sciences-sociales-College-de-France"><a href="#Sciences-sociales-College-de-France" class="headerlink" title="Sciences sociales - Collège de France"></a>Sciences sociales - Collège de France</h2><p>Also, I’ve spent so much time on the weekends this month and last month watching this French economist Philippe Aghion giving lectures to the public as a professor at Collège de France <a target="_blank" rel="noopener" href="https://youtu.be/IsETdyTxFCg">https://youtu.be/IsETdyTxFCg</a> Innovation et le triangle entre marché, état, et société civile (4) - Philippe Aghion (2022-2023). I was like, literally taking notes and stuff. I’m not sure why I’m doing it. It’s entertaining to watch how this French professor express himself. He uses a lot of gestures and has an effective way of communicating complex idea to the general public. They’ve got this YouTube channel set up Sciences sociales - Collège de France. </p>
+<p>I don’t know how I discovered this channel (so glad I did!). I think a friend of mine, a French researcher, may have mentioned this research institution Le Collège de France to me a long time ago. It’s quite unique; I truly wish there was an equivalent in Taiwan.</p>
+<h2 id="Meeting-blockchain-engineers"><a href="#Meeting-blockchain-engineers" class="headerlink" title="Meeting blockchain engineers"></a>Meeting blockchain engineers</h2><p>I met several folks who know a lot about Solidity smart contract development and virtual machine design. One of them recommended that I take a look at CryptoZombies <a target="_blank" rel="noopener" href="https://cryptozombies.io/">https://cryptozombies.io/</a>. It’s an interactive Solidity programming program where I could learn how to build smart contracts at my own pace. </p>
+<p>I played with it for a little bit this morning. Was doing this “Making the Zombie Factory” thing. Did Chapter 1: Lesson Overview, Chapter 2 Contracts, Chapter 3 State Variables &amp; Integers, Chapter 4: Math Operations. </p>
+<p>One interesting thing I learned was something about the data type uint in Solidity. The uint data type is an unsigned integer; its value must be non-negative. Meaning the uint data type can only represent positive integers. </p>
+<p>A note follows this introduction, suggesting that uint is also known as uint256. A 256-bit unsigned integer. “You can declare units with less bits – uint8, uint16, uint32, etc.. But in general you want to simply use uint except in specific cases…” I thought this particular note was quite helpful for me. Since I already know a few things about data types in C programming language. Thanks to CS50’s Introduction to Computer Science taught by David J. Malan. I’m glad that I could connect the dots better. </p>
+<p>Overall, the instructions were quite clear and easy to follow. Although I do have an issue with this zombie character and the project name CryptoZombies – not too thrilled about the idea of manufacturing “zombies” (why zombies?). However, if I ignored the character designs and just focus on the “Solidity programming tutoals” content itself, it’s actually not bad. I might want to spend more time with it.</p>
+<h2 id="A-Solidity-intro-workshop"><a href="#A-Solidity-intro-workshop" class="headerlink" title="A Solidity intro workshop"></a>A Solidity intro workshop</h2><p>On Thursday November 3, I participated in a 2-hour Solidity intro workshop led by Bill Wu flying limao. I had suspected he was going to introduce all of these concepts and syntax really fast so in order to have a better experience of it I watched some 10 episodes of hydai_tw’s Solidity intro tutorial videos on YouTube <a target="_blank" rel="noopener" href="https://youtu.be/fpA2yxLKU5o">https://youtu.be/fpA2yxLKU5o</a>  prior to the actual in-person workshop. It turned out I was right. Watching those very basic intro videos had helped me build up a foundation knowledge about Solidity in general and hence getting a better experience of this two hour session of intro and advanced solidity programming all at once. </p>
+<p>Obviously the workshop was a bit too advanced for me but I’m glad I did it anyway. Just getting a sense of how the instructor browsed the documentations and a sense of the way he looked at the code examples were already a lot of valuable information for me. When you have so much information about a certain topic, it’s good to at least have an idea of where to look and what keywords might be useful, as well as how to filter all of these information in the world wide web.</p>
+<p>One thing I learned was how Solidity developers think about the Solidity code. I noticed sometimes they like to compare a particular element with C programming language, such as macros in C, or compare a feature with Python. Trying to find an equivalent of a particular element or concept in an existing, well-established, mostly well-designed programming languages. If something you had seen before or already have a good knowledge of, it’s good that you could actually compare the two and noticed the differences. That way you could learn it much better.</p>
+<p>In my case, I worked on all of these CS50 problem sets in C so really, C is my first programming language. I haven’t learned macro and pointer however so that is suffice to say I’m still very beginner’s level in terms of writing C. I had the feeling that I’d need to learn another language, be it Javascript or Python, before I could actually dive into Solidity. The guy next to me said he’s been working with Java, C, Python for quite some time so it’s not that difficult to get the concepts in Solidity.</p>
+<p>I spent about six or seven days with Solidity intro class using Remix before attending the in-person Solidity intro workshop. I noticed there’s a lot of interface design change to Remix. First time I used it was back in 2018. </p>
+<p>At this point I feel I’m still interested in learning more about Solidity smart contract development but I will have to make a pause and get back to CS50 Lecture 3 on algorithms for now. To develop a better understanding of the CS fundamentals. Also, I will see if I could tolerate the frustration that would definitely come up when working on the problem sets once more and wrap up lecture 3 by the end of this month (fingers crossed.). What I hope to obtain is to get an idea of what it feels like to be a junior software programmer. Hopefully by the end of my adventure I’d be able to imagine a life that a programmer could have which wouldn’t look like a dead end.</p>
+<p>Another thing that I really look forward to is a possible trip to Japan. I look forward to meeting my former colleagues, friends and a few crypto folks. I used to visit Japan a few times a year but that has stopped for about three years. It’s time to get it back.</p>
+<p>I’m not sure what my next post is going to be about. I’d written a little bit about Jonathan Franzen’s latest novel. I had put some thoughts toward his writings. Maybe it’d be about Franzen. Maybe it’d be about something else. </p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#What-I%E2%80%99ve-been-up-to-lately"><span class="toc-number">1.</span> <span class="toc-text">What I’ve been up to lately</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Sciences-sociales-College-de-France"><span class="toc-number">2.</span> <span class="toc-text">Sciences sociales - Collège de France</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Meeting-blockchain-engineers"><span class="toc-number">3.</span> <span class="toc-text">Meeting blockchain engineers</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#A-Solidity-intro-workshop"><span class="toc-number">4.</span> <span class="toc-text">A Solidity intro workshop</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://yahsin.me/2022/11/17/solidity-workshops/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://yahsin.me/2022/11/17/solidity-workshops/&text=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yahsin.me/2022/11/17/solidity-workshops/&is_video=false&description=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures&body=Check out this article: http://yahsin.me/2022/11/17/solidity-workshops/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://yahsin.me/2022/11/17/solidity-workshops/&title=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://yahsin.me/2022/11/17/solidity-workshops/&name=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://yahsin.me/2022/11/17/solidity-workshops/&t=What I’ve Been Up To Lately - Solidity workshop, CS50, Collège de France lectures"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2026
+    Yahsin Huang
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="本文首刊於 《Make》國際中文版 2014 年 1 月 vol. 10 文：黃雅信 Yahsin Huang  Photo: Fabraft Design Lab 衍象設計 站在充滿空間感的巨大粉紅樹蔭造型的裝置藝術下，不論是誰，一定都會被優雅自然的曲線和奇幻的氛圍震懾住。Fabraft Design Lab 衍象設計利用參數設計軟體（Grasshopper），結合新興 3D 列印技術、尼龍">
+<meta property="og:type" content="article">
+<meta property="og:title" content="3D 列印裝置藝術作品「Parametric Vine」">
+<meta property="og:url" content="http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/index.html">
+<meta property="og:site_name" content="Yahsin Huang">
+<meta property="og:description" content="本文首刊於 《Make》國際中文版 2014 年 1 月 vol. 10 文：黃雅信 Yahsin Huang  Photo: Fabraft Design Lab 衍象設計 站在充滿空間感的巨大粉紅樹蔭造型的裝置藝術下，不論是誰，一定都會被優雅自然的曲線和奇幻的氛圍震懾住。Fabraft Design Lab 衍象設計利用參數設計軟體（Grasshopper），結合新興 3D 列印技術、尼龍">
+<meta property="og:locale">
+<meta property="og:image" content="http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/make_3d.jpg">
+<meta property="article:published_time" content="2017-10-04T21:47:01.000Z">
+<meta property="article:modified_time" content="2026-03-09T10:19:08.934Z">
+<meta property="article:author" content="Yahsin Huang">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/make_3d.jpg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>3D 列印裝置藝術作品「Parametric Vine」</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Yahsin Huang" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2017/10/05/In-Conversation-with-Maker-documentary-film-director-Mu-Ming-Tsai-and-producer-Iris-Lai/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&text=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&is_video=false&description=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=3D 列印裝置藝術作品「Parametric Vine」&body=Check out this article: http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&name=3D 列印裝置藝術作品「Parametric Vine」&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&t=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        3D 列印裝置藝術作品「Parametric Vine」
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Yahsin Huang</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2017-10-04T21:47:01.000Z" itemprop="datePublished">2017-10-04</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <img src="/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/make_3d.jpg" class="">
+
+<p>本文首刊於 <a target="_blank" rel="noopener" href="http://www.makezine.com.tw/make2599131456/3dparametric-vine">《Make》國際中文版 2014 年 1 月 vol. 10</a></p>
+<p>文：黃雅信 Yahsin Huang  Photo: Fabraft Design Lab 衍象設計</p>
+<p>站在充滿空間感的巨大粉紅樹蔭造型的裝置藝術下，不論是誰，一定都會被優雅自然的曲線和奇幻的氛圍震懾住。Fabraft Design Lab 衍象設計利用參數設計軟體（Grasshopper），結合新興 3D 列印技術、尼龍材料和粉紅色染料，使用五臺 3D 印表機，整整 7 天日夜不間斷的列印出 1,200 片樹枝圖樣的單元體，並組裝出 3D 列印大型裝置藝術作品「Parametric Vine 仿生衍藝」。</p>
+<p>由於受到國外的衍生式設計工作室 <a target="_blank" rel="noopener" href="http://www.n-e-r-v-o-u-s.com/">Nervous System</a> 的啟發，Fabraft Design Lab 衍象設計首度嘗試利用藝術表現手法，集結工作坊 30 位參加者的智慧，利用參數設計與 3D 列印技術，意圖開啟人人都可以是設計師的可能性。「Parametric Vine 仿生衍藝」英文作品名稱直譯的意思是參數設計的藤蔓，創作過程從藤蔓造型的概念發想，由團隊講師羅崢瑋在參數設計軟體中設計出邏輯框架，帶領參加者利用微調參數的方式瞬間產生數以千種的樹枝圖樣。在 3D 列印的過程中，以一片單元體 6 分鐘的速度印製出 1 ,200 片樹枝圖樣的單元體，接著用染料加工剛印製完成的樹枝單元體染成繽紛的粉紅色，最後合力組裝完成。如此浩大的工程，最大的挑戰在於 3D 列印單元體的過程，以輪班的方式不間斷地列印，彷彿是一場馬拉松比賽，在在考驗著大家的意志力。</p>
+<p>這項作品於 2013 年 9 月在臺中國立臺灣美術館的兒童繪本區展出了一個星期，之後也在 TEDxTaipei 年會的舞臺現場、上海創客嘉年華中亮相。Fabraft Design Lab 衍象設計的創辦人闞凱宇說：「未來也將會繼續帶著它到處參展和曝光。希望我們未來的創作作品可以依循這次的設計邏輯繼續進化，就如達爾文演化論一樣，用不同的表現手法，持續進化更多代新奇、震撼、獨一無二的作品。期待可以繼續驗證透過電腦科技、參數設計和 3D 列印技術，讓更多人成為設計師。」</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&text=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&is_video=false&description=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=3D 列印裝置藝術作品「Parametric Vine」&body=Check out this article: http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&title=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&name=3D 列印裝置藝術作品「Parametric Vine」&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://yahsin.me/2017/10/04/Asia-s-Largest-3D-Printed-Art-Installation/&t=3D 列印裝置藝術作品「Parametric Vine」"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2026
+    Yahsin Huang
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>

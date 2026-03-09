@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Writer’s Note: This article was rewritten, further edited, and partially translated from one of my 30 published articles from September and October 2024. These articles were created as part of a conse">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexadecimal in Ethereum">
+<meta property="og:url" content="http://yahsin.me/2024/12/20/hexadecimal/index.html">
+<meta property="og:site_name" content="Yahsin Huang">
+<meta property="og:description" content="Writer’s Note: This article was rewritten, further edited, and partially translated from one of my 30 published articles from September and October 2024. These articles were created as part of a conse">
+<meta property="og:locale">
+<meta property="article:published_time" content="2024-12-20T17:34:45.000Z">
+<meta property="article:modified_time" content="2026-03-09T10:19:09.109Z">
+<meta property="article:author" content="Yahsin Huang">
+<meta property="article:tag" content="hexadecimal">
+<meta property="article:tag" content="decimal">
+<meta property="article:tag" content="convert">
+<meta property="article:tag" content="number systems">
+<meta property="article:tag" content="ethereum">
+<meta property="article:tag" content="EVM opcodes">
+<meta name="twitter:card" content="summary">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Hexadecimal in Ethereum</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Yahsin Huang" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2025/08/20/henderson-book/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2024/12/13/testnet/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://yahsin.me/2024/12/20/hexadecimal/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://yahsin.me/2024/12/20/hexadecimal/&text=Hexadecimal in Ethereum"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yahsin.me/2024/12/20/hexadecimal/&is_video=false&description=Hexadecimal in Ethereum"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Hexadecimal in Ethereum&body=Check out this article: http://yahsin.me/2024/12/20/hexadecimal/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://yahsin.me/2024/12/20/hexadecimal/&name=Hexadecimal in Ethereum&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://yahsin.me/2024/12/20/hexadecimal/&t=Hexadecimal in Ethereum"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-in-EVM-Opcodes"><span class="toc-number">1.</span> <span class="toc-text">Hexadecimal in EVM Opcodes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Conversion-Between-Number-Systems"><span class="toc-number">2.</span> <span class="toc-text">Conversion Between Number Systems</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-to-Decimal-Example-FA"><span class="toc-number">3.</span> <span class="toc-text">Hexadecimal to Decimal: Example - FA</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What-is-the-value-of-A"><span class="toc-number">4.</span> <span class="toc-text">What is the value of A?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What-is-the-value-of-F"><span class="toc-number">5.</span> <span class="toc-text">What is the value of F?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-to-Decimal-Example-14"><span class="toc-number">6.</span> <span class="toc-text">Hexadecimal to Decimal: Example - 14</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-to-Decimal-Example-0A"><span class="toc-number">7.</span> <span class="toc-text">Hexadecimal to Decimal: Example - 0A</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Hexadecimal in Ethereum
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Yahsin Huang</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2024-12-20T17:34:45.000Z" itemprop="datePublished">2024-12-20</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/EVM-opcodes/" rel="tag">EVM opcodes</a>, <a class="tag-link-link" href="/tags/convert/" rel="tag">convert</a>, <a class="tag-link-link" href="/tags/decimal/" rel="tag">decimal</a>, <a class="tag-link-link" href="/tags/ethereum/" rel="tag">ethereum</a>, <a class="tag-link-link" href="/tags/hexadecimal/" rel="tag">hexadecimal</a>, <a class="tag-link-link" href="/tags/number-systems/" rel="tag">number systems</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Writer’s Note: This article was rewritten, further edited, and partially translated from one of my 30 published articles from September and October 2024. These articles were created as part of a consecutive 30-day technology writing challenge on one of Taiwan’s most popular web2 media platforms. The original articles were written in Traditional Chinese. Here’s a link to one article that serves as the primary source for this piece: (<a target="_blank" rel="noopener" href="https://ithelp.ithome.com.tw/articles/10355761">https://ithelp.ithome.com.tw/articles/10355761</a>).</p>
+<h3 id="Hexadecimal-in-EVM-Opcodes"><a href="#Hexadecimal-in-EVM-Opcodes" class="headerlink" title="Hexadecimal in EVM Opcodes"></a>Hexadecimal in EVM Opcodes</h3><p>Hexadecimal representation is essential to the Ethereum Virtual Machine (EVM) and its opcode operations. As a base-16 system, it is crucial for the functionality of Ethereum. Understanding how hexadecimal is applied in EVM opcodes is important for developers working with smart contracts and anyone interested in the Ethereum blockchain.</p>
+<p>Unfortunately, many learning materials and resources do not cover this topic in depth, often assuming that students have already mastered it through their previous education. This can leave gaps in understanding, especially for those without a strong computer science background.</p>
+<p>In this article, I will guide you through converting between number systems, particularly for those who find these concepts challenging. I’ll show you how to perform these conversions using pen and paper, emphasizing both the importance of hexadecimal and its practical applications. This exploration will clarify its significance in Ethereum addresses and opcodes, making it relevant for developers and users alike.</p>
+<h3 id="Conversion-Between-Number-Systems"><a href="#Conversion-Between-Number-Systems" class="headerlink" title="Conversion Between Number Systems"></a>Conversion Between Number Systems</h3><p>Hexadecimal uses the symbols 0 to 9 to represent values from 0 to 9, and A to F to represent values from 10 to 15, encompassing a total of sixteen combinations. This format is particularly useful because large numbers in data representation can be expressed using fewer digits.</p>
+<p>Understanding how to convert between decimal and hexadecimal is crucial for working with EVM opcodes. For example, hexadecimal 0A corresponds to decimal 10, while hexadecimal 14 converts to decimal 20.</p>
+<p>EVM opcodes are expressed in hexadecimal format. The primary reason for using hexadecimal is that computers operate at a low level using binary. When written out, binary data appears as long sequences of 0s and 1s, such as 010101. Each byte consists of 8 bits, meaning it can contain 8 zeros or ones (for example, 01010101).</p>
+<p>This binary representation can be tedious for people to comprehend. In contrast, hexadecimal allows us to represent one byte with just two digits (for example, FF), significantly reducing the difficulty of reading and understanding binary data.</p>
+<h3 id="Hexadecimal-to-Decimal-Example-FA"><a href="#Hexadecimal-to-Decimal-Example-FA" class="headerlink" title="Hexadecimal to Decimal: Example - FA"></a>Hexadecimal to Decimal: Example - FA</h3><p>How do you convert the hexadecimal number FA to its decimal representation?<br>The digit A represents 10 in decimal.<br>The digit F represents 15 in decimal.</p>
+<p>What digit is in the ones place?<br>A is in the ones place, meaning 10 is in the ones place.</p>
+<p>What digit is in the sixteens place?<br>F is in the sixteens place, meaning 15 is in the sixteens place.</p>
+<h3 id="What-is-the-value-of-A"><a href="#What-is-the-value-of-A" class="headerlink" title="What is the value of A?"></a>What is the value of A?</h3><p>The rightmost digit (A) is in the ones position.<br>The value of A is calculated as:<br>10 x ones &#x3D; 10</p>
+<p>10 x 1 &#x3D; 10</p>
+<h3 id="What-is-the-value-of-F"><a href="#What-is-the-value-of-F" class="headerlink" title="What is the value of F?"></a>What is the value of F?</h3><p>The left digit (F) is in the sixteens position.<br>The value of F is calculated as:<br>15 x sixteens &#x3D; 240</p>
+<p>15 x 16 &#x3D; 240</p>
+<p>To find the total value of FA, add the value of F (240) and the value of A (10):</p>
+<p>240 + 10 &#x3D; 250.</p>
+<p>Calculation Breakdown:</p>
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>15</mn><mo>×</mo><msup><mn>16</mn><mn>1</mn></msup><mo>+</mo><mn>10</mn><mo>×</mo><msup><mn>16</mn><mn>0</mn></msup><mo>=</mo><mn>15</mn><mo>×</mo><mn>16</mn><mo>+</mo><mn>10</mn><mo>×</mo><mn>1</mn><mo>=</mo><mn>240</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>250</mn></mrow><annotation encoding="application/x-tex">15 \times 16^1 + 10 \times 16^0 = 15 \times 16 + 10 \times 1 = 240 + 10 = 250</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">6</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">6</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">240</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">250</span></span></span></span>
+
+<p>Thus, the decimal equivalent of the hexadecimal number FA is 250.</p>
+<h3 id="Hexadecimal-to-Decimal-Example-14"><a href="#Hexadecimal-to-Decimal-Example-14" class="headerlink" title="Hexadecimal to Decimal: Example - 14"></a>Hexadecimal to Decimal: Example - 14</h3><p>The number we will convert in the opcode operation example is hexadecimal 14, so we will use it as our example. The number 14 is read as “one, four” because the second digit, 1, does not represent 10. Therefore, reading it as “fourteen” can easily lead to confusion.</p>
+<p>Now, let’s perform the conversion. The first digit is the base 16 raised to the power of 0, multiplied by 4. The second digit is base 16 raised to the power of 1, multiplied by 1. After performing the multiplications, we add the results:<br>4×1&#x3D;4<br>1×16&#x3D;16</p>
+<p>Adding these together gives us:<br>4+16&#x3D;20</p>
+<p>Thus, hexadecimal 14 converts to decimal 20.</p>
+<h3 id="Hexadecimal-to-Decimal-Example-0A"><a href="#Hexadecimal-to-Decimal-Example-0A" class="headerlink" title="Hexadecimal to Decimal: Example - 0A"></a>Hexadecimal to Decimal: Example - 0A</h3><p>A complete byte requires two hexadecimal digits. Therefore, when you see PUSH1 written as 0A on the interface, it represents hexadecimal 0A, which is equal to decimal 10. This notation is not incorrect; it is simply due to its representation in hexadecimal format.</p>
+<p>The 0 in 0A serves as a placeholder, while the hexadecimal digit A represents decimal 10. Essentially, when you see 0A, you should understand it as being equivalent to 10.</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-in-EVM-Opcodes"><span class="toc-number">1.</span> <span class="toc-text">Hexadecimal in EVM Opcodes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Conversion-Between-Number-Systems"><span class="toc-number">2.</span> <span class="toc-text">Conversion Between Number Systems</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-to-Decimal-Example-FA"><span class="toc-number">3.</span> <span class="toc-text">Hexadecimal to Decimal: Example - FA</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What-is-the-value-of-A"><span class="toc-number">4.</span> <span class="toc-text">What is the value of A?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What-is-the-value-of-F"><span class="toc-number">5.</span> <span class="toc-text">What is the value of F?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-to-Decimal-Example-14"><span class="toc-number">6.</span> <span class="toc-text">Hexadecimal to Decimal: Example - 14</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexadecimal-to-Decimal-Example-0A"><span class="toc-number">7.</span> <span class="toc-text">Hexadecimal to Decimal: Example - 0A</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://yahsin.me/2024/12/20/hexadecimal/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://yahsin.me/2024/12/20/hexadecimal/&text=Hexadecimal in Ethereum"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yahsin.me/2024/12/20/hexadecimal/&is_video=false&description=Hexadecimal in Ethereum"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Hexadecimal in Ethereum&body=Check out this article: http://yahsin.me/2024/12/20/hexadecimal/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://yahsin.me/2024/12/20/hexadecimal/&title=Hexadecimal in Ethereum"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://yahsin.me/2024/12/20/hexadecimal/&name=Hexadecimal in Ethereum&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://yahsin.me/2024/12/20/hexadecimal/&t=Hexadecimal in Ethereum"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2026
+    Yahsin Huang
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>

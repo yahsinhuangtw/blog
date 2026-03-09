@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yahsin Huang</title>
+  <icon>http://yahsin.me/images/logo.png</icon>
+  
+  <link href="http://yahsin.me/atom.xml" rel="self"/>
+  
+  <link href="http://yahsin.me/"/>
+  <updated>2026-03-09T10:19:09.109Z</updated>
+  <id>http://yahsin.me/</id>
+  
+  <author>
+    <name>Yahsin Huang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日本語で自己紹介</title>
+    <link href="http://yahsin.me/2026/03/02/jp-intro/"/>
+    <id>http://yahsin.me/2026/03/02/jp-intro/</id>
+    <published>2026-03-02T12:23:05.000Z</published>
+    <updated>2026-03-09T10:19:09.109Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;はじめまして。Yahsin です。台湾出身です。&lt;/p&gt;
+&lt;p&gt;Ya (雅) means elegant, refined, and graceful. Hsin (信) means trust, faith, and confidence. 日本の名前は雅美(まさみ)と呼ばれます。雅「まさ」と雅「Ya」は同じ文字で、同じ意味ですが、単に発音が違うだけです。&lt;/p&gt;
+&lt;p&gt;約4年前、4週間日本語を勉強しました。文法の部分は理解できませんでした。日本人が実際に話しているのを聞くだけで、少しずつ理解できたと思います。&lt;/p&gt;
+&lt;p&gt;大学では英文学を専攻しました。大学では学生オーケストラに入ってクラリネットを担当していました(I was in the student orchestra, playing the</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Japanese" scheme="http://yahsin.me/tags/Japanese/"/>
+    
+    <category term="Intro" scheme="http://yahsin.me/tags/Intro/"/>
+    
+    <category term="日本語" scheme="http://yahsin.me/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Reflections on Growth and Self-Discipline in Rob Henderson’s Troubled</title>
+    <link href="http://yahsin.me/2025/08/20/henderson-book/"/>
+    <id>http://yahsin.me/2025/08/20/henderson-book/</id>
+    <published>2025-08-20T15:59:51.000Z</published>
+    <updated>2026-03-09T10:19:09.109Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Publication Information:&lt;br&gt;Troubled: A Memoir of Foster Care, Family, and Social Class&lt;br&gt;By Rob Henderson&lt;br&gt;Published by Gallery Books, February 2024&lt;/p&gt;
+&lt;h3 id=&quot;What-Rob-Henderson-Read-Growing-Up&quot;&gt;&lt;a href=&quot;#What-Rob-Henderson-Read-Growing-Up&quot; class=&quot;headerlink&quot; title=&quot;What Rob Henderson Read Growing Up&quot;&gt;&lt;/a&gt;What Rob Henderson Read Growing Up&lt;/h3&gt;&lt;p&gt;I recently read Troubled by Rob Henderson, a nonfiction account of his upbringing. I borrowed it from a public library here in Taiwan because</summary>
+        
+      
+    
+    
+    
+    
+    <category term="books" scheme="http://yahsin.me/tags/books/"/>
+    
+    <category term="notes" scheme="http://yahsin.me/tags/notes/"/>
+    
+    <category term="memoir" scheme="http://yahsin.me/tags/memoir/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexadecimal in Ethereum</title>
+    <link href="http://yahsin.me/2024/12/20/hexadecimal/"/>
+    <id>http://yahsin.me/2024/12/20/hexadecimal/</id>
+    <published>2024-12-20T17:34:45.000Z</published>
+    <updated>2026-03-09T10:19:09.109Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Writer’s Note: This article was rewritten, further edited, and partially translated from one of my 30 published articles from September and October 2024. These articles were created as part of a consecutive 30-day technology writing challenge on one of Taiwan’s most popular web2 media platforms. The original articles were written in Traditional Chinese. Here’s a link to one article that serves as the primary source for this piece: (&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="hexadecimal" scheme="http://yahsin.me/tags/hexadecimal/"/>
+    
+    <category term="decimal" scheme="http://yahsin.me/tags/decimal/"/>
+    
+    <category term="convert" scheme="http://yahsin.me/tags/convert/"/>
+    
+    <category term="number systems" scheme="http://yahsin.me/tags/number-systems/"/>
+    
+    <category term="ethereum" scheme="http://yahsin.me/tags/ethereum/"/>
+    
+    <category term="EVM opcodes" scheme="http://yahsin.me/tags/EVM-opcodes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Want to Obtain Base Sepolia Testnet Tokens? How Hard Could It Be?</title>
+    <link href="http://yahsin.me/2024/12/13/testnet/"/>
+    <id>http://yahsin.me/2024/12/13/testnet/</id>
+    <published>2024-12-13T17:04:34.000Z</published>
+    <updated>2026-03-09T10:19:09.108Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Navigating-the-Challenges-of-Deploying-NFT-Contracts-on-Base-Sepolia-Testnet&quot;&gt;&lt;a href=&quot;#Navigating-the-Challenges-of-Deploying-NFT-Contracts-on-Base-Sepolia-Testnet&quot; class=&quot;headerlink&quot; title=&quot;Navigating the Challenges of Deploying NFT Contracts on Base Sepolia Testnet&quot;&gt;&lt;/a&gt;Navigating the Challenges of Deploying NFT Contracts on Base Sepolia Testnet&lt;/h3&gt;&lt;p&gt;This blog post shares my experience in tackling the complexities of deploying a simple NFT contract.&lt;/p&gt;
+&lt;p&gt;Deploying a simple NFT</summary>
+        
+      
+    
+    
+    
+    
+    <category term="smart contracts" scheme="http://yahsin.me/tags/smart-contracts/"/>
+    
+    <category term="base sepolia testnet" scheme="http://yahsin.me/tags/base-sepolia-testnet/"/>
+    
+    <category term="testnet tokens" scheme="http://yahsin.me/tags/testnet-tokens/"/>
+    
+    <category term="web3" scheme="http://yahsin.me/tags/web3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Zkmopro: Experimentation and Testing with Zero-Knowledge Proofs in Android Development</title>
+    <link href="http://yahsin.me/2024/08/27/zkmopro-testing/"/>
+    <id>http://yahsin.me/2024/08/27/zkmopro-testing/</id>
+    <published>2024-08-27T18:48:00.000Z</published>
+    <updated>2026-03-09T10:19:09.108Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Zkmopro’s GitHub repo: &lt;a href=&quot;https://github.com/zkmopro&quot;&gt;https://github.com/zkmopro&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Understanding-zkmopro&quot;&gt;&lt;a href=&quot;#Understanding-zkmopro&quot; class=&quot;headerlink&quot; title=&quot;Understanding zkmopro&quot;&gt;&lt;/a&gt;Understanding zkmopro&lt;/h3&gt;&lt;p&gt;Today I followed the zkmopro Android setup tutorial and ran the command &lt;code&gt;cargo run --bin android&lt;/code&gt;. This creates a new folder called MoproAndroidBindings. The purpose of the zkmopro package is to handle the zk generate proof part during mobile</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Moi: je me présente</title>
+    <link href="http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
+    <id>http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
+    <published>2024-06-05T19:45:06.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Bonjour à tous ! Je m’appelle Yahsin, c’est mon prénom chinois. Vous pouvez m’appeler Louise, qui est mon prénom français, si vous le souhaitez. J’ai choisi ce prénom pour sa sonorité douce et élégante. Actuellement, j’habite à Tainan, une ville située au sud de Taiwan. Avant cela, j’ai grandi à Taipei, la capitale de Taiwan.&lt;/p&gt;
+&lt;img src=&quot;/2024/06/05/moi-je-me-pr%C3%A9sente/image_moi_01.webp&quot; /&gt;
+
+&lt;h3 id=&quot;Les-sujets-qui-m’interessent-le-plus-dans-mon-travail&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Notes from a French language class</title>
+    <link href="http://yahsin.me/2024/05/01/French-class-notes/"/>
+    <id>http://yahsin.me/2024/05/01/French-class-notes/</id>
+    <published>2024-05-01T18:14:37.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Some notes I jotted down during a 1.5-hour French language class yesterday.&lt;/p&gt;
+&lt;h3 id=&quot;Depasser-le-sentiment-de-frustration&quot;&gt;&lt;a href=&quot;#Depasser-le-sentiment-de-frustration&quot; class=&quot;headerlink&quot; title=&quot;Dépasser le sentiment de frustration&quot;&gt;&lt;/a&gt;Dépasser le sentiment de frustration&lt;/h3&gt;&lt;p&gt;Comment dépasser le sentiment de frustration ?&lt;/p&gt;
+&lt;p&gt;Dépasser (exceed&amp;#x2F;overcome&amp;#x2F;surpass)&lt;/p&gt;
+&lt;p&gt;Dépasser le sentiment d’impuissance (Overcoming the feeling of helplessness)&lt;br&gt;Dépasser ses</summary>
+        
+      
+    
+    
+    
+    
+    <category term="French" scheme="http://yahsin.me/tags/French/"/>
+    
+    <category term="Language" scheme="http://yahsin.me/tags/Language/"/>
+    
+    <category term="Dépasser" scheme="http://yahsin.me/tags/Depasser/"/>
+    
+    <category term="Venir" scheme="http://yahsin.me/tags/Venir/"/>
+    
+    <category term="Aller" scheme="http://yahsin.me/tags/Aller/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Joan Didion’s 2011 Memoir, Blue Nights</title>
+    <link href="http://yahsin.me/2024/04/30/Didion-Blue-Nights/"/>
+    <id>http://yahsin.me/2024/04/30/Didion-Blue-Nights/</id>
+    <published>2024-04-30T17:28:50.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Joan-Didion’s-Blue-Nights&quot;&gt;&lt;a href=&quot;#Joan-Didion’s-Blue-Nights&quot; class=&quot;headerlink&quot; title=&quot;Joan Didion’s Blue Nights&quot;&gt;&lt;/a&gt;Joan Didion’s Blue Nights&lt;/h2&gt;&lt;p&gt;I recently finished reading Joan Didion’s “Blue Nights,” a book about the death of her daughter Quintana Roo. For the past month, every night I would read a few pages before I fall asleep. Towards the end of the book, it was devastating; a few passages made me cry. &lt;/p&gt;
+&lt;p&gt;For some reason I might be the type of person who is quick to</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Memoir" scheme="http://yahsin.me/tags/Memoir/"/>
+    
+    <category term="Essays" scheme="http://yahsin.me/tags/Essays/"/>
+    
+    <category term="Didion" scheme="http://yahsin.me/tags/Didion/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Looping through an Array</title>
+    <link href="http://yahsin.me/2024/02/08/JS-looping-array/"/>
+    <id>http://yahsin.me/2024/02/08/JS-looping-array/</id>
+    <published>2024-02-08T18:56:56.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Looping-through-an-Array&quot;&gt;&lt;a href=&quot;#Looping-through-an-Array&quot; class=&quot;headerlink&quot; title=&quot;Looping through an Array&quot;&gt;&lt;/a&gt;Looping through an Array&lt;/h2&gt;&lt;p&gt;Looping through an Array&lt;br&gt;Go through each value of an array one by one&lt;br&gt;Do something with each value&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const todoList = [
+&amp;#39;make dinner&amp;#39;,
+&amp;#39;make coffee&amp;#39;,
+&amp;#39;watch youtube&amp;#39;
+];
+
+
+for (let i = 0; i &amp;lt; todoList.length; i++) &amp;#123;
+const value = todoList[i];
+console.log(value);
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Run</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaScript basics" scheme="http://yahsin.me/tags/JavaScript-basics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS While Loop</title>
+    <link href="http://yahsin.me/2024/02/01/JS-While-Loop/"/>
+    <id>http://yahsin.me/2024/02/01/JS-While-Loop/</id>
+    <published>2024-02-01T18:13:35.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;This week I learned some stuff about JavaScript basics. Namely, how to create a while loop, following some 15 minutes of SuperSimpleDev’s JS Course video. Video link: JavaScript Full Course - Beginner to Pro - Part 1 &lt;a href=&quot;https://youtu.be/SBmSRK3feww?si=DrHqPCXH4d6wXoP9&quot;&gt;https://youtu.be/SBmSRK3feww?si=DrHqPCXH4d6wXoP9&lt;/a&gt; starting from 8:21:19 for JS Arrays and Loops.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;       let i = 1;
+       while (i &amp;lt;= 5) &amp;#123;
+         console.log(i);
+         i = i + 1;
+      </summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaScript basics" scheme="http://yahsin.me/tags/JavaScript-basics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The 5 best books I read in January 2024</title>
+    <link href="http://yahsin.me/2024/01/30/Jan-books/"/>
+    <id>http://yahsin.me/2024/01/30/Jan-books/</id>
+    <published>2024-01-30T22:05:14.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Some notes on the 5 best books I read in the month of January 2024. Before jotting down the notes, I went back to count how many books I read last year. It turns out I’ve read 56 books in the year of 2023 – 27 nonfiction books; 29 fiction books. It doesn’t really take that big of a time commitment, especially if you think about how much time you spend on your phone.&lt;/p&gt;
+&lt;p&gt;If I were to recommend only one book to a friend, it would probably be Nada (Nothing) by Carmen Laforet, Spanish author</summary>
+        
+      
+    
+    
+    
+    
+    <category term="books" scheme="http://yahsin.me/tags/books/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cal Newport Podcast Notes Episode 269 Oct 9 2023</title>
+    <link href="http://yahsin.me/2023/10/10/Cal-Newport-269-notes/"/>
+    <id>http://yahsin.me/2023/10/10/Cal-Newport-269-notes/</id>
+    <published>2023-10-10T22:40:31.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Some notes I took while watching Cal Newport’s latest show tonight.&lt;br&gt;Episode 269 of the Deep Questions podcast &lt;a href=&quot;https://www.thedeeplife.com/listen/&quot;&gt;https://www.thedeeplife.com/listen/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;“The Cure To A Mediocre Life: 3 Unexpected Ideas To Reinvent Your Life | Cal Newport”&lt;br&gt;Video link: &lt;a href=&quot;https://youtu.be/jlJDcB5M9ds?si=Lug6k-N84wueeuph&quot;&gt;https://youtu.be/jlJDcB5M9ds?si=Lug6k-N84wueeuph&lt;/a&gt;&lt;br&gt;Cal Newport’s YouTube: &lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="newport" scheme="http://yahsin.me/tags/newport/"/>
+    
+    <category term="podcast" scheme="http://yahsin.me/tags/podcast/"/>
+    
+    <category term="notes" scheme="http://yahsin.me/tags/notes/"/>
+    
+    <category term="deeplife" scheme="http://yahsin.me/tags/deeplife/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dialogue Scenes in Class Act “Tapie” 2023 Netflix Miniseries</title>
+    <link href="http://yahsin.me/2023/10/05/Tapie-Class-Act-Netflix/"/>
+    <id>http://yahsin.me/2023/10/05/Tapie-Class-Act-Netflix/</id>
+    <published>2023-10-05T16:24:05.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Last night, I finished watching the first season of Class Act “Tapie” 2023 Netflix mini-series, a French biographical drama TV series that came out in mid-September 2023. &lt;/p&gt;
+&lt;p&gt;Season 1 consists of seven episodes; each episode is about 50 minutes. I watched them over the past four days. It’s a fictionalized biography loosely based on the life of Bernard Tapie, a famous French businessman.&lt;/p&gt;
+&lt;p&gt;Before coming across this French TV series, I’d never heard of Bernard Tapie before; I had to</summary>
+        
+      
+    
+    
+    
+    
+    <category term="movie" scheme="http://yahsin.me/tags/movie/"/>
+    
+    <category term="film" scheme="http://yahsin.me/tags/film/"/>
+    
+    <category term="tv series" scheme="http://yahsin.me/tags/tv-series/"/>
+    
+    <category term="netflix" scheme="http://yahsin.me/tags/netflix/"/>
+    
+    <category term="tapie" scheme="http://yahsin.me/tags/tapie/"/>
+    
+    <category term="class act" scheme="http://yahsin.me/tags/class-act/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Reflections on Spain</title>
+    <link href="http://yahsin.me/2023/08/30/Spain/"/>
+    <id>http://yahsin.me/2023/08/30/Spain/</id>
+    <published>2023-08-30T16:06:27.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div style=&quot;font-size: 18px&quot;&gt; “I have a tendency to want to understand everything, everything that people say and everything I hear, even at a distance, even if it’s in one of the innumerable languages I don’t know, even if it’s in an indistinguishable murmur or an imperceptible whisper, even if it would be better that I didn’t understand and what’s said is not intended for my ears, or is said precisely so that I won’t hear it.” --  Javier Marías, A Heart So White (Spanish: Corazón tan</summary>
+        
+      
+    
+    
+    
+    
+    <category term="travel, spain, culture" scheme="http://yahsin.me/tags/travel-spain-culture/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Books I Read in April</title>
+    <link href="http://yahsin.me/2023/05/03/April-books/"/>
+    <id>http://yahsin.me/2023/05/03/April-books/</id>
+    <published>2023-05-03T18:16:05.000Z</published>
+    <updated>2026-03-09T10:19:09.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;The-Books-I-Read-in-April-2023&quot;&gt;&lt;a href=&quot;#The-Books-I-Read-in-April-2023&quot; class=&quot;headerlink&quot; title=&quot;The Books I Read in April | 2023&quot;&gt;&lt;/a&gt;The Books I Read in April | 2023&lt;/h2&gt;&lt;p&gt;The blog post was inspired by Cal Newport’s podcast “Deep Questions with Cal Newport” where he regularly reviews the five books he read in the preceding month.&lt;/p&gt;
+&lt;p&gt;Here are the 2 books I read in April 2023. Of course I read other books (a lot of fiction books, as usual) but because I was hoping to wrap up</summary>
+        
+      
+    
+    
+    
+    
+    <category term="books" scheme="http://yahsin.me/tags/books/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Saigon Situation: Is It Even Possible to Survive in Vietnam for Several Weeks As a Tourist If You Think About Its Chaotic Traffic</title>
+    <link href="http://yahsin.me/2023/03/28/Saigon-Situation/"/>
+    <id>http://yahsin.me/2023/03/28/Saigon-Situation/</id>
+    <published>2023-03-28T18:00:04.000Z</published>
+    <updated>2026-03-09T10:19:09.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Traffic-situation&quot;&gt;&lt;a href=&quot;#Traffic-situation&quot; class=&quot;headerlink&quot; title=&quot;Traffic situation&quot;&gt;&lt;/a&gt;Traffic situation&lt;/h2&gt;&lt;p&gt;The past two weeks I have been hanging out in Saigon (Ho Chi Minh City), Vietnam. As a first-time visitor, the first few days was hard. I constantly feel overwhelmed by the very chaotic traffic. I wonder whether there’s another term for “chaotic” to describe a more severe choatic situation. Especially during rush hours, it gets really bad. &lt;/p&gt;
+&lt;p&gt;It’s been two weeks</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Saigon, Vietnam, Culture, Travel" scheme="http://yahsin.me/tags/Saigon-Vietnam-Culture-Travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>February books</title>
+    <link href="http://yahsin.me/2023/02/15/Feb-books/"/>
+    <id>http://yahsin.me/2023/02/15/Feb-books/</id>
+    <published>2023-02-15T14:10:24.000Z</published>
+    <updated>2026-03-09T10:19:09.103Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Some notes on the books I read during the first two weeks of February 2023.&lt;/p&gt;
+&lt;h2 id=&quot;The-Dancing-Girl-of-Izu&quot;&gt;&lt;a href=&quot;#The-Dancing-Girl-of-Izu&quot; class=&quot;headerlink&quot; title=&quot;The Dancing Girl of Izu&quot;&gt;&lt;/a&gt;The Dancing Girl of Izu&lt;/h2&gt;&lt;p&gt;Yesterday evening (Tuesday, February 14), about an hour before I fell asleep, I read the short story “伊豆的舞孃” in Mandarin Chinese translation, The Dancing Girl of Izu 伊豆の踊子, Izu no odoriko いずのおどりこ, from the Japanese novelist and Nobel Prize winner Yasunari</summary>
+        
+      
+    
+    
+    
+    
+    <category term="books" scheme="http://yahsin.me/tags/books/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hayek’s The Road to Serfdom to Kick Off the Year</title>
+    <link href="http://yahsin.me/2023/02/08/Hayek-Serfdom-book-notes/"/>
+    <id>http://yahsin.me/2023/02/08/Hayek-Serfdom-book-notes/</id>
+    <published>2023-02-08T23:16:48.000Z</published>
+    <updated>2026-03-09T10:19:09.102Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;img src=&quot;/2023/02/08/Hayek-Serfdom-book-notes/hayek_book.jpeg&quot; /&gt;
+
+&lt;h2 id=&quot;A-short-reflection-on-time-spent-last-month&quot;&gt;&lt;a href=&quot;#A-short-reflection-on-time-spent-last-month&quot; class=&quot;headerlink&quot; title=&quot;A short reflection on time spent last month&quot;&gt;&lt;/a&gt;A short reflection on time spent last month&lt;/h2&gt;&lt;p&gt;Lately I’ve been wondering what self-directed learning means to me. I wondered what subjects or topics interest me deeply. How would I design my own learning path and select resources? What would</summary>
+        
+      
+    
+    
+    
+    
+    <category term="classics, books, politics" scheme="http://yahsin.me/tags/classics-books-politics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11 Days in Japan -- Fukuoka, Saga, Tokyo</title>
+    <link href="http://yahsin.me/2022/12/12/Dec-Japan-Trip/"/>
+    <id>http://yahsin.me/2022/12/12/Dec-Japan-Trip/</id>
+    <published>2022-12-12T11:20:48.000Z</published>
+    <updated>2026-03-09T10:19:09.095Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;The 11-day visit in Japan was full of fun memories. In the first week, I spent several days in Fukuoka, capital of Fukuoka Prefecture (福岡県, Fukuoka-ken) in late November. It was the perfect month for travel. Spent the second week of the trip mostly in Tokyo to catch up with a few friends and meet some new folks in web3&amp;#x2F;crypto communities in Tokyo. Overall, I really enjoyed the trip. It was my fifth trip to Japan, and it was the longest. I hope I could stay a bit longer (2 weeks,</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Travel, Japan, Culture" scheme="http://yahsin.me/tags/Travel-Japan-Culture/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Some notes on Édouard Louis&#39;s book Combats et métamorphoses d’une femme</title>
+    <link href="http://yahsin.me/2022/11/26/nov-book-edouard-louis-combats/"/>
+    <id>http://yahsin.me/2022/11/26/nov-book-edouard-louis-combats/</id>
+    <published>2022-11-26T12:28:35.000Z</published>
+    <updated>2026-03-09T10:19:09.094Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;This week, I finished reading Édouard Louis’s book Combats et métamorphoses d’une femme (Seuil, 2021). I enjoyed it very much. It’s a short book published last year in France and now translated in English as A Woman’s Battles and Transformations. In the book, Édouard Louis tells the story of his mother’s struggles of class and gender within a working-class family in northern France. &lt;/p&gt;
+&lt;img src=&quot;/2022/11/26/nov-book-edouard-louis-combats/Edouard_Louis_Combats_Book_Cover.jpeg&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="nov-books, books" scheme="http://yahsin.me/tags/nov-books-books/"/>
+    
+  </entry>
+  
+</feed>
