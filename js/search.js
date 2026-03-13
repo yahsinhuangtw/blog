@@ -82,6 +82,7 @@ var searchFunc = function(path, searchId, contentId) {
           }
           var dataTitle = data.title.trim().toLowerCase();
           var dataContent = stripHtml(data.content.trim());
+          var dataContentLower = dataContent.toLowerCase();
           var dataUrl = data.url;
           var indexTitle = -1;
           var indexContent = -1;
@@ -90,7 +91,7 @@ var searchFunc = function(path, searchId, contentId) {
           if (dataContent !== "") {
             keywords.forEach(function(keyword) {
               indexTitle = dataTitle.indexOf(keyword);
-              indexContent = dataContent.indexOf(keyword);
+              indexContent = dataContentLower.indexOf(keyword);
 
               if( indexTitle >= 0 || indexContent >= 0 ){
                 matches += 1;
