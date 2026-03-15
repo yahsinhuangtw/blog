@@ -5,6 +5,9 @@
   "hexo": {
     "version": "7.3.0"
   },
+  "scripts": {
+    "add-image": "node tools/add-images.js"
+  },
   "dependencies": {
     "hexo": "^7.3.0",
     "hexo-deployer-git": "^4.0.0",
@@ -20,5 +23,6 @@
     "hexo-renderer-marked": "^6.3.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0"
-  }
+  },
+  "devDependencies": {}
 }
