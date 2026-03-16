@@ -8,9 +8,9 @@ Hikaru Utada（宇多田 光）
 
 <figure><img src="{% asset_path Utada_Hikaru_First_Love.jpg %}" /><figcaption></figcaption></figure>
 
-最後(さいご)のキスはタバコの flavor がした
-ニガくてせつない香り(かおり)
-明日の今頃(いまごろ)には
+<ruby>最後<rt>さいご</rt></ruby>のキスはタバコの flavor がした
+ニガくてせつない<ruby>香<rt>かお</rt></ruby>り
+明日の<ruby>今頃<rt>いまごろ</rt></ruby>には
 あなたはどこにいるんだろう
 誰を思ってるんだろう
 You are always gonna be my love
@@ -19,19 +19,19 @@ I'll remember to love
 You taught me how
 You are always gonna be the one
 今はまだ悲しい love song
-新しい歌 歌(うた)えるまで
-立ち止まる時間が (たちどまるじかんが)(a moment that had been frozen/paused beginning to move again)
-動き出そうとしてる (動き出す うごきだす)
-忘れ(わすれ)たくないことばかり
+新しい歌 <ruby>歌<rt>うた</rt></ruby>えるまで
+<ruby>立<rt>た</rt></ruby>ち<ruby>止<rt>ど</rt></ruby>まる<ruby>時間<rt>じかん</rt></ruby>が (a moment that had been frozen/paused beginning to move again)
+<ruby>動<rt>うご</rt></ruby>き<ruby>出<rt>だ</rt></ruby>そうとしてる
+<ruby>忘<rt>わす</rt></ruby>れたくないことばかり
 明日の今頃には
 私はきっと泣いている
 あなたを思ってるんだろう yeah-yeah-yeah
 You will always be inside my heart
-いつもあなただけの場所(ばしょ)があるから
+いつもあなただけの<ruby>場所<rt>ばしょ</rt></ruby>があるから
 I hope that I have a place in your heart too
 Now and forever you are still the one
 今はまだ悲しい love song
-新しい歌 歌(うた)えるまで oh, oh-oh
+新しい歌 <ruby>歌<rt>うた</rt></ruby>えるまで oh, oh-oh
 You are always gonna be my love
 いつか誰かとまた恋に落ちても
 I'll remember to love
