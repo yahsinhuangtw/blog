@@ -1,5 +1,5 @@
 ---
-title: 宇多田ヒカル First Love: Japanese Lyrics Breakdown for Learners
+title: "宇多田ヒカル First Love: Japanese Lyrics Breakdown for Learners"
 date: 2026-03-16 15:25:31
 tags: [Japanese, Jpop, Songs, Hikaru Utada]
 ---
