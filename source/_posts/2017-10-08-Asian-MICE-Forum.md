@@ -5,8 +5,6 @@ tags:
 ---
 {% asset_img IMG_0808.JPG %}
 
-<iframe src="{% asset_path 'AMF-2.pdf' %}" width="100%" height="500px" > </iframe>
-
 文/圖 黃雅信 Yahsin Huang
 
 本文首刊登於[Event活動平台雜誌](https://www.facebook.com/EventPlatformmagazine/)2016年10月。
