@@ -6,7 +6,7 @@ tags: [Japanese, Jpop, Songs]
 First love
 Hikaru Utada（宇多田 光）
 
-<figure><img src="{% asset_path Utada_Hikaru_First_Love.jpg %}" /><figcaption></figcaption></figure>
+<figure><img src="{% asset_path Utada_Hikaru_First_Love.jpg %}" width="30%" /><figcaption></figcaption></figure>
 
 <ruby>最後<rt>さいご</rt></ruby>のキスはタバコの flavor がした
 ニガくてせつない<ruby>香<rt>かお</rt></ruby>り
