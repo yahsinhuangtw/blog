@@ -1,7 +1,7 @@
 ---
-title: Jpop playlist
-date: 2026-03-09 18:44:31
-tags: [Japanese, Jpop, Songs]
+title: 宇多田ヒカル First Love: Japanese Lyrics Breakdown for Learners
+date: 2026-03-16 15:25:31
+tags: [Japanese, Jpop, Songs, Hikaru Utada]
 ---
 First love
 Hikaru Utada（宇多田 光）
@@ -14,7 +14,7 @@ Hikaru Utada（宇多田 光）
 あなたはどこにいるんだろう
 誰を思ってるんだろう
 You are always gonna be my love
-いつか誰かとまた恋に落ちても
+いつか<ruby>誰<rt>だれ</rt></ruby>かとまた<ruby>恋<rt>こい</rt></ruby>に<ruby>落<rt>お</rt></ruby>ちても
 I'll remember to love
 You taught me how
 You are always gonna be the one
