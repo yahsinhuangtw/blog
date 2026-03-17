@@ -74,6 +74,7 @@ pagination_dir: page
 theme: cactus
 theme_config:
   colorscheme: light
+  default_thumbnail: /images/snoopy_white_hat.jpeg
 
 # Hacker themes config
 
