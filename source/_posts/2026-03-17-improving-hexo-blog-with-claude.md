@@ -7,6 +7,7 @@ tags:
   - Tools
   - JavaScript
 date: 2026-03-17 14:14:26
+thumbnail: snoopy_white_hat.jpeg
 ---
 
 <!-- Image syntax: <figure><img src="{% asset_path filename.jpg %}" /><figcaption></figcaption></figure> -->
