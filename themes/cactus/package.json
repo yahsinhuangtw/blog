@@ -30,7 +30,7 @@
     "gulp-download": "*",
     "gulp-jshint": "*",
     "gulp-stylint": "*",
-    "js-yaml": "*",
+    "js-yaml": "^4.1.0",
     "jshint": "^2.9.6",
     "jshint-stylish": "*",
     "stylint": "*",
