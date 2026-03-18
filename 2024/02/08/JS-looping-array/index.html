@@ -15,7 +15,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="http://yahsin.me/images/snoopy_white_hat.jpeg">
 <meta property="article:published_time" content="2024-02-08T18:56:56.000Z">
-<meta property="article:modified_time" content="2026-03-17T06:54:09.559Z">
+<meta property="article:modified_time" content="2026-03-18T08:32:22.204Z">
 <meta property="article:author" content="Yahsin Huang">
 <meta property="article:tag" content="JavaScript basics">
 <meta name="twitter:card" content="summary">
@@ -57,7 +57,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Yahsin Huang" type="application/atom+xml">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="Yahsin Huang" type="application/atom+xml">
 </head>
 
 <body class="max-width mx-auto px3 ltr">
@@ -169,20 +169,20 @@
 ];
 
 
-for (let i = 0; i &lt; todoList.length; i++) &#123;
+for (let i = 0; i &lt; todoList.length; i++) {
 const value = todoList[i];
 console.log(value);
-&#125;
+}
 </code></pre>
 <p>Run a loop from 0 to the last index. First value is index 0, second value is index 1, third value is index 2.</p>
 <h2 id="Accumulator-Pattern"><a href="#Accumulator-Pattern" class="headerlink" title="Accumulator Pattern"></a>Accumulator Pattern</h2><p>Problem: We have an array of numbers: [1, 1, 3] How do we calculate the total?</p>
 <pre><code>const nums = [1, 1, 3];
 let total = 0;
 
-for (let i = 0; i &lt; nums.length; i++) &#123;
+for (let i = 0; i &lt; nums.length; i++) {
 const num = nums[i];
 total += num;
-&#125;
+}
 console.log(total);
 </code></pre>
 <p>Accumulator Pattern<br>Create a variable to store the result.<br>Loop through this array and update the result.</p>
@@ -193,19 +193,19 @@ console.log(total);
 <pre><code>const nums = [1, 1, 3];
 let total = 0;
 
-for (let i = 0; i &lt; nums.length; i++) &#123;
+for (let i = 0; i &lt; nums.length; i++) {
 const num = nums[i];
 total += num;
-&#125;
+}
 console.log(total);
 
 
 const numsDoubled = [];
 
-for (let i = 0; i &lt; nums.length; i++) &#123;
+for (let i = 0; i &lt; nums.length; i++) {
 const num = nums[i];
 numsDoubled.push(num * 2);
-&#125;
+}
 console.log(numsDoubled);
 </code></pre>
 <p>We can use different types of values to accumulate the result. In the previous example, the accumulator variable was a number. let total &#x3D; 0;</p>
