@@ -2,6 +2,7 @@
 title: "宇多田ヒカル First Love: Japanese Lyrics Breakdown for Learners"
 date: 2026-03-16 15:25:31
 tags: [Japanese, Jpop, Songs, Hikaru Utada]
+thumbnail: Utada_Hikaru_First_Love.jpg
 ---
 First love
 Hikaru Utada（宇多田 光）
