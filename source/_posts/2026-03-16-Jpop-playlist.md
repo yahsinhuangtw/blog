@@ -10,7 +10,13 @@ Hikaru Utada（宇多田 光）
 <figure><img src="{% asset_path Utada_Hikaru_First_Love.jpg %}" width="30%" /><figcaption></figcaption></figure>
 
 <ruby>最後<rt>さいご</rt></ruby>のキスはタバコの flavor がした
+
+<audio controls>
+  <source src="{% asset_path saigo-no-kisu-take1.mp3 %}" type="audio/mpeg">
+</audio>
+
 ニガくてせつない<ruby>香<rt>かお</rt></ruby>り
+
 明日の<ruby>今頃<rt>いまごろ</rt></ruby>には
 あなたはどこにいるんだろう
 誰を思ってるんだろう
