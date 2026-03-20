@@ -9,11 +9,7 @@ Hikaru Utada（宇多田 光）
 
 <figure><img src="{% asset_path Utada_Hikaru_First_Love.jpg %}" width="30%" /><figcaption></figcaption></figure>
 
-<ruby>最後<rt>さいご</rt></ruby>のキスはタバコの flavor がした
-
-<audio controls>
-  <source src="{% asset_path saigo-no-kisu-take1.mp3 %}" type="audio/mpeg">
-</audio>
+<ruby>最後<rt>さいご</rt></ruby>のキスはタバコの flavor がした <audio id="audio-saigo" src="{% asset_path saigo-no-kisu-take1.mp3 %}"></audio><button onclick="var a=document.getElementById('audio-saigo');if(a.paused){a.play();this.textContent='⏹';}else{a.pause();a.currentTime=0;this.textContent='▶';}">▶</button>
 
 ニガくてせつない<ruby>香<rt>かお</rt></ruby>り
 
