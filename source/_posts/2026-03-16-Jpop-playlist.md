@@ -9,7 +9,7 @@ Hikaru Utada（宇多田 光）
 
 <figure><img src="{% asset_path Utada_Hikaru_First_Love.jpg %}" width="30%" /><figcaption></figcaption></figure>
 
-<p><ruby>最後<rt>さいご</rt></ruby>のキスはタバコの flavor がした <audio id="audio-saigo" src="{% asset_path saigo-no-kisu-take1.mp3 %}"></audio><img id="btn-saigo" src="{% asset_path cassette-tape.png %}" style="cursor:pointer;width:32px;vertical-align:middle;display:inline;" onclick="var a=document.getElementById('audio-saigo');var b=document.getElementById('btn-saigo');if(a.paused){a.play();b.src='{% asset_path satake-dog.png %}';}else{a.pause();a.currentTime=0;b.src='{% asset_path cassette-tape.png %}';}"/></p>
+<p><ruby>最後<rt>さいご</rt></ruby>のキスはタバコの flavor がした <audio id="audio-saigo" src="{% asset_path saigo-no-kisu-take2.mp3 %}"></audio><img id="btn-saigo" src="{% asset_path cassette-tape.png %}" style="cursor:pointer;width:32px;vertical-align:middle;display:inline;" onclick="var a=document.getElementById('audio-saigo');var b=document.getElementById('btn-saigo');if(a.paused){a.play();b.src='{% asset_path satake-dog.png %}';}else{a.pause();a.currentTime=0;b.src='{% asset_path cassette-tape.png %}';}"/></p>
 
 ニガくてせつない<ruby>香<rt>かお</rt></ruby>り
 明日の<ruby>今頃<rt>いまごろ</rt></ruby>には
