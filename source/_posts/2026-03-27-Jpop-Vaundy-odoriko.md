@@ -68,6 +68,17 @@ Vaundy（バウンディ）
 ### Notes:
 
 ---
+### 踊り子 — the title
+
+踊り子 (おどりこ) literally means "dancing child" or "dancing girl."
+踊る (おどる) = to dance → 踊り (おどり) = dance (noun stem) + 子 (こ) = child, person
+
+子 here doesn't mean a literal child — it's a classic suffix for a person defined by what they do.
+歌い手 (うたいて) = singer | 書き手 (かきて) = writer | 踊り子 (おどりこ) = dancer
+
+La danseuse. (feminine in French — the song imagines a female dancer)
+
+---
 ### どっか — colloquial Japanese
 
 ねぇ どっかに<ruby>置<rt>お</rt></ruby>いてきたような<ruby>事<rt>こと</rt></ruby>が
