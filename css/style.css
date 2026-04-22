@@ -1061,6 +1061,12 @@ body {
 #about p {
   font-size: 0.85em;
 }
+#about .social-links {
+  float: right;
+  margin-top: -4.4rem;
+  margin-right: 40%;
+  font-size: 0.75em;
+}
 .post-list {
   padding: 0;
 }
