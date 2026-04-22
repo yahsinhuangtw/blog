@@ -435,6 +435,16 @@ body td {
 }
 @font-face {
   font-style: normal;
+  font-family: "Cedarville Cursive";
+  src: url("/fonts/CedarvilleCursive-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-style: normal;
+  font-family: "Beth Ellen";
+  src: url("/fonts/BethEllen-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-style: normal;
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
@@ -595,13 +605,14 @@ body {
 #header h1,
 #header .h1 {
   margin-top: 0;
-  margin-bottom: 0;
-  color: #363533;
+  margin-bottom: 1rem;
+  color: #5a6270;
   letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
   line-height: 2rem;
+  font-family: "Beth Ellen", cursive;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
