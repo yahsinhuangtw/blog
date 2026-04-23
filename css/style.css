@@ -1067,6 +1067,11 @@ body {
   margin-right: 40%;
   font-size: 0.75em;
 }
+@media screen and (max-width: 480px) {
+  #about .social-links {
+    display: none;
+  }
+}
 .post-list {
   padding: 0;
 }
