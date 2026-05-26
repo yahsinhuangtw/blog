@@ -1,25 +1,125 @@
+// Marginalia — archive page
+
 #archive
-  .post-list
+  .m-arch-head
+    margin: 0 0 56px
+
+  .m-arch-head h1
+    font-family: $font-family-body
+    font-weight: 200
+    font-size: 64px
+    line-height: 1
+    color: $paper-900
+    margin: 0 0 12px
+    letter-spacing: -.03em
+
+  .m-arch-head .sub
+    font-family: $font-family-mono
+    font-size: 12px
+    letter-spacing: .06em
+    color: $fg-muted
+    text-transform: uppercase
+
+  .m-arch-year
+    display: grid
+    grid-template-columns: 110px 1fr
+    gap: 40px
+    padding: 32px 0
+    border-top: 1px solid $paper-200
+
+  .m-arch-year:last-child
+    border-bottom: 1px solid $paper-200
+
+  .m-arch-year .ymark
+    position: sticky
+    top: 16px
+    font-family: $font-family-body
+    font-weight: 200
+    font-size: 48px
+    line-height: 1
+    color: $paper-800
+    letter-spacing: -.02em
+
+  .m-arch-year .ymark .ct
+    display: block
+    font-family: $font-family-mono
+    font-size: 10px
+    color: $fg-muted
+    letter-spacing: .08em
+    margin-top: 8px
+    font-weight: 400
+    text-transform: uppercase
+
+  .m-arch-list
+    list-style: none
+    margin: 0
     padding: 0
 
-    .post-item
-      margin-bottom: 1rem
-      margin-left: 0
-      list-style-type: none
+  .m-arch-list li
+    display: grid
+    grid-template-columns: 70px 1fr 90px
+    gap: 24px
+    align-items: baseline
+    padding: 14px 0
+    border-bottom: 1px solid $paper-200
 
-      .meta
-        display: block
-        margin-right: 16px
-        min-width: 100px
-        color: $color-meta
-        font-size: 14px
+  .m-arch-list li:last-child
+    border-bottom: none
 
-  @media (min-width: 480px)
-    .post-list
-      .post-item
-        display: flex
-        margin-bottom: 5px
-        margin-left: 1rem
+  .m-arch-list .when
+    font-family: $font-family-mono
+    font-size: 11px
+    letter-spacing: .06em
+    color: $fg-muted
+    text-transform: uppercase
 
-        .meta
-          text-align: left
+  .m-arch-list .ttl
+    font-size: 16px
+    color: $paper-800
+    line-height: 1.4
+
+    a
+      color: $paper-800
+      background: none
+      text-decoration: none
+
+    a:hover
+      color: $sage-500
+      background: none
+
+  .m-arch-list .tags
+    display: block
+    font-family: $font-family-mono
+    font-size: 11px
+    color: $fg-muted
+    margin-top: 4px
+    letter-spacing: .02em
+
+  .m-arch-list .kind
+    text-align: right
+    font-family: $font-family-mono
+    font-size: 10px
+    letter-spacing: .14em
+    text-transform: uppercase
+    color: $paper-700
+
+  // Hide the old post-list
+  .post-list
+    display: none
+
+@media screen and (max-width: 640px)
+  #archive
+    .m-arch-year
+      grid-template-columns: 1fr
+      gap: 16px
+
+    .m-arch-year .ymark
+      position: static
+      font-size: 36px
+
+    .m-arch-list li
+      grid-template-columns: 60px 1fr
+      gap: 16px
+
+    .m-arch-list .kind
+      display: none

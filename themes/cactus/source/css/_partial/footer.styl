@@ -1,12 +1,26 @@
+// Marginalia footer — single muted mono line
+
 #footer
-  position: absolute
-  bottom: 0
-  margin-bottom: 10px
-  width: 100%
-  color: $color-meta
-  vertical-align: top
-  text-align: center
+  margin-top: 96px
+  padding-top: 20px
+  border-top: 1px solid $paper-200
+  font-family: $font-family-mono
   font-size: 11px
+  letter-spacing: .04em
+  color: $fg-muted
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+  width: 100%
+
+  a
+    color: $fg-muted
+    background: none
+    text-decoration: none
+
+  a:hover
+    color: $sage-500
+    background: none
 
   ul
     margin: 0
@@ -15,46 +29,10 @@
 
   li
     display: inline-block
-    margin-right: 15px
-    border-right: 1px solid
-    border-color: $color-border
-    vertical-align: middle
+    border: none
+    margin: 0
 
-    a
-      margin-right: 15px
-
-  li:last-child
-    margin-right: 0
-    border-right: 0
-
-    a
-      margin-right: 0
-
-  a
-    color: $color-meta
-    text-decoration: underline
-    background-image: none
-
-  a:hover
-    color: lighten($color-meta, 20%)
-
-  .footer-left
-    height: 20px
-    vertical-align: middle
-    line-height: 20px
-
-@media (min-width: 39rem)
+@media screen and (max-width: 480px)
   #footer
-    display: flex
-    flex-flow: row wrap
-    justify-content: space-between
-    align-items: center
-    align-content: center
-    margin-bottom: 20px
-
-    .footer-left
-      align-self: flex-start
-      margin-right: 20px
-
-    .footer-right
-      align-self: flex-end
+    flex-direction: column
+    gap: 8px

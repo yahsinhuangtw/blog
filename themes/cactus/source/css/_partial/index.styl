@@ -1,47 +1,174 @@
+// Marginalia — home/index page
+
+// Intro paragraph
+.m-intro
+  margin: 32px 0 72px
+  max-width: 580px
+
+.m-intro-text
+  font-family: $font-family-body
+  font-weight: 300
+  font-size: 22px
+  line-height: 1.5
+  color: $paper-800
+  margin: 0
+  text-wrap: pretty
+  text-align: left
+
+// Topic strip
+.m-topics
+  display: flex
+  flex-wrap: wrap
+  gap: 4px 24px
+  margin-bottom: 64px
+  padding: 18px 0
+  border-top: 1px solid $paper-200
+  border-bottom: 1px solid $paper-200
+  font-size: 13px
+  align-items: baseline
+
+.m-topics .t
+  color: $paper-700
+  text-decoration: none
+  background: none
+
+.m-topics .t::before
+  content: "#"
+  color: $sage-500
+  margin-right: 1px
+
+.m-topics .t:hover
+  color: $paper-900
+  background: none
+
+.m-topics .t .ct
+  font-family: $font-family-mono
+  font-size: 10px
+  color: $fg-muted
+  margin-left: 4px
+  vertical-align: 1px
+
+.m-topics .t.lg
+  font-size: 16px
+  color: $paper-800
+
+.m-topics .t.md
+  font-size: 14px
+
+// Post entries
+.m-entry
+  display: grid
+  grid-template-columns: 90px 1fr
+  gap: 32px
+  padding: 36px 0
+  border-top: 1px solid $paper-200
+  align-items: start
+
+.m-entry:last-of-type
+  border-bottom: 1px solid $paper-200
+
+.m-entry .scaffold
+  text-align: right
+  font-family: $font-family-mono
+  font-size: 11px
+  letter-spacing: .04em
+  color: $fg-muted
+
+.m-entry .scaffold .day
+  font-family: $font-family-body
+  font-size: 32px
+  color: $paper-800
+  font-weight: 200
+  line-height: 1
+  margin-bottom: 4px
+  letter-spacing: -.01em
+
+.m-entry .scaffold .mo
+  text-transform: uppercase
+  letter-spacing: .14em
+
+.m-entry .scaffold .yr
+  color: $fg-quiet
+  margin-top: 4px
+  font-size: 10px
+
+.m-entry .body
+  padding-top: 4px
+
+.m-entry .kind-row
+  display: flex
+  align-items: center
+  gap: 10px
+  font-size: 10px
+  letter-spacing: .14em
+  text-transform: uppercase
+  color: $fg-muted
+  margin-bottom: 8px
+
+.m-entry .kind-row .sep
+  color: $paper-300
+
+.m-entry .body h2
+  font-family: $font-family-body
+  font-weight: 400
+  font-size: 24px
+  line-height: 1.3
+  margin: 0 0 10px
+  color: $paper-900
+  letter-spacing: -.005em
+
+  a
+    color: $paper-900
+    background: none
+    text-decoration: none
+
+  a:hover
+    color: $sage-500
+    background: none
+
+.m-entry .dek
+  font-size: 15px !important
+  line-height: 1.6
+  color: $paper-700
+  margin: 0 !important
+  text-align: left !important
+
+.m-entry .entry-meta
+  font-family: $font-family-mono
+  font-size: 11px
+  color: $fg-muted
+  margin-top: 12px
+
+.m-entry .entry-meta a
+  color: $fg-muted
+  background: none
+  text-decoration: none
+
+.m-entry .entry-meta a:hover
+  color: $sage-500
+  background: none
+
+// Remove old article/writing sections
 #about
-  p
-    font-size: 0.85em
+  display: none
 
-  .social-links
-    float: right
-    margin-top: -4.4rem
-    margin-right: 40%
-    font-size: 0.75em
+#writing > .h1,
+#writing > .h2,
+#writing > .widget
+  display: none
 
-@media screen and (max-width: 480px)
-  #about
-    .social-links
-      display: none
-
-.post-list
+// Old post-list from Cactus (hidden, replaced by m-entry)
+#writing .post-list
   padding: 0
 
-  .post-item
-    margin-bottom: 1rem
-    margin-left: 0
-    list-style-type: none
+@media screen and (max-width: 640px)
+  .m-entry
+    grid-template-columns: 70px 1fr
+    gap: 20px
+    padding: 28px 0
 
-    .meta
-      display: block
-      margin-right: 16px
-      min-width: 100px
-      color: $color-meta
-      font-size: 14px
+  .m-entry .scaffold .day
+    font-size: 24px
 
-@media (min-width: 480px)
-  .post-list
-    .post-item
-      display: flex
-      margin-bottom: 5px
-
-      .meta
-        text-align: left
-
-.project-list
-  padding: 0
-  list-style: none
-
-  .project-item
-    margin-bottom: 5px
-    p
-      display: inline
+  .m-intro-text
+    font-size: 18px

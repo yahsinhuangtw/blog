@@ -1,77 +1,63 @@
-<section id="about">
-  <% if (config.description) { %>
-    <%- markdown(config.description) %>
-  <% } %>
-  <% if (theme.social_links) { %>
-    <p class="social-links">
-      <%= __('index.find_me_on') %>
-      <% var nb_links = Object.keys(theme.social_links).length %>
-      <% var i = 0 %>
-      <% for(var link in theme.social_links) { %>
-        <% if (link == 'mail') { %>
-          <a class="icon" target="_blank" rel="noopener" href="<%- theme.social_links[link] %>">
-            <i class="fas fa-envelope"></i><!--
-      ---></a><!--
-    ---><% } else if (link == 'rss') { %><!--
-      ---><a class="icon" target="_blank" rel="noopener" href="<%- url_for(theme.social_links[link]) %>">
-            <i class="fa fa-rss"></i><!--
-      ---></a><!--
-    ---><% } else if (link == 'x-twitter') { %><!--
-      ---><a class="icon" target="_blank" rel="noopener" href="<%- theme.social_links[link] %>">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 7.184zm-1.161 19.52h2.04L6.323 3.24H4.131z"/></svg><!--
-      ---></a><!--
-    ---><% } else { %><!--
-      ---><a class="icon" target="_blank" rel="noopener" href="<%- url_for(theme.social_links[link]) %>">
-            <i class="fab fa-<%= link %>"></i><!--
-      ---></a><!--
-    ---><% } %><!--
-    ---><%= ( nb_links > 0 && i < nb_links-1 ?
-            ( i == nb_links-2 ? ' '+__('index.enum_and')+' '
-            : __('index.enum_comma')+' ' )
-            : '.' ) %>
-        <% i+=1 %>
+<section class="m-intro">
+  <p class="m-intro-text">
+    Notes on developer communities, open-source conferences, technological innovation, language learning (French, Japanese, a little German), literary fiction, European history and politics, music, and culture.
+  </p>
+</section>
+
+<% var topTags = site.tags.sort('length', -1).limit(12) %>
+<% if (topTags.length) { %>
+<div class="m-topics">
+  <% topTags.each(function(tag){ %>
+    <%
+      var cls = '';
+      if (tag.length >= 4) cls = 'lg';
+      else if (tag.length >= 2) cls = 'md';
+    %>
+    <a href="<%- url_for(tag.path) %>" class="t <%= cls %>"><%= tag.name %><span class="ct"><%= tag.length %></span></a>
+  <% }) %>
+</div>
+<% } %>
+
+<% var field_sort = theme.posts_overview.sort_updated ? 'updated' : 'date' %>
+<% if (theme.posts_overview.show_all_posts) { %>
+  <% var show_posts = page.posts.sort(field_sort, 'desc') %>
+<% } else { %>
+  <% var show_posts = site.posts.sort(field_sort, 'desc').limit(theme.posts_overview.post_count || 5) %>
+<% } %>
+
+<% show_posts.each(function(post){ %>
+  <%
+    var d = post.date;
+    var dayNum   = d.date();
+    var monthStr = d.format('MMM').toLowerCase();
+    var yearNum  = d.year();
+    var months   = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+  %>
+  <article class="m-entry">
+    <div class="scaffold">
+      <div class="day"><%= dayNum %></div>
+      <div class="mo"><%= monthStr %></div>
+      <div class="yr"><%= yearNum %></div>
+    </div>
+    <div class="body">
+      <div class="kind-row">
+        <% if (post.categories && post.categories.length) { %>
+          <span class="kind"><%= post.categories.toArray()[0].name %></span>
+          <span class="sep">·</span>
+        <% } %>
+        <span><%= post.date.format('MMMM D, YYYY') %></span>
+      </div>
+      <h2><a href="<%- url_for(post.path) %>"><%- post.title %></a></h2>
+      <% if (post.excerpt) { %>
+        <p class="dek"><%- post.excerpt.replace(/<[^>]+>/g, '').substring(0, 200) %></p>
       <% } %>
-    </p>
-  <% } %>
-</section>
+      <div class="entry-meta">
+        <% post.tags.each(function(tag){ %>#<%= tag.name %>&nbsp;&nbsp;<% }) %>
+      </div>
+    </div>
+  </article>
+<% }) %>
 
-<section id="writing">
-  <span class="h1"><a href="<%- url_for("archives") %>"><%= __('index.articles') %></a></span>
-  <% if (theme.tags_overview && site.tags.length) { %>
-  <span class="h2"><%= __('index.topics') %></span>
-  <span class="widget tagcloud">
-    <%- tagcloud(theme.tags_overview) %>
-  </span>
-  <span class="h2"><%= __('index.most_recent') %></span>
-  <% } %>
-  <ul class="post-list">
-    <% var field_sort = theme.posts_overview.sort_updated ? 'updated' : 'date' %>
-    <% if (theme.posts_overview.show_all_posts) { %>
-      <% var show_posts = page.posts.sort(field_sort, 'desc') %>
-    <% } else { %>
-      <% var show_posts = site.posts.sort(field_sort, 'desc').limit(theme.posts_overview.post_count || 5) %>
-    <% } %>
-    <% show_posts.each(function(post, i){ %>
-      <li class="post-item">
-        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
-        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
-      </li>
-    <% }); %>
-  </ul>
-  <% if (theme.posts_overview.show_all_posts) { %>
-    <%- partial('_partial/pagination') %>
-  <% } %>
-</section>
-
-<% if (site.data.projects) { %>
-<section id="projects">
-  <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
-  <ul class="project-list">
-    <% for(var obj in site.data.projects){ %>
-      <li class="project-item">
-        <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%- markdown(site.data.projects[obj].desc) %>
-      </li>
-    <% } %>
-  </ul>
-</section>
+<% if (theme.posts_overview.show_all_posts) { %>
+  <%- partial('_partial/pagination') %>
 <% } %>

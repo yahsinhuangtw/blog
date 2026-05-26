@@ -1,14 +1,7 @@
 <header id="header">
-  <a href="<%- url_for("/") %>">
-  <% if (theme.logo && theme.logo.enabled) { %>
-    <% if (theme.gravatar && theme.gravatar.email && theme.logo.gravatar) { %>
-      <div id="logo" style="background-image: url(<%- gravatar(theme.gravatar.email) %>);"></div>
-    <% } else { %>
-      <div id="logo" style="background-image: url(<%- url_for(theme.logo.url) %>);"></div>
-    <% } %>
-  <% } %>
+  <a href="<%- url_for('/') %>">
     <div id="title">
-      <h1><%= config.title %></h1>
+      <span class="wordmark"><%= config.title %></span>
     </div>
   </a>
   <div id="nav">
@@ -16,9 +9,9 @@
       <li class="icon">
         <a href="#"><i class="fas fa-bars fa-2x"></i></a>
       </li>
-      <% for (var i in theme.nav) { %> 
-        <li><a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a></li>
-      <% } %>
+      <li><a href="<%- url_for('/') %>"<%= is_home() ? ' class="active"' : '' %>>Index</a></li>
+      <li><a href="<%- url_for('/archives/') %>"<%= is_archive() ? ' class="active"' : '' %>>Archive</a></li>
+      <li><a href="<%- url_for('/about/') %>"<%= page.path && page.path.indexOf('about') !== -1 ? ' class="active"' : '' %>>About</a></li>
     </ul>
   </div>
 </header>

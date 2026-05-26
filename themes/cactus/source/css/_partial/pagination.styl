@@ -1,23 +1,26 @@
+// Marginalia pagination — minimal mono line
+
 .pagination
-  display: inline-block
-  margin-top: 2rem
+  margin: 48px 0 0
+  display: flex
+  justify-content: space-between
+  align-items: center
+  font-family: $font-family-mono
+  font-size: 12px
+  letter-spacing: .04em
+  color: $fg-muted
   width: 100%
-  text-align: center
 
   .page-number
-    color: $color-text
-    font-size: .8rem
+    color: $fg-muted
+    font-size: 12px
 
   a
-    padding: 4px 6px
-    border-radius: 5px
-    // background-color: $color-accent-1
+    color: $paper-800
     background-image: none
-    color: $color-text
     text-decoration: none
+    padding: 0
 
   a:hover
+    color: $sage-500
     background-image: none
-
-  a:hover:not(.active)
-    color: $color-accent-2

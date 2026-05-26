@@ -1,20 +1,40 @@
 <div id="archive">
-  <ul class="post-list">
-    <% var year = 0 %>
-    <% var change = false %>
-    <% var field_sort = theme.archive.sort_updated ? 'updated' : 'date' %>
-    <% page.posts.sort(field_sort, 'desc').each(function(post) { %>
-      <% var itemYear = date(post[field_sort], 'YYYY') - 0 %>
-      <% change = year !== itemYear %>
-      <% year = change ? itemYear : year %>
-      <% if (change) { %>
-        <h2><%= year %></h2>
-      <% } %>
-      <li class="post-item">
-        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
-        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
-      </li>
-    <% }); %>
-  </ul>
+  <header class="m-arch-head">
+    <h1>Archive</h1>
+    <div class="sub"><%= site.posts.length %> pieces &middot; 2014 &mdash; <%= new Date().getFullYear() %></div>
+  </header>
+
+  <%
+    var field_sort = theme.archive.sort_updated ? 'updated' : 'date';
+    var byYear = {};
+    page.posts.sort(field_sort, 'desc').each(function(post) {
+      var y = post.date.year();
+      if (!byYear[y]) byYear[y] = [];
+      byYear[y].push(post);
+    });
+    var years = Object.keys(byYear).map(Number).sort(function(a,b){ return b - a; });
+  %>
+
+  <% years.forEach(function(y) { %>
+    <section class="m-arch-year">
+      <div class="ymark">
+        <%= y %>
+        <span class="ct"><%= byYear[y].length %> <%= byYear[y].length === 1 ? 'piece' : 'pieces' %></span>
+      </div>
+      <ul class="m-arch-list">
+        <% byYear[y].forEach(function(post) { %>
+          <li>
+            <span class="when"><%= post.date.format('MMM D') %></span>
+            <span class="ttl">
+              <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+              <span class="tags"><% post.tags.each(function(tag){ %>#<%= tag.name %>&nbsp;<% }) %></span>
+            </span>
+            <span class="kind"><% if (post.categories && post.categories.length) { %><%= post.categories.toArray()[0].name %><% } %></span>
+          </li>
+        <% }) %>
+      </ul>
+    </section>
+  <% }) %>
+
   <%- partial('_partial/pagination') %>
 </div>

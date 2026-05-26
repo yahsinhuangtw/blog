@@ -34,6 +34,21 @@ body
 
   @extend $base-style
 
+// Marginalia page shell
+.m-page
+  background: $color-background
+  min-height: 100vh
+
+.m-shell
+  max-width: 920px
+  margin: 0 auto
+  padding: 80px 32px
+
+.m-content
+  position: relative
+  overflow-wrap: break-word
+
+// Legacy .content kept for fallback
 .content
   position: relative
   display: flex

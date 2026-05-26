@@ -1,108 +1,91 @@
+// Marginalia header — wordmark + minimal nav
+
 #header
-  margin: 0 auto 2rem
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-bottom: 24px
+  border-bottom: 1px solid $paper-200
+  margin-bottom: 80px
   width: 100%
-
-  h1, .h1
-    margin-top: 0
-    margin-bottom: 1rem
-    color: #5a6270
-    letter-spacing: .01em
-    font-weight: 700
-    font-style: normal
-    font-size: 1.5rem
-    line-height: 2rem
-    font-family: "Beth Ellen", cursive
-
-    antialias()
 
   a
     background: none
-    color: inherit
     text-decoration: none
 
-  #logo
-    display: inline-block
-    float: left
-    margin-right: 20px
-    width: $logo-width
-    height: $logo-height
-    border-radius: 5px
-    filter: grayscale(100%)
-    background-size: $logo-width $logo-height
-    background-repeat: no-repeat
-    -webkit-filter: grayscale(100%)
+  .wordmark
+    font-family: $font-family-display
+    font-style: italic
+    font-weight: 300
+    font-size: 28px
+    color: $paper-900
+    line-height: 1
+    letter-spacing: -.01em
+
+  #title
+    a
+      background: none
+      color: inherit
 
   #nav
-    color: $color-accent-1
-    letter-spacing: .01em
-    font-weight: 200
-    font-style: normal
-    font-size: .8rem
+    color: $paper-700
+    font-size: 13px
+    letter-spacing: .02em
+    font-weight: 400
 
     ul
       margin: 0
       padding: 0
       list-style-type: none
-      line-height: 15px
-
-      a
-        margin-right: 15px
-        color: $color-accent-1
-
-      a:hover
-        underline(5px, $color-accent-1)
+      display: flex
+      gap: 28px
+      line-height: 1
 
       li
-        display: inline-block
-        margin-right: 15px
-        border-right: 1px dotted
-        border-color: $color-accent-1
-        vertical-align: middle
+        display: inline-flex
+        align-items: center
+        margin: 0
+        border: none
 
       .icon
         display: none
 
-      li:last-child
-        margin-right: 0
-        border-right: 0
+      a
+        color: $paper-700
+        background: none
+        text-decoration: none
+        position: relative
 
-        a
-          margin-right: 0
+      a.active
+        color: $paper-900
+        font-weight: 500
 
-#header:hover
-  #logo
-    filter: none
-    -webkit-filter: none
+      a.active::after
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        bottom: -6px
+        height: 1px
+        background: $sage-500
 
-@media screen and (max-width: 480px)
-  #header #title
-    display: table
-    margin-right: 5rem
-    min-height: $logo-height
-    h1
-      display: table-cell
-      vertical-align: middle
+      a:hover
+        color: $paper-900
+        background: none
+
+@media screen and (max-width: 640px)
+  #header
+    flex-direction: column
+    align-items: flex-start
+    gap: 16px
+    margin-bottom: 48px
 
   #header #nav
     ul
-      a:hover
-        background: none
+      gap: 20px
 
-      li
-        display: none
-        border-right: 0
+    ul .icon
+      display: none
 
-      li.icon
-        position: absolute
-        top: 77px
-        right: 1rem
-        display: inline-block
-
-    ul.responsive
-      li
-        display: block
-
-    li:not(:first-child)
-      padding-top: 1rem
-      padding-left: $logo-width + 20px
-      font-size: 1rem
+    ul li
+      display: inline-flex
