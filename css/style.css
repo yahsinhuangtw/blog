@@ -335,14 +335,14 @@ body .h2 {
   display: block;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: #111;
+  color: #3d372c;
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
   font-size: 1.8rem;
 }
 body h3 {
-  color: #111;
+  color: #3d372c;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -351,7 +351,7 @@ body h5,
 body h6 {
   display: inline;
   text-decoration: none;
-  color: #666;
+  color: #7a7264;
   font-weight: bold;
   font-size: 0.9rem;
 }
@@ -363,7 +363,7 @@ body h6 {
   margin-bottom: 0.5rem;
 }
 body hr {
-  border: 0.5px dashed #666;
+  border: 0.5px dashed #7a7264;
   opacity: 0.5;
   margin: 0;
   margin-top: 20px;
@@ -424,8 +424,8 @@ body table {
 }
 body th {
   padding: 8px;
-  border-bottom: 1px dashed #666;
-  color: #111;
+  border-bottom: 1px dashed #ded4ba;
+  color: #3d372c;
   font-weight: bold;
   font-size: 13px;
 }
@@ -433,6 +433,7 @@ body td {
   padding: 0 8px;
   border-bottom: none;
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@1,16..72,300;1,16..72,400&display=swap");
 @font-face {
   font-style: normal;
   font-family: "Cedarville Cursive";
@@ -447,11 +448,6 @@ body td {
   font-style: normal;
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-style: sans-serif;
-  font-family: "Inter";
-  src: local("Inter"), url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 }
 *,
 *:before,
@@ -468,17 +464,30 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #e0ddcf;
-  color: #363533;
+  background-color: #f8f3e4;
+  color: #2c2820;
   font-display: swap;
   font-weight: 400;
   font-size: 14px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   flex: 1;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+.m-page {
+  background: #f8f3e4;
+  min-height: 100vh;
+}
+.m-shell {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 80px 32px;
+}
+.m-content {
+  position: relative;
+  overflow-wrap: break-word;
 }
 .content {
   position: relative;
@@ -505,21 +514,21 @@ body {
   -webkit-hyphens: manual;
 }
 .content a {
-  color: #363533;
+  color: #2c2820;
   text-decoration: none;
-  background-image: linear-gradient(transparent, transparent 5px, #363533 5px, #363533);
+  background-image: linear-gradient(transparent, transparent 5px, #2c2820 5px, #2c2820);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
 }
 .content a:hover {
-  background-image: linear-gradient(transparent, transparent 4px, #2bbc8a 4px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 4px, #6e8e58 4px, #6e8e58);
 }
 .content a.icon {
   background: none;
 }
 .content a.icon:hover {
-  color: #2bbc8a;
+  color: #6e8e58;
 }
 .content h1 a,
 .content .h1 a,
@@ -539,7 +548,7 @@ body {
 .content h4 a:hover,
 .content h5 a:hover,
 .content h6 a:hover {
-  background-image: linear-gradient(transparent, transparent 6px, #2bbc8a 6px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 6px, #6e8e58 6px, #6e8e58);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -550,7 +559,7 @@ body {
   text-decoration: none;
 }
 .content h6 a:hover {
-  background-image: linear-gradient(transparent, transparent 6px, #2bbc8a 6px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 6px, #6e8e58 6px, #6e8e58);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -581,7 +590,7 @@ body {
   }
 }
 .max-width {
-  max-width: 48rem;
+  max-width: 57rem;
 }
 @media (max-width: 480px) {
   .px3 {
@@ -599,114 +608,92 @@ body {
   }
 }
 #header {
-  margin: 0 auto 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ded4ba;
+  margin-bottom: 80px;
   width: 100%;
-}
-#header h1,
-#header .h1 {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: #5a6270;
-  letter-spacing: 0.01em;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-family: "Beth Ellen", cursive;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
 }
 #header a {
   background: none;
-  color: inherit;
   text-decoration: none;
 }
-#header #logo {
-  display: inline-block;
-  float: left;
-  margin-right: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-  filter: grayscale(100%);
-  background-size: 50px 50px;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%);
+#header .wordmark {
+  font-family: "Newsreader", "Spectral", "Iowan Old Style", Georgia, serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 28px;
+  color: #1b1813;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+#header #title a {
+  background: none;
+  color: inherit;
 }
 #header #nav {
-  color: #ac88b2;
-  letter-spacing: 0.01em;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 0.8rem;
+  color: #3d372c;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
 }
 #header #nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  line-height: 15px;
-}
-#header #nav ul a {
-  margin-right: 15px;
-  color: #ac88b2;
-}
-#header #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #ac88b2 5px, #ac88b2);
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  display: flex;
+  gap: 28px;
+  line-height: 1;
 }
 #header #nav ul li {
-  display: inline-block;
-  margin-right: 15px;
-  border-right: 1px dotted;
-  border-color: #ac88b2;
-  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  border: none;
 }
 #header #nav ul .icon {
   display: none;
 }
-#header #nav ul li:last-child {
-  margin-right: 0;
-  border-right: 0;
+#header #nav ul a {
+  color: #3d372c;
+  background: none;
+  text-decoration: none;
+  position: relative;
 }
-#header #nav ul li:last-child a {
-  margin-right: 0;
+#header #nav ul a.active {
+  color: #1b1813;
+  font-weight: 500;
 }
-#header:hover #logo {
-  filter: none;
-  -webkit-filter: none;
+#header #nav ul a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 1px;
+  background: #6e8e58;
 }
-@media screen and (max-width: 480px) {
-  #header #title {
-    display: table;
-    margin-right: 5rem;
-    min-height: 50px;
+#header #nav ul a:hover {
+  color: #1b1813;
+  background: none;
+}
+@media screen and (max-width: 640px) {
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 48px;
   }
-  #header #title h1 {
-    display: table-cell;
-    vertical-align: middle;
+  #header #nav ul {
+    gap: 20px;
   }
-  #header #nav ul a:hover {
-    background: none;
+  #header #nav ul .icon {
+    display: none;
   }
   #header #nav ul li {
-    display: none;
-    border-right: 0;
-  }
-  #header #nav ul li.icon {
-    position: absolute;
-    top: 77px;
-    right: 1rem;
-    display: inline-block;
-  }
-  #header #nav ul.responsive li {
-    display: block;
-  }
-  #header #nav li:not(:first-child) {
-    padding-top: 1rem;
-    padding-left: 70px;
-    font-size: 1rem;
+    display: inline-flex;
   }
 }
 #header-post {
@@ -726,7 +713,7 @@ body {
   background: none;
 }
 #header-post a.icon:hover {
-  color: #2bbc8a;
+  color: #6e8e58;
 }
 #header-post ol {
   list-style-type: none;
@@ -843,13 +830,13 @@ body {
   text-align: right;
 }
 #header-post #toc a:hover {
-  color: #2bbc8a;
+  color: #6e8e58;
 }
 #header-post #toc .toc-level-1 > .toc-link {
   display: none;
 }
 #header-post #toc .toc-level-2 {
-  color: #363533;
+  color: #2c2820;
   font-size: 0.8rem;
 }
 #header-post #toc .toc-level-2:before {
@@ -857,11 +844,11 @@ body {
   content: "#";
 }
 #header-post #toc .toc-level-3 {
-  color: #666;
+  color: #7a7264;
   font-size: 0.7rem;
 }
 #header-post #toc .toc-level-4 {
-  color: #525252;
+  color: #625b50;
   font-size: 0.4rem;
 }
 #header-post #toc .toc-level-5 {
@@ -929,8 +916,8 @@ body {
   left: 0;
   z-index: 5000000;
   width: 100%;
-  border-top: 1px solid #666;
-  background: #ddd9ca;
+  border-top: 1px solid #ded4ba;
+  background: #f5efdd;
   transition: opacity 0.2s;
 }
 #footer-post a {
@@ -942,12 +929,12 @@ body {
   background: none;
 }
 #footer-post a.icon:hover {
-  color: #2bbc8a;
+  color: #6e8e58;
 }
 #footer-post #nav-footer {
   padding-right: 1rem;
   padding-left: 1rem;
-  background: #cfcab5;
+  background: #ece4ce;
   text-align: center;
 }
 #footer-post #nav-footer a {
@@ -991,7 +978,7 @@ body {
 #footer-post #share-footer {
   padding-right: 1rem;
   padding-left: 1rem;
-  background: #cfcab5;
+  background: #ece4ce;
   text-align: center;
 }
 #footer-post #share-footer ul {
@@ -1011,7 +998,7 @@ body {
   clear: both;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: #cfcab5;
+  background: #ece4ce;
   text-align: left;
 }
 #footer-post #toc-footer ol {
@@ -1023,13 +1010,13 @@ body {
   line-height: 30px;
 }
 #footer-post #toc-footer a:hover {
-  color: #2bbc8a;
+  color: #6e8e58;
 }
 #footer-post #toc-footer .toc-level-1 > .toc-link {
   display: none;
 }
 #footer-post #toc-footer .toc-level-2 {
-  color: #363533;
+  color: #2c2820;
   font-size: 0.8rem;
 }
 #footer-post #toc-footer .toc-level-2:before {
@@ -1037,7 +1024,7 @@ body {
   content: "#";
 }
 #footer-post #toc-footer .toc-level-3 {
-  color: #666;
+  color: #7a7264;
   font-size: 0.7rem;
   line-height: 15px;
 }
@@ -1058,233 +1045,515 @@ body {
     display: none;
   }
 }
-#about p {
-  font-size: 0.85em;
+.m-intro {
+  margin: 32px 0 72px;
+  max-width: 580px;
 }
-#about .social-links {
-  float: right;
-  margin-top: -4.4rem;
-  margin-right: 40%;
-  font-size: 0.75em;
+.m-intro-text {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #2c2820;
+  margin: 0;
+  text-wrap: pretty;
+  text-align: left;
 }
-@media screen and (max-width: 480px) {
-  #about .social-links {
-    display: none;
-  }
+.m-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 24px;
+  margin-bottom: 64px;
+  padding: 18px 0;
+  border-top: 1px solid #ded4ba;
+  border-bottom: 1px solid #ded4ba;
+  font-size: 13px;
+  align-items: baseline;
 }
-.post-list {
-  padding: 0;
+.m-topics .t {
+  color: #3d372c;
+  text-decoration: none;
+  background: none;
 }
-.post-list .post-item {
-  margin-bottom: 1rem;
-  margin-left: 0;
-  list-style-type: none;
+.m-topics .t::before {
+  content: "#";
+  color: #6e8e58;
+  margin-right: 1px;
 }
-.post-list .post-item .meta {
-  display: block;
-  margin-right: 16px;
-  min-width: 100px;
-  color: #666;
+.m-topics .t:hover {
+  color: #1b1813;
+  background: none;
+}
+.m-topics .t .ct {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 10px;
+  color: #7a7264;
+  margin-left: 4px;
+  vertical-align: 1px;
+}
+.m-topics .t.lg {
+  font-size: 16px;
+  color: #2c2820;
+}
+.m-topics .t.md {
   font-size: 14px;
 }
-@media (min-width: 480px) {
-  .post-list .post-item {
-    display: flex;
-    margin-bottom: 5px;
-  }
-  .post-list .post-item .meta {
-    text-align: left;
-  }
+.m-entry {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 32px;
+  padding: 36px 0;
+  border-top: 1px solid #ded4ba;
+  align-items: start;
 }
-.project-list {
-  padding: 0;
-  list-style: none;
+.m-entry:last-of-type {
+  border-bottom: 1px solid #ded4ba;
 }
-.project-list .project-item {
-  margin-bottom: 5px;
+.m-entry .scaffold {
+  text-align: right;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: #7a7264;
 }
-.project-list .project-item p {
-  display: inline;
+.m-entry .scaffold .day {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 32px;
+  color: #2c2820;
+  font-weight: 200;
+  line-height: 1;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
 }
-article header .posttitle {
-  margin-top: 0;
-  margin-bottom: 0;
-  text-transform: none;
-  font-size: 1.5em;
-  line-height: 1.25;
-}
-article header .meta {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-article header .meta * {
-  color: #666;
-  font-size: 0.85rem;
-}
-article header .author {
+.m-entry .scaffold .mo {
   text-transform: uppercase;
-  letter-spacing: 0.01em;
-  font-weight: 700;
+  letter-spacing: 0.14em;
 }
-article header .postdate {
+.m-entry .scaffold .yr {
+  color: #a89c7e;
+  margin-top: 4px;
+  font-size: 10px;
+}
+.m-entry .body {
+  padding-top: 4px;
+}
+.m-entry .kind-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7a7264;
+  margin-bottom: 8px;
+}
+.m-entry .kind-row .sep {
+  color: #c8bda0;
+}
+.m-entry .body h2 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 0 0 10px;
+  color: #1b1813;
+  letter-spacing: -0.005em;
+}
+.m-entry .body h2 a {
+  color: #1b1813;
+  background: none;
+  text-decoration: none;
+}
+.m-entry .body h2 a:hover {
+  color: #6e8e58;
+  background: none;
+}
+.m-entry .dek {
+  font-size: 15px !important;
+  line-height: 1.6;
+  color: #3d372c;
+  margin: 0 !important;
+  text-align: left !important;
+}
+.m-entry .entry-meta {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 11px;
+  color: #7a7264;
+  margin-top: 12px;
+}
+.m-entry .entry-meta a {
+  color: #7a7264;
+  background: none;
+  text-decoration: none;
+}
+.m-entry .entry-meta a:hover {
+  color: #6e8e58;
+  background: none;
+}
+#about {
+  display: none;
+}
+#writing > .h1,
+#writing > .h2,
+#writing > .widget {
+  display: none;
+}
+#writing .post-list {
+  padding: 0;
+}
+@media screen and (max-width: 640px) {
+  .m-entry {
+    grid-template-columns: 70px 1fr;
+    gap: 20px;
+    padding: 28px 0;
+  }
+  .m-entry .scaffold .day {
+    font-size: 24px;
+  }
+  .m-intro-text {
+    font-size: 18px;
+  }
+}
+article.post {
+  max-width: 640px;
+}
+article.post header .posttitle {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #1b1813;
+  margin: 0 0 16px;
+  text-wrap: balance;
+}
+article.post header .meta {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: #7a7264;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+article.post header .meta * {
+  color: #7a7264;
+  font-size: 11px;
+}
+article.post header .author {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+}
+article.post header .postdate {
   display: inline;
 }
-article .content h2:before {
-  position: absolute;
-  top: -4px;
-  left: -1rem;
-  color: #ac88b2;
-  font-weight: bold;
-  font-size: 1.2rem;
+article.post .m-crumb {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: #7a7264;
+  text-transform: uppercase;
+  margin-bottom: 64px;
 }
-article .content img,
-article .content video {
+article.post .m-crumb a {
+  color: #2c2820;
+  background: none;
+  text-decoration: none;
+}
+article.post .m-crumb a:hover {
+  color: #6e8e58;
+}
+article.post .m-crumb .sep {
+  margin: 0 10px;
+  color: #c8bda0;
+}
+article.post .content h2 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.005em;
+  color: #1b1813;
+  margin: 2.2em 0 0.5em;
+  position: static;
+}
+article.post .content h2:before {
+  content: none;
+}
+article.post .content h3 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.005em;
+  color: #1b1813;
+  margin: 2.2em 0 0.5em;
+}
+article.post .content p {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #2c2820;
+  margin: 0 0 1em;
+  text-align: justify;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+}
+article.post .content blockquote {
+  margin: 32px 0;
+  padding: 0 0 0 24px;
+  border-left: 1px solid #a89c7e;
+  background: inherit;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.45;
+  color: #2c2820;
+  text-align: left;
+  quotes: none;
+}
+article.post .content blockquote:before {
+  content: none;
+}
+article.post .content blockquote p {
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+  margin: 0;
+}
+article.post .content img,
+article.post .content video {
   display: block;
   margin: auto;
   max-width: 100%;
   max-height: 400px;
   height: auto;
 }
-article .content .video-container {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-  height: 0;
+article.post .content pre {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  border-left: 1px solid #c8bda0;
+  border-radius: 0;
+  padding: 4px 0 4px 16px;
+  white-space: pre-wrap;
+  color: #2c2820;
+  margin: 24px 0;
+  line-height: 1.6;
 }
-article .content .video-container iframe,
-article .content .video-container object,
-article .content .video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 0;
-  width: 100%;
-  height: 100%;
+article.post .content code {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 13px;
+  padding: 0 4px;
+  border: 1px dotted #ded4ba;
+  border-radius: 2px;
 }
-article .content blockquote {
-  margin: 1rem 10px;
-  padding: 0.5em 10px;
-  background: inherit;
-  color: #ac88b2;
-  quotes: "\201C" "\201D" "\2018" "\2019";
-  font-weight: bold;
+article.post .m-tag-row {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid #ded4ba;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
 }
-article .content blockquote p {
-  margin: 0;
+article.post .m-tag-row .chip {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 12px;
+  color: #7a7264;
+  background: none;
 }
-article .content blockquote:before {
-  margin-right: 0.25em;
-  color: #ac88b2;
-  content: "\201C";
-  vertical-align: -0.4em;
-  font-size: 2em;
-  line-height: 0.1em;
+article.post .m-tag-row .chip::before {
+  content: "#";
+  color: #6e8e58;
+  margin-right: 1px;
 }
-article .content blockquote footer {
-  margin: line-height 0;
-  color: #666;
-  font-size: 11px;
+article.post .m-tag-row .chip a {
+  color: #7a7264;
+  background: none;
+  text-decoration: none;
 }
-article .content blockquote footer a {
-  background-image: linear-gradient(transparent, transparent 5px, #666 5px, #666);
-  color: #666;
+article.post .m-tag-row .chip a:hover {
+  color: #6e8e58;
 }
-article .content blockquote footer a:hover {
-  background-image: linear-gradient(transparent, transparent 4px, #858585 4px, #858585);
-  color: #858585;
+article.post .article-tag .tag-link {
+  background: none;
+  color: #7a7264;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 12px;
 }
-article .content blockquote footer cite:before {
-  padding: 0 0.5em;
-  content: "—";
-}
-article .content .pullquote {
-  margin: 0;
-  width: 45%;
-  text-align: left;
-}
-article .content .pullquote.left {
-  margin-right: 1em;
-  margin-left: 0.5em;
-}
-article .content .pullquote.right {
-  margin-right: 0.5em;
-  margin-left: 1em;
-}
-article .content .caption {
-  position: relative;
-  display: block;
-  margin-top: 0.5em;
-  color: #666;
-  text-align: center;
-  font-size: 0.9em;
-}
-.posttitle {
-  text-transform: none;
-  font-size: 1.5em;
-  line-height: 1.25;
-}
-.article-tag .tag-link {
-  background-image: linear-gradient(transparent, transparent 10px, #2bbc8a 10px, #2bbc8a);
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
-}
-.article-tag .tag-link:before {
+article.post .article-tag .tag-link:before {
   content: "#";
 }
-.article-category .category-link {
-  background-image: linear-gradient(transparent, transparent 10px, #2bbc8a 10px, #2bbc8a);
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+article.post .article-category .category-link {
+  background: none;
+  color: #7a7264;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 12px;
 }
-@media (min-width: 480px) {
-  .article-tag,
-  .article-category {
-    display: inline;
+.posttitle {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+@media screen and (max-width: 640px) {
+  article.post {
+    max-width: 100%;
   }
-  .article-tag:before,
-  .article-category:before {
-    content: "|";
+  article.post header .posttitle {
+    font-size: 32px;
   }
 }
-#archive .post-list {
+#archive .m-arch-head {
+  margin: 0 0 56px;
+}
+#archive .m-arch-head h1 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 1;
+  color: #1b1813;
+  margin: 0 0 12px;
+  letter-spacing: -0.03em;
+}
+#archive .m-arch-head .sub {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: #7a7264;
+  text-transform: uppercase;
+}
+#archive .m-arch-year {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 40px;
+  padding: 32px 0;
+  border-top: 1px solid #ded4ba;
+}
+#archive .m-arch-year:last-child {
+  border-bottom: 1px solid #ded4ba;
+}
+#archive .m-arch-year .ymark {
+  position: sticky;
+  top: 16px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 1;
+  color: #2c2820;
+  letter-spacing: -0.02em;
+}
+#archive .m-arch-year .ymark .ct {
+  display: block;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 10px;
+  color: #7a7264;
+  letter-spacing: 0.08em;
+  margin-top: 8px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#archive .m-arch-list {
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
-#archive .post-list .post-item {
-  margin-bottom: 1rem;
-  margin-left: 0;
-  list-style-type: none;
+#archive .m-arch-list li {
+  display: grid;
+  grid-template-columns: 70px 1fr 90px;
+  gap: 24px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid #ded4ba;
 }
-#archive .post-list .post-item .meta {
+#archive .m-arch-list li:last-child {
+  border-bottom: none;
+}
+#archive .m-arch-list .when {
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: #7a7264;
+  text-transform: uppercase;
+}
+#archive .m-arch-list .ttl {
+  font-size: 16px;
+  color: #2c2820;
+  line-height: 1.4;
+}
+#archive .m-arch-list .ttl a {
+  color: #2c2820;
+  background: none;
+  text-decoration: none;
+}
+#archive .m-arch-list .ttl a:hover {
+  color: #6e8e58;
+  background: none;
+}
+#archive .m-arch-list .tags {
   display: block;
-  margin-right: 16px;
-  min-width: 100px;
-  color: #666;
-  font-size: 14px;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 11px;
+  color: #7a7264;
+  margin-top: 4px;
+  letter-spacing: 0.02em;
 }
-@media (min-width: 480px) {
-  #archive .post-list .post-item {
-    display: flex;
-    margin-bottom: 5px;
-    margin-left: 1rem;
+#archive .m-arch-list .kind {
+  text-align: right;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #3d372c;
+}
+#archive .post-list {
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  #archive .m-arch-year {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
-  #archive .post-list .post-item .meta {
-    text-align: left;
+  #archive .m-arch-year .ymark {
+    position: static;
+    font-size: 36px;
+  }
+  #archive .m-arch-list li {
+    grid-template-columns: 60px 1fr;
+    gap: 16px;
+  }
+  #archive .m-arch-list .kind {
+    display: none;
   }
 }
 .blog-post-comments {
   margin-top: 4rem;
 }
 #footer {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 10px;
-  width: 100%;
-  color: #666;
-  vertical-align: top;
-  text-align: center;
+  margin-top: 96px;
+  padding-top: 20px;
+  border-top: 1px solid #ded4ba;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
   font-size: 11px;
+  letter-spacing: 0.04em;
+  color: #7a7264;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+#footer a {
+  color: #7a7264;
+  background: none;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #6e8e58;
+  background: none;
 }
 #footer ul {
   margin: 0;
@@ -1293,82 +1562,48 @@ article .content .caption {
 }
 #footer li {
   display: inline-block;
-  margin-right: 15px;
-  border-right: 1px solid;
-  border-color: #666;
-  vertical-align: middle;
+  border: none;
+  margin: 0;
 }
-#footer li a {
-  margin-right: 15px;
-}
-#footer li:last-child {
-  margin-right: 0;
-  border-right: 0;
-}
-#footer li:last-child a {
-  margin-right: 0;
-}
-#footer a {
-  color: #666;
-  text-decoration: underline;
-  background-image: none;
-}
-#footer a:hover {
-  color: #858585;
-}
-#footer .footer-left {
-  height: 20px;
-  vertical-align: middle;
-  line-height: 20px;
-}
-@media (min-width: 39rem) {
+@media screen and (max-width: 480px) {
   #footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    margin-bottom: 20px;
-  }
-  #footer .footer-left {
-    align-self: flex-start;
-    margin-right: 20px;
-  }
-  #footer .footer-right {
-    align-self: flex-end;
+    flex-direction: column;
+    gap: 8px;
   }
 }
 .pagination {
-  display: inline-block;
-  margin-top: 2rem;
+  margin: 48px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #7a7264;
   width: 100%;
-  text-align: center;
 }
 .pagination .page-number {
-  color: #363533;
-  font-size: 0.8rem;
+  color: #7a7264;
+  font-size: 12px;
 }
 .pagination a {
-  padding: 4px 6px;
-  border-radius: 5px;
+  color: #2c2820;
   background-image: none;
-  color: #363533;
   text-decoration: none;
+  padding: 0;
 }
 .pagination a:hover {
+  color: #6e8e58;
   background-image: none;
-}
-.pagination a:hover:not(.active) {
-  color: #111;
 }
 .search-input {
   padding: 4px 7px;
   width: 100%;
   outline: none;
-  border: solid 1px #666;
+  border: solid 1px #7a7264;
   border-radius: 5px;
-  background-color: #e0ddcf;
-  color: #363533;
+  background-color: #f8f3e4;
+  color: #2c2820;
   font-size: 1.2rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1385,7 +1620,7 @@ article .content .caption {
 }
 #search-result a.search-result-title {
   background-image: none;
-  color: #363533;
+  color: #2c2820;
   text-transform: capitalize;
   font-weight: bold;
   line-height: 1.2;
@@ -1398,17 +1633,17 @@ article .content .caption {
   font-size: 0.8em;
 }
 #search-result em.search-keyword {
-  border-bottom: 1px dashed #2bbc8a;
-  color: #2bbc8a;
+  border-bottom: 1px dashed #6e8e58;
+  color: #6e8e58;
   font-weight: bold;
 }
 .search-no-result {
   display: none;
   padding-bottom: 0.5em;
-  color: #363533;
+  color: #2c2820;
 }
 #tag-cloud .tag-cloud-title {
-  color: #666;
+  color: #7a7264;
 }
 #tag-cloud .tag-cloud-tags {
   clear: both;
@@ -1427,18 +1662,18 @@ article .content .caption {
   display: none;
   padding: 0.2em 0.5em;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #e0ddcf;
+  color: #f8f3e4;
   font-display: swap;
   font-weight: 400;
   font-size: 11.200000000000001px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   text-align: center;
   word-wrap: break-word;
   white-space: pre;
   content: attr(aria-label);
-  background: #363533;
+  background: #2c2820;
   border-radius: 3px;
   opacity: 0;
 }
@@ -1448,7 +1683,7 @@ article .content .caption {
   display: none;
   width: 0;
   height: 0;
-  color: #363533;
+  color: #2c2820;
   pointer-events: none;
   content: '';
   border: 6px solid transparent;
@@ -1479,7 +1714,7 @@ article .content .caption {
   right: 50%;
   bottom: -7px;
   margin-right: -6px;
-  border-bottom-color: #363533;
+  border-bottom-color: #2c2820;
 }
 .tooltipped-sw::after {
   margin-right: -16px;
@@ -1520,10 +1755,10 @@ article .content .caption {
   }
 }
 #categories .category-list-title {
-  color: #666;
+  color: #7a7264;
 }
 #categories .category-list .category-list-item .category-list-count {
-  color: #666;
+  color: #7a7264;
 }
 #categories .category-list .category-list-item .category-list-count:before {
   content: " (";
@@ -1609,10 +1844,10 @@ pre {
   overflow-x: auto;
   padding: 10px 15px;
   padding-bottom: 0;
-  border: 1px dotted #666;
+  border: 1px dotted #ded4ba;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1623,7 +1858,7 @@ pre code {
 }
 code {
   padding: 0 5px;
-  border: 1px dotted #666;
+  border: 1px dotted #ded4ba;
   border-radius: 2px;
   -webkit-border-radius: 2px;
 }
@@ -1632,28 +1867,28 @@ code {
   margin: 1rem 0;
   padding: 10px 15px;
   border-radius: 4px;
-  background: #ddd9ca;
-  font-family: "Menlo", "Meslo LG", monospace;
+  background: #ece4ce;
+  font-family: "JetBrains Mono", "Meslo LG", "Menlo", "Consolas", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
   margin: -5px 0 5px;
-  color: #757575;
+  color: #7a7264;
   font-size: 0.9em;
   zoom: 1;
 }
 .highlight figcaption a {
   float: right;
-  color: #757575;
+  color: #7a7264;
   font-style: italic;
   font-size: 0.8em;
-  background-image: linear-gradient(transparent, transparent 10px, #2bbc8a 10px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 10px, #6e8e58 10px, #6e8e58);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
 }
 .highlight figcaption a:hover {
-  color: #919191;
+  color: #978f80;
 }
 .highlight figcaption:before,
 .highlight figcaption content: "" {
