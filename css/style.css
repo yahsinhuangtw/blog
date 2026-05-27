@@ -321,9 +321,9 @@ body .h1 {
   display: block;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  color: #ac88b2;
-  letter-spacing: 0.01em;
-  font-weight: 700;
+  color: #1b1813;
+  letter-spacing: -0.01em;
+  font-weight: 200;
   font-style: normal;
   font-size: 2em;
   -moz-osx-font-smoothing: grayscale;
