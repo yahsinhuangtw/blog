@@ -6,7 +6,7 @@
   <link href="http://yahsin.me/atom.xml" rel="self"/>
   
   <link href="http://yahsin.me/"/>
-  <updated>2026-08-11T10:53:53.426Z</updated>
+  <updated>2026-08-13T12:48:19.764Z</updated>
   <id>http://yahsin.me/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Open Source Firmware Track at COSCUP</title>
+    <link href="http://yahsin.me/2026/08/13/coscup-2026/"/>
+    <id>http://yahsin.me/2026/08/13/coscup-2026/</id>
+    <published>2026-08-13T00:00:00.000Z</published>
+    <updated>2026-08-13T12:48:19.764Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Last weekend I attended COSCUP, Taiwan’s largest open source developer conference. Getting there meant taking Taiwan’s high-speed rail from the south of Taiwan up to Taipei, which I jokingly call “Le TGV de Taïwan,” and this was only the second time I’d had to take it to attend COSCUP.&lt;/p&gt;
+&lt;p&gt;What I was seeking, going in, was mostly motivation and intellectual stimulation. This year I finally did something I’d been contemplating for a while. I wanted to challenge myself, to dare myself to</summary>
+        
+      
+    
+    
+    
+    
+    <category term="COSCUP" scheme="http://yahsin.me/tags/COSCUP/"/>
+    
+    <category term="Open Source" scheme="http://yahsin.me/tags/Open-Source/"/>
+    
+    <category term="Firmware" scheme="http://yahsin.me/tags/Firmware/"/>
+    
+    <category term="Linux" scheme="http://yahsin.me/tags/Linux/"/>
+    
+    <category term="NixOS" scheme="http://yahsin.me/tags/NixOS/"/>
+    
+    <category term="Framework" scheme="http://yahsin.me/tags/Framework/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Avant que est suivie du subjonctif, et après que est suivie de l&#39;indicatif</title>
     <link href="http://yahsin.me/2026/04/22/French-avant-que-apres-que/"/>
     <id>http://yahsin.me/2026/04/22/French-avant-que-apres-que/</id>
     <published>2026-04-22T12:00:00.000Z</published>
-    <updated>2026-08-11T10:53:53.426Z</updated>
+    <updated>2026-08-13T12:48:19.764Z</updated>
     
     
       
@@ -50,7 +84,7 @@
     <link href="http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/"/>
     <id>http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/</id>
     <published>2026-03-27T12:00:00.000Z</published>
-    <updated>2026-08-11T10:53:53.425Z</updated>
+    <updated>2026-08-13T12:48:19.764Z</updated>
     
     
       
@@ -81,7 +115,7 @@
     <link href="http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/"/>
     <id>http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/</id>
     <published>2026-03-17T14:14:26.000Z</published>
-    <updated>2026-08-11T10:53:53.425Z</updated>
+    <updated>2026-08-13T12:48:19.763Z</updated>
     
     
       
@@ -117,7 +151,7 @@
     <link href="http://yahsin.me/2026/03/16/Jpop-playlist/"/>
     <id>http://yahsin.me/2026/03/16/Jpop-playlist/</id>
     <published>2026-03-16T15:25:31.000Z</published>
-    <updated>2026-08-11T10:53:53.424Z</updated>
+    <updated>2026-08-13T12:48:19.763Z</updated>
     
     
       
@@ -149,7 +183,7 @@
     <link href="http://yahsin.me/2026/03/02/jp-intro/"/>
     <id>http://yahsin.me/2026/03/02/jp-intro/</id>
     <published>2026-03-02T12:23:05.000Z</published>
-    <updated>2026-08-11T10:53:53.424Z</updated>
+    <updated>2026-08-13T12:48:19.763Z</updated>
     
     
       
@@ -179,7 +213,7 @@
     <link href="http://yahsin.me/2025/08/20/henderson-book/"/>
     <id>http://yahsin.me/2025/08/20/henderson-book/</id>
     <published>2025-08-20T15:59:51.000Z</published>
-    <updated>2026-08-11T10:53:53.424Z</updated>
+    <updated>2026-08-13T12:48:19.763Z</updated>
     
     
       
@@ -207,7 +241,7 @@
     <link href="http://yahsin.me/2024/12/20/hexadecimal/"/>
     <id>http://yahsin.me/2024/12/20/hexadecimal/</id>
     <published>2024-12-20T17:34:45.000Z</published>
-    <updated>2026-08-11T10:53:53.424Z</updated>
+    <updated>2026-08-13T12:48:19.763Z</updated>
     
     
       
@@ -240,7 +274,7 @@
     <link href="http://yahsin.me/2024/12/13/testnet/"/>
     <id>http://yahsin.me/2024/12/13/testnet/</id>
     <published>2024-12-13T17:04:34.000Z</published>
-    <updated>2026-08-11T10:53:53.423Z</updated>
+    <updated>2026-08-13T12:48:19.761Z</updated>
     
     
       
@@ -270,7 +304,7 @@
     <link href="http://yahsin.me/2024/08/27/zkmopro-testing/"/>
     <id>http://yahsin.me/2024/08/27/zkmopro-testing/</id>
     <published>2024-08-27T18:48:00.000Z</published>
-    <updated>2026-08-11T10:53:53.422Z</updated>
+    <updated>2026-08-13T12:48:19.761Z</updated>
     
     
       
@@ -292,7 +326,7 @@
     <link href="http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
     <id>http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
     <published>2024-06-05T19:45:06.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -316,7 +350,7 @@
     <link href="http://yahsin.me/2024/05/01/French-class-notes/"/>
     <id>http://yahsin.me/2024/05/01/French-class-notes/</id>
     <published>2024-05-01T18:14:37.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -350,7 +384,7 @@
     <link href="http://yahsin.me/2024/04/30/Didion-Blue-Nights/"/>
     <id>http://yahsin.me/2024/04/30/Didion-Blue-Nights/</id>
     <published>2024-04-30T17:28:50.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -378,7 +412,7 @@
     <link href="http://yahsin.me/2024/02/08/JS-looping-array/"/>
     <id>http://yahsin.me/2024/02/08/JS-looping-array/</id>
     <published>2024-02-08T18:56:56.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -414,7 +448,7 @@ console.log(value);
     <link href="http://yahsin.me/2024/02/01/JS-While-Loop/"/>
     <id>http://yahsin.me/2024/02/01/JS-While-Loop/</id>
     <published>2024-02-01T18:13:35.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -442,7 +476,7 @@ console.log(value);
     <link href="http://yahsin.me/2024/01/30/Jan-books/"/>
     <id>http://yahsin.me/2024/01/30/Jan-books/</id>
     <published>2024-01-30T22:05:14.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -466,7 +500,7 @@ console.log(value);
     <link href="http://yahsin.me/2023/10/10/Cal-Newport-269-notes/"/>
     <id>http://yahsin.me/2023/10/10/Cal-Newport-269-notes/</id>
     <published>2023-10-10T22:40:31.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -496,7 +530,7 @@ console.log(value);
     <link href="http://yahsin.me/2023/10/05/Tapie-Class-Act-Netflix/"/>
     <id>http://yahsin.me/2023/10/05/Tapie-Class-Act-Netflix/</id>
     <published>2023-10-05T16:24:05.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -531,7 +565,7 @@ console.log(value);
     <link href="http://yahsin.me/2023/08/30/Spain/"/>
     <id>http://yahsin.me/2023/08/30/Spain/</id>
     <published>2023-08-30T16:06:27.000Z</published>
-    <updated>2026-08-11T10:53:53.420Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -554,7 +588,7 @@ console.log(value);
     <link href="http://yahsin.me/2023/05/03/April-books/"/>
     <id>http://yahsin.me/2023/05/03/April-books/</id>
     <published>2023-05-03T18:16:05.000Z</published>
-    <updated>2026-08-11T10:53:53.419Z</updated>
+    <updated>2026-08-13T12:48:19.758Z</updated>
     
     
       
@@ -570,30 +604,6 @@ console.log(value);
     
     
     <category term="books" scheme="http://yahsin.me/tags/books/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The Saigon Situation: Is It Even Possible to Survive in Vietnam for Several Weeks As a Tourist If You Think About Its Chaotic Traffic</title>
-    <link href="http://yahsin.me/2023/03/28/Saigon-Situation/"/>
-    <id>http://yahsin.me/2023/03/28/Saigon-Situation/</id>
-    <published>2023-03-28T18:00:04.000Z</published>
-    <updated>2026-08-11T10:53:53.419Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Traffic-situation&quot;&gt;&lt;a href=&quot;#Traffic-situation&quot; class=&quot;headerlink&quot; title=&quot;Traffic situation&quot;&gt;&lt;/a&gt;Traffic situation&lt;/h2&gt;&lt;p&gt;The past two weeks I have been hanging out in Saigon (Ho Chi Minh City), Vietnam. As a first-time visitor, the first few days was hard. I constantly feel overwhelmed by the very chaotic traffic. I wonder whether there’s another term for “chaotic” to describe a more severe choatic situation. Especially during rush hours, it gets really bad. &lt;/p&gt;
-&lt;p&gt;It’s been two weeks</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Saigon, Vietnam, Culture, Travel" scheme="http://yahsin.me/tags/Saigon-Vietnam-Culture-Travel/"/>
     
   </entry>
   
