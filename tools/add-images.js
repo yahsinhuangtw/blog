@@ -3,9 +3,9 @@
 /**
  * add-images.js
  *
- * Pops up a macOS file picker, compresses selected images with sharp,
- * copies them into the current post's asset folder, and puts ready-to-paste
- * figure markup on the clipboard.
+ * Pops up a macOS file picker, resizes and re-encodes selected images to
+ * WEBP (via cwebp), copies them into the current post's asset folder, and
+ * puts ready-to-paste figure markup on the clipboard.
  *
  * Usage (via VS Code task — passes the active file automatically):
  *   node scripts/add-images.js /path/to/source/_posts/2026-03-15-my-post.md
@@ -84,31 +84,44 @@ console.log(`Selected ${selectedFiles.length} image(s).\n`);
 // 3. Compress and copy each image
 // ---------------------------------------------------------------------------
 
-const JPEG_QUALITY = 82; // 0–100, sips formatOptions
+const WEBP_QUALITY = 82; // 0–100, cwebp -q
+const MAX_WIDTH = 1280; // px; article column is 640px, this covers retina
+
+// cwebp reads these natively; anything else (gif, heic, ...) is copied as-is.
+const CWEBP_INPUT_EXTS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.tif', '.tiff', '.pnm', '.pgm', '.ppm', '.pam']);
 
 const snippets = [];
 
 for (const srcPath of selectedFiles) {
   const ext = path.extname(srcPath).toLowerCase();
-  const filename = path.basename(srcPath).replace(/\s+/g, '-');
-  const destPath = path.join(assetFolder, filename);
+  const baseName = path.basename(srcPath, path.extname(srcPath)).replace(/\s+/g, '-');
   const srcSize = fs.statSync(srcPath).size;
 
+  if (!CWEBP_INPUT_EXTS.has(ext)) {
+    const filename = `${baseName}${ext}`;
+    const destPath = path.join(assetFolder, filename);
+    fs.copyFileSync(srcPath, destPath);
+    console.log(`  copied (unsupported format, no compression): ${filename}`);
+    snippets.push(makeSnippet(filename));
+    continue;
+  }
+
+  const filename = `${baseName}.webp`;
+  const destPath = path.join(assetFolder, filename);
+
   try {
-    if (ext === '.jpg' || ext === '.jpeg') {
-      execFileSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', String(JPEG_QUALITY), srcPath, '--out', destPath]);
-    } else if (ext === '.png') {
-      execFileSync('sips', ['-s', 'format', 'png', srcPath, '--out', destPath]);
-    } else {
-      fs.copyFileSync(srcPath, destPath);
-      console.log(`  copied (no compression): ${filename}`);
-      snippets.push(makeSnippet(filename));
-      continue;
+    const width = getPixelWidth(srcPath);
+    const cwebpArgs = ['-q', String(WEBP_QUALITY)];
+    if (width && width > MAX_WIDTH) {
+      cwebpArgs.push('-resize', String(MAX_WIDTH), '0');
     }
+    cwebpArgs.push(srcPath, '-o', destPath);
+
+    execFileSync('cwebp', cwebpArgs, { stdio: 'pipe' });
 
     const destSize = fs.statSync(destPath).size;
     const saving = Math.round((1 - destSize / srcSize) * 100);
-    console.log(`  compressed: ${filename}  (${kb(srcSize)} → ${kb(destSize)}, ${saving}% smaller)`);
+    console.log(`  converted: ${filename}  (${kb(srcSize)} → ${kb(destSize)}, ${saving}% smaller)`);
   } catch (err) {
     console.error(`  failed to process ${filename}: ${err.message}`);
     continue;
@@ -141,4 +154,14 @@ function makeSnippet(filename) {
 
 function kb(bytes) {
   return `${Math.round(bytes / 1024)}KB`;
+}
+
+function getPixelWidth(imagePath) {
+  try {
+    const output = execFileSync('sips', ['-g', 'pixelWidth', imagePath], { encoding: 'utf8' });
+    const match = output.match(/pixelWidth:\s*(\d+)/);
+    return match ? parseInt(match[1], 10) : null;
+  } catch {
+    return null;
+  }
 }
