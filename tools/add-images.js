@@ -149,7 +149,7 @@ spawnSync('pbcopy', [], { input: output, encoding: 'utf8' });
 console.log('\nCopied to clipboard. Paste into your post with ⌘V.');
 
 function makeSnippet(filename) {
-  return `<figure><img src="{% asset_path ${filename} %}" /><figcaption></figcaption></figure>`;
+  return `<figure><img src="{% asset_path ${filename} %}" loading="lazy" decoding="async" /><figcaption></figcaption></figure>`;
 }
 
 function kb(bytes) {
