@@ -6,7 +6,7 @@
   <link href="http://yahsin.me/atom.xml" rel="self"/>
   
   <link href="http://yahsin.me/"/>
-  <updated>2026-08-27T02:45:39.331Z</updated>
+  <updated>2026-08-27T08:09:36.776Z</updated>
   <id>http://yahsin.me/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>DELF B2 Production Orale : script d&#39;entraînement (l&#39;IA à l&#39;école)</title>
+    <link href="http://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/"/>
+    <id>http://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/</id>
+    <published>2026-08-27T13:00:00.000Z</published>
+    <updated>2026-08-27T08:09:36.776Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Un script d’entraînement complet pour la Production Orale du DELF B2, en version resserrée à 5 minutes. Il s’appuie sur un article d’Euronews consacré à l’IA et à l’apprentissage de la programmation. Il fait suite aux &lt;a href=&quot;/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/&quot;&gt;notes sur la présentation du sujet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Support&lt;/strong&gt; : &lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="French" scheme="http://yahsin.me/tags/French/"/>
+    
+    <category term="DELF" scheme="http://yahsin.me/tags/DELF/"/>
+    
+    <category term="B2" scheme="http://yahsin.me/tags/B2/"/>
+    
+    <category term="Production Orale" scheme="http://yahsin.me/tags/Production-Orale/"/>
+    
+    <category term="IA" scheme="http://yahsin.me/tags/IA/"/>
+    
+    <category term="l&#39;intelligence artificielle" scheme="http://yahsin.me/tags/l-intelligence-artificielle/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Notes on DELF B2 Production Orale : Présenter le sujet</title>
     <link href="http://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/"/>
     <id>http://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/</id>
     <published>2026-08-27T12:00:00.000Z</published>
-    <updated>2026-08-27T02:45:39.331Z</updated>
+    <updated>2026-08-27T08:09:36.776Z</updated>
     
     
       
@@ -54,7 +88,7 @@
     <link href="http://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/"/>
     <id>http://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/</id>
     <published>2026-08-25T00:00:00.000Z</published>
-    <updated>2026-08-27T02:45:39.331Z</updated>
+    <updated>2026-08-27T08:09:36.776Z</updated>
     
     
       
@@ -81,7 +115,7 @@
     <link href="http://yahsin.me/2026/08/13/coscup-2026/"/>
     <id>http://yahsin.me/2026/08/13/coscup-2026/</id>
     <published>2026-08-13T00:00:00.000Z</published>
-    <updated>2026-08-27T02:45:39.329Z</updated>
+    <updated>2026-08-27T08:09:36.774Z</updated>
     
     
       
@@ -118,7 +152,7 @@
     <link href="http://yahsin.me/2026/04/22/French-avant-que-apres-que/"/>
     <id>http://yahsin.me/2026/04/22/French-avant-que-apres-que/</id>
     <published>2026-04-22T12:00:00.000Z</published>
-    <updated>2026-08-27T02:45:39.329Z</updated>
+    <updated>2026-08-27T08:09:36.774Z</updated>
     
     
       
@@ -147,7 +181,7 @@
     <link href="http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/"/>
     <id>http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/</id>
     <published>2026-03-27T12:00:00.000Z</published>
-    <updated>2026-08-27T02:45:39.329Z</updated>
+    <updated>2026-08-27T08:09:36.774Z</updated>
     
     
       
@@ -178,7 +212,7 @@
     <link href="http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/"/>
     <id>http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/</id>
     <published>2026-03-17T14:14:26.000Z</published>
-    <updated>2026-08-27T02:45:39.328Z</updated>
+    <updated>2026-08-27T08:09:36.774Z</updated>
     
     
       
@@ -214,7 +248,7 @@
     <link href="http://yahsin.me/2026/03/16/Jpop-playlist/"/>
     <id>http://yahsin.me/2026/03/16/Jpop-playlist/</id>
     <published>2026-03-16T15:25:31.000Z</published>
-    <updated>2026-08-27T02:45:39.327Z</updated>
+    <updated>2026-08-27T08:09:36.772Z</updated>
     
     
       
@@ -246,7 +280,7 @@
     <link href="http://yahsin.me/2026/03/02/jp-intro/"/>
     <id>http://yahsin.me/2026/03/02/jp-intro/</id>
     <published>2026-03-02T12:23:05.000Z</published>
-    <updated>2026-08-27T02:45:39.327Z</updated>
+    <updated>2026-08-27T08:09:36.772Z</updated>
     
     
       
@@ -276,7 +310,7 @@
     <link href="http://yahsin.me/2025/08/20/henderson-book/"/>
     <id>http://yahsin.me/2025/08/20/henderson-book/</id>
     <published>2025-08-20T15:59:51.000Z</published>
-    <updated>2026-08-27T02:45:39.327Z</updated>
+    <updated>2026-08-27T08:09:36.772Z</updated>
     
     
       
@@ -304,7 +338,7 @@
     <link href="http://yahsin.me/2024/12/20/hexadecimal/"/>
     <id>http://yahsin.me/2024/12/20/hexadecimal/</id>
     <published>2024-12-20T17:34:45.000Z</published>
-    <updated>2026-08-27T02:45:39.327Z</updated>
+    <updated>2026-08-27T08:09:36.772Z</updated>
     
     
       
@@ -337,7 +371,7 @@
     <link href="http://yahsin.me/2024/12/13/testnet/"/>
     <id>http://yahsin.me/2024/12/13/testnet/</id>
     <published>2024-12-13T17:04:34.000Z</published>
-    <updated>2026-08-27T02:45:39.326Z</updated>
+    <updated>2026-08-27T08:09:36.771Z</updated>
     
     
       
@@ -367,7 +401,7 @@
     <link href="http://yahsin.me/2024/08/27/zkmopro-testing/"/>
     <id>http://yahsin.me/2024/08/27/zkmopro-testing/</id>
     <published>2024-08-27T18:48:00.000Z</published>
-    <updated>2026-08-27T02:45:39.326Z</updated>
+    <updated>2026-08-27T08:09:36.771Z</updated>
     
     
       
@@ -389,7 +423,7 @@
     <link href="http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
     <id>http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
     <published>2024-06-05T19:45:06.000Z</published>
-    <updated>2026-08-27T02:45:39.324Z</updated>
+    <updated>2026-08-27T08:09:36.768Z</updated>
     
     
       
@@ -413,7 +447,7 @@
     <link href="http://yahsin.me/2024/05/01/French-class-notes/"/>
     <id>http://yahsin.me/2024/05/01/French-class-notes/</id>
     <published>2024-05-01T18:14:37.000Z</published>
-    <updated>2026-08-27T02:45:39.324Z</updated>
+    <updated>2026-08-27T08:09:36.768Z</updated>
     
     
       
@@ -447,7 +481,7 @@
     <link href="http://yahsin.me/2024/04/30/Didion-Blue-Nights/"/>
     <id>http://yahsin.me/2024/04/30/Didion-Blue-Nights/</id>
     <published>2024-04-30T17:28:50.000Z</published>
-    <updated>2026-08-27T02:45:39.323Z</updated>
+    <updated>2026-08-27T08:09:36.768Z</updated>
     
     
       
@@ -475,7 +509,7 @@
     <link href="http://yahsin.me/2024/02/08/JS-looping-array/"/>
     <id>http://yahsin.me/2024/02/08/JS-looping-array/</id>
     <published>2024-02-08T18:56:56.000Z</published>
-    <updated>2026-08-27T02:45:39.323Z</updated>
+    <updated>2026-08-27T08:09:36.768Z</updated>
     
     
       
@@ -511,7 +545,7 @@ console.log(value);
     <link href="http://yahsin.me/2024/02/01/JS-While-Loop/"/>
     <id>http://yahsin.me/2024/02/01/JS-While-Loop/</id>
     <published>2024-02-01T18:13:35.000Z</published>
-    <updated>2026-08-27T02:45:39.323Z</updated>
+    <updated>2026-08-27T08:09:36.768Z</updated>
     
     
       
@@ -539,7 +573,7 @@ console.log(value);
     <link href="http://yahsin.me/2024/01/30/Jan-books/"/>
     <id>http://yahsin.me/2024/01/30/Jan-books/</id>
     <published>2024-01-30T22:05:14.000Z</published>
-    <updated>2026-08-27T02:45:39.323Z</updated>
+    <updated>2026-08-27T08:09:36.768Z</updated>
     
     
       
@@ -563,7 +597,7 @@ console.log(value);
     <link href="http://yahsin.me/2023/10/10/Cal-Newport-269-notes/"/>
     <id>http://yahsin.me/2023/10/10/Cal-Newport-269-notes/</id>
     <published>2023-10-10T22:40:31.000Z</published>
-    <updated>2026-08-27T02:45:39.323Z</updated>
+    <updated>2026-08-27T08:09:36.768Z</updated>
     
     
       
@@ -585,41 +619,6 @@ console.log(value);
     <category term="notes" scheme="http://yahsin.me/tags/notes/"/>
     
     <category term="deeplife" scheme="http://yahsin.me/tags/deeplife/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Dialogue Scenes in Class Act “Tapie” 2023 Netflix Miniseries</title>
-    <link href="http://yahsin.me/2023/10/05/Tapie-Class-Act-Netflix/"/>
-    <id>http://yahsin.me/2023/10/05/Tapie-Class-Act-Netflix/</id>
-    <published>2023-10-05T16:24:05.000Z</published>
-    <updated>2026-08-27T02:45:39.323Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Last night, I finished watching the first season of Class Act “Tapie” 2023 Netflix mini-series, a French biographical drama TV series that came out in mid-September 2023. &lt;/p&gt;
-&lt;p&gt;Season 1 consists of seven episodes; each episode is about 50 minutes. I watched them over the past four days. It’s a fictionalized biography loosely based on the life of Bernard Tapie, a famous French businessman.&lt;/p&gt;
-&lt;p&gt;Before coming across this French TV series, I’d never heard of Bernard Tapie before; I had to</summary>
-        
-      
-    
-    
-    
-    
-    <category term="movie" scheme="http://yahsin.me/tags/movie/"/>
-    
-    <category term="film" scheme="http://yahsin.me/tags/film/"/>
-    
-    <category term="tv series" scheme="http://yahsin.me/tags/tv-series/"/>
-    
-    <category term="netflix" scheme="http://yahsin.me/tags/netflix/"/>
-    
-    <category term="tapie" scheme="http://yahsin.me/tags/tapie/"/>
-    
-    <category term="class act" scheme="http://yahsin.me/tags/class-act/"/>
     
   </entry>
   
