@@ -27,15 +27,11 @@ First boot took about 90 seconds before the Pi was actually reachable, since it 
 
 First boot, and the Pi never showed up on the router's client list. The Zero W's WiFi chip (Broadcom BCM43438) has a known weak spot. It struggles with **WPA2/WPA3 mixed mode**, which is the default on a lot of modern routers. It doesn't fail loudly, it just never associates. The fix was setting the 2.4GHz band to WPA2 only.
 
-Lesson learned, if a Pi Zero silently refuses to join WiFi, check the router's security mode before assuming a hardware or SD card problem.
 
 ## The macOS Local Network Rabbit Hole
 
-With WiFi fixed, `ping` still failed with `sendto: No route to host`, on the same subnet, which ruled out routing. The actual cause was **"Limit IP Address Tracking,"** a macOS privacy feature (System Settings → WiFi → ⓘ next to the network) that can quietly break reachability to devices on your own LAN.
+With WiFi fixed, `ping` still failed with `sendto: No route to host`, on the same subnet, which ruled out routing. The VS Code terminal was hitting this wall, a raw IP connection timed out completely. The actual cause was Local Network permission not being granted to VS Code. Rather than keep chasing VS Code's permission, I just switched to the Mac's system Terminal for the actual SSH work from that point on.
 
-That fixed Terminal.app. Then Claude Code, running through my Bash tool, hit the exact same wall, a raw IP connection timed out completely. Same root cause, different app. **System Settings → Privacy & Security → Local Network** gates which apps are allowed to talk to LAN devices at all, and each app needs its own separate grant. VS Code wasn't on the list. Then Chrome hit it a third time, except Chrome had accumulated a dozen stale duplicate entries in that list from auto-updates over time, each toggled off, with no obvious way to tell which one was the live process.
-
-Three different apps, one underlying macOS restriction, three separate fixes. None of it was Raspberry Pi trouble.
 
 ## Deciding Not to Use a Self-Hosted GitHub Actions Runner
 
@@ -52,12 +48,12 @@ nginx serves that folder directly, and a cron job keeps it in sync.
 0 * * * * cd /var/www/blog && git pull origin gh-pages >> /home/yh/blog-pull.log 2>&1
 ```
 
-No inbound ports, no new GitHub secrets, nothing exposed past my home network. Just a passive mirror that refreshes itself every hour.
+I decided that publishing this very post would be the real test, since it means writing about the cron job and then actually watching it pull the post itself onto the Pi. It worked, pulling right on the hour, exactly as the cron job above is set up to do.
 
 ## Why It Feels Instant
 
-The first time it loaded, I was surprised by how fast it was for a device this weak. But there's no dynamic work happening on the Pi at all. Hexo already rendered every page into static HTML during the GitHub Actions build. nginx's only job is reading files off the SD card and streaming bytes over WiFi, which is almost entirely I/O, not computation. Cheap work on cheap hardware, over a LAN with basically no latency, adds up to feeling instant.
+The first time it loaded, I was surprised by how fast it was for a device this weak. But there's no dynamic work happening on the Pi at all. Hexo already rendered every page into static HTML during the GitHub Actions build. nginx's only job is reading files off the SD card and streaming bytes over WiFi, which is almost entirely I/O, not computation. It's cheap work on cheap hardware, over a LAN with almost no latency, and that combination is what makes it feel instant.
 
 ## Closing Thoughts
 
-Working through this with Claude Code turned out to be less about writing any code and more about narrowing down which layer a failure lived in (router, macOS, or the Pi itself) one symptom at a time. `No route to host` alone pointed to three unrelated root causes over the course of the project. Debugging over a live SSH session, pasting real command output back and forth, made each dead end quick to rule out instead of a guessing game. The Pi Zero W I bought to practice SSH now quietly mirrors this very blog on my home network, and every step of getting there taught me more about my own laptop than about the Pi.
+Working through this with Claude Code turned out to be less about writing any code and more about narrowing down which layer a failure lived in (router, macOS, or the Pi itself) one symptom at a time. The Pi Zero W I bought to practice SSH now quietly mirrors this very blog on my home network, and every step of getting there taught me more about my own laptop than about the Pi.
