@@ -6,7 +6,7 @@
   <link href="http://yahsin.me/atom.xml" rel="self"/>
   
   <link href="http://yahsin.me/"/>
-  <updated>2026-08-27T08:09:36.776Z</updated>
+  <updated>2026-08-29T08:59:47.333Z</updated>
   <id>http://yahsin.me/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Setting Up a Raspberry Pi Zero W as a Home Server</title>
+    <link href="http://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/"/>
+    <id>http://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/</id>
+    <published>2026-08-29T16:43:18.000Z</published>
+    <updated>2026-08-29T08:59:47.333Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;I picked up a Raspberry Pi Zero W with a simple goal, to practice SSH properly, from flashing a card to logging in with a key instead of a password. This was a small exercise project over a Friday and Saturday, mainly to practice flashing a card, setting up the Pi Zero W, and practicing SSH. It turned into a full home-server project, and most of the actual debugging had nothing to do with the Pi at all.&lt;/p&gt;
+&lt;h2 id=&quot;Flashing-the-Card&quot;&gt;&lt;a href=&quot;#Flashing-the-Card&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Claude" scheme="http://yahsin.me/tags/Claude/"/>
+    
+    <category term="Linux" scheme="http://yahsin.me/tags/Linux/"/>
+    
+    <category term="Raspberry Pi" scheme="http://yahsin.me/tags/Raspberry-Pi/"/>
+    
+    <category term="SSH" scheme="http://yahsin.me/tags/SSH/"/>
+    
+    <category term="Networking" scheme="http://yahsin.me/tags/Networking/"/>
+    
+  </entry>
+  
+  <entry>
     <title>DELF B2 Production Orale : script d&#39;entraînement (l&#39;IA à l&#39;école)</title>
     <link href="http://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/"/>
     <id>http://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/</id>
     <published>2026-08-27T13:00:00.000Z</published>
-    <updated>2026-08-27T08:09:36.776Z</updated>
+    <updated>2026-08-29T08:59:47.333Z</updated>
     
     
       
@@ -55,7 +87,7 @@
     <link href="http://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/"/>
     <id>http://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/</id>
     <published>2026-08-27T12:00:00.000Z</published>
-    <updated>2026-08-27T08:09:36.776Z</updated>
+    <updated>2026-08-29T08:59:47.333Z</updated>
     
     
       
@@ -88,7 +120,7 @@
     <link href="http://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/"/>
     <id>http://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/</id>
     <published>2026-08-25T00:00:00.000Z</published>
-    <updated>2026-08-27T08:09:36.776Z</updated>
+    <updated>2026-08-29T08:59:47.333Z</updated>
     
     
       
@@ -115,7 +147,7 @@
     <link href="http://yahsin.me/2026/08/13/coscup-2026/"/>
     <id>http://yahsin.me/2026/08/13/coscup-2026/</id>
     <published>2026-08-13T00:00:00.000Z</published>
-    <updated>2026-08-27T08:09:36.774Z</updated>
+    <updated>2026-08-29T08:59:47.332Z</updated>
     
     
       
@@ -152,7 +184,7 @@
     <link href="http://yahsin.me/2026/04/22/French-avant-que-apres-que/"/>
     <id>http://yahsin.me/2026/04/22/French-avant-que-apres-que/</id>
     <published>2026-04-22T12:00:00.000Z</published>
-    <updated>2026-08-27T08:09:36.774Z</updated>
+    <updated>2026-08-29T08:59:47.332Z</updated>
     
     
       
@@ -181,7 +213,7 @@
     <link href="http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/"/>
     <id>http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/</id>
     <published>2026-03-27T12:00:00.000Z</published>
-    <updated>2026-08-27T08:09:36.774Z</updated>
+    <updated>2026-08-29T08:59:47.332Z</updated>
     
     
       
@@ -212,7 +244,7 @@
     <link href="http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/"/>
     <id>http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/</id>
     <published>2026-03-17T14:14:26.000Z</published>
-    <updated>2026-08-27T08:09:36.774Z</updated>
+    <updated>2026-08-29T08:59:47.331Z</updated>
     
     
       
@@ -248,7 +280,7 @@
     <link href="http://yahsin.me/2026/03/16/Jpop-playlist/"/>
     <id>http://yahsin.me/2026/03/16/Jpop-playlist/</id>
     <published>2026-03-16T15:25:31.000Z</published>
-    <updated>2026-08-27T08:09:36.772Z</updated>
+    <updated>2026-08-29T08:59:47.330Z</updated>
     
     
       
@@ -280,7 +312,7 @@
     <link href="http://yahsin.me/2026/03/02/jp-intro/"/>
     <id>http://yahsin.me/2026/03/02/jp-intro/</id>
     <published>2026-03-02T12:23:05.000Z</published>
-    <updated>2026-08-27T08:09:36.772Z</updated>
+    <updated>2026-08-29T08:59:47.330Z</updated>
     
     
       
@@ -310,7 +342,7 @@
     <link href="http://yahsin.me/2025/08/20/henderson-book/"/>
     <id>http://yahsin.me/2025/08/20/henderson-book/</id>
     <published>2025-08-20T15:59:51.000Z</published>
-    <updated>2026-08-27T08:09:36.772Z</updated>
+    <updated>2026-08-29T08:59:47.330Z</updated>
     
     
       
@@ -338,7 +370,7 @@
     <link href="http://yahsin.me/2024/12/20/hexadecimal/"/>
     <id>http://yahsin.me/2024/12/20/hexadecimal/</id>
     <published>2024-12-20T17:34:45.000Z</published>
-    <updated>2026-08-27T08:09:36.772Z</updated>
+    <updated>2026-08-29T08:59:47.330Z</updated>
     
     
       
@@ -371,7 +403,7 @@
     <link href="http://yahsin.me/2024/12/13/testnet/"/>
     <id>http://yahsin.me/2024/12/13/testnet/</id>
     <published>2024-12-13T17:04:34.000Z</published>
-    <updated>2026-08-27T08:09:36.771Z</updated>
+    <updated>2026-08-29T08:59:47.329Z</updated>
     
     
       
@@ -401,7 +433,7 @@
     <link href="http://yahsin.me/2024/08/27/zkmopro-testing/"/>
     <id>http://yahsin.me/2024/08/27/zkmopro-testing/</id>
     <published>2024-08-27T18:48:00.000Z</published>
-    <updated>2026-08-27T08:09:36.771Z</updated>
+    <updated>2026-08-29T08:59:47.329Z</updated>
     
     
       
@@ -423,7 +455,7 @@
     <link href="http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
     <id>http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
     <published>2024-06-05T19:45:06.000Z</published>
-    <updated>2026-08-27T08:09:36.768Z</updated>
+    <updated>2026-08-29T08:59:47.327Z</updated>
     
     
       
@@ -447,7 +479,7 @@
     <link href="http://yahsin.me/2024/05/01/French-class-notes/"/>
     <id>http://yahsin.me/2024/05/01/French-class-notes/</id>
     <published>2024-05-01T18:14:37.000Z</published>
-    <updated>2026-08-27T08:09:36.768Z</updated>
+    <updated>2026-08-29T08:59:47.327Z</updated>
     
     
       
@@ -481,7 +513,7 @@
     <link href="http://yahsin.me/2024/04/30/Didion-Blue-Nights/"/>
     <id>http://yahsin.me/2024/04/30/Didion-Blue-Nights/</id>
     <published>2024-04-30T17:28:50.000Z</published>
-    <updated>2026-08-27T08:09:36.768Z</updated>
+    <updated>2026-08-29T08:59:47.327Z</updated>
     
     
       
@@ -509,7 +541,7 @@
     <link href="http://yahsin.me/2024/02/08/JS-looping-array/"/>
     <id>http://yahsin.me/2024/02/08/JS-looping-array/</id>
     <published>2024-02-08T18:56:56.000Z</published>
-    <updated>2026-08-27T08:09:36.768Z</updated>
+    <updated>2026-08-29T08:59:47.327Z</updated>
     
     
       
@@ -545,7 +577,7 @@ console.log(value);
     <link href="http://yahsin.me/2024/02/01/JS-While-Loop/"/>
     <id>http://yahsin.me/2024/02/01/JS-While-Loop/</id>
     <published>2024-02-01T18:13:35.000Z</published>
-    <updated>2026-08-27T08:09:36.768Z</updated>
+    <updated>2026-08-29T08:59:47.327Z</updated>
     
     
       
@@ -573,7 +605,7 @@ console.log(value);
     <link href="http://yahsin.me/2024/01/30/Jan-books/"/>
     <id>http://yahsin.me/2024/01/30/Jan-books/</id>
     <published>2024-01-30T22:05:14.000Z</published>
-    <updated>2026-08-27T08:09:36.768Z</updated>
+    <updated>2026-08-29T08:59:47.327Z</updated>
     
     
       
@@ -589,36 +621,6 @@ console.log(value);
     
     
     <category term="books" scheme="http://yahsin.me/tags/books/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Cal Newport Podcast Notes Episode 269 Oct 9 2023</title>
-    <link href="http://yahsin.me/2023/10/10/Cal-Newport-269-notes/"/>
-    <id>http://yahsin.me/2023/10/10/Cal-Newport-269-notes/</id>
-    <published>2023-10-10T22:40:31.000Z</published>
-    <updated>2026-08-27T08:09:36.768Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Some notes I took while watching Cal Newport’s latest show tonight.&lt;br&gt;Episode 269 of the Deep Questions podcast &lt;a href=&quot;https://www.thedeeplife.com/listen/&quot;&gt;https://www.thedeeplife.com/listen/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;“The Cure To A Mediocre Life: 3 Unexpected Ideas To Reinvent Your Life | Cal Newport”&lt;br&gt;Video link: &lt;a href=&quot;https://youtu.be/jlJDcB5M9ds?si=Lug6k-N84wueeuph&quot;&gt;https://youtu.be/jlJDcB5M9ds?si=Lug6k-N84wueeuph&lt;/a&gt;&lt;br&gt;Cal Newport’s YouTube: &lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="newport" scheme="http://yahsin.me/tags/newport/"/>
-    
-    <category term="podcast" scheme="http://yahsin.me/tags/podcast/"/>
-    
-    <category term="notes" scheme="http://yahsin.me/tags/notes/"/>
-    
-    <category term="deeplife" scheme="http://yahsin.me/tags/deeplife/"/>
     
   </entry>
   
