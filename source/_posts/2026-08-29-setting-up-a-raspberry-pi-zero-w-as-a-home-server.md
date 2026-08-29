@@ -15,17 +15,19 @@ I picked up a Raspberry Pi Zero W with a simple goal, to practice SSH properly, 
 
 No monitor, no keyboard. Everything had to work over WiFi from first boot. Raspberry Pi Imager makes this possible through its advanced customisation screen.
 
-I picked **Raspberry Pi OS Lite (32-bit)**, not the default Desktop image, for two reasons. The Zero W's chip is a single-core ARMv6, which can't run 64-bit code at all, and a desktop environment is pure overhead on a headless 512MB board with no monitor attached.
+I picked Raspberry Pi OS Lite (32-bit), not the default Desktop image, for two reasons. The Zero W's chip is a single-core ARMv6, which can't run 64-bit code at all, and a desktop environment is pure overhead on a headless 512MB board with no monitor attached.
 
 For SSH, I generated a dedicated keypair instead of reusing an existing one.
 
 One keypair per purpose is good hygiene, but it has a cost. `ssh` only auto-tries default filenames like `id_ed25519`. Anything custom-named needs an explicit `-i` flag, or an entry in `~/.ssh/config`.
 
+<figure><img src="{% asset_path Pi-zero-w-post-01.webp %}" loading="lazy" decoding="async" style="border-radius: 12px;" /><figcaption></figcaption></figure>
+
 First boot took about 90 seconds before the Pi was actually reachable, since it was resizing the filesystem and applying all the customisation in the background.
 
 ## The WiFi That Wouldn't Connect
 
-First boot, and the Pi never showed up on the router's client list. The Zero W's WiFi chip (Broadcom BCM43438) has a known weak spot. It struggles with **WPA2/WPA3 mixed mode**, which is the default on a lot of modern routers. It doesn't fail loudly, it just never associates. The fix was setting the 2.4GHz band to WPA2 only.
+First boot, and the Pi never showed up on the router's client list. The Zero W's WiFi chip (Broadcom BCM43438) has a known weak spot. It struggles with WPA2/WPA3 mixed mode, which is the default on a lot of modern routers. It doesn't fail loudly, it just never associates. The fix was setting the 2.4GHz band to WPA2 only.
 
 
 ## The macOS Local Network Rabbit Hole
