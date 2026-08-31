@@ -15,7 +15,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="http://yahsin.me/images/snoopy_white_hat.jpeg">
 <meta property="article:published_time" content="2026-08-29T16:43:18.000Z">
-<meta property="article:modified_time" content="2026-08-29T09:35:57.779Z">
+<meta property="article:modified_time" content="2026-08-31T12:32:52.452Z">
 <meta property="article:author" content="Yahsin Huang">
 <meta property="article:tag" content="Claude">
 <meta property="article:tag" content="Linux">
@@ -139,6 +139,29 @@
 
 <p>I decided that publishing this very post would be the real test, since it means writing about the cron job and then actually watching it pull the post itself onto the Pi. It worked, pulling right on the hour, exactly as the cron job above is set up to do.</p>
 <h2 id="Why-It-Feels-Instant"><a href="#Why-It-Feels-Instant" class="headerlink" title="Why It Feels Instant"></a>Why It Feels Instant</h2><p>The first time it loaded, I was surprised by how fast it was for a device this weak. But there’s no dynamic work happening on the Pi at all. Hexo already rendered every page into static HTML during the GitHub Actions build. nginx’s only job is reading files off the SD card and streaming bytes over WiFi, which is almost entirely I&#x2F;O, not computation. It’s cheap work on cheap hardware, over a LAN with almost no latency, and that combination is what makes it feel instant.</p>
+<h2 id="Commands-I-Used"><a href="#Commands-I-Used" class="headerlink" title="Commands I Used"></a>Commands I Used</h2><p>A running list of the commands that did most of the work, mostly typed straight into the SSH session on the Pi. <code>ssh-keygen</code>, <code>diskutil</code>, <code>ipconfig getifaddr</code>, and <code>arp -d</code> are the exceptions, those ran on the Mac side rather than the Pi itself, but they were part of the same troubleshooting loop so they made the list too.</p>
+<ol>
+<li><code>ssh</code> — the whole point of the exercise, connecting to the Pi headlessly.</li>
+<li><code>ping</code> — first-line network reachability test.</li>
+<li><code>git</code> (<code>clone</code>, <code>pull</code>, <code>log</code>, <code>add</code>, <code>commit</code>, <code>push</code>) — the publish pipeline on both ends.</li>
+<li><code>sudo apt update &amp;&amp; sudo apt install</code> — installed nginx and git on the Pi.</li>
+<li><code>systemctl</code> (<code>status</code>, <code>restart</code>, <code>enable</code>) — managed the nginx service.</li>
+<li><code>crontab -e</code> &#x2F; <code>crontab -l</code> — scheduled and verified the hourly pull job.</li>
+<li><code>curl</code> — smoke-tested nginx was actually serving content.</li>
+<li><code>journalctl -u cron</code> — confirmed cron was firing on schedule.</li>
+<li><code>ssh-keygen</code> — generated the dedicated keypair for public-key auth.</li>
+<li><code>sudo shutdown -h now</code> — cleanly powered the Pi off at the end.</li>
+<li><code>mkdir -p</code> &#x2F; <code>chown</code> — set up <code>/var/www/blog</code> with the right ownership.</li>
+<li><code>ln -s</code> &#x2F; <code>rm -f</code> — enabled the nginx site config, removed the default one.</li>
+<li><code>nginx -t</code> — tested the config before restarting.</li>
+<li><code>nano</code> — edited files directly on the Pi, like the nginx config and crontab.</li>
+<li><code>tail</code> — checked the pull log after each cron run.</li>
+<li><code>cat</code> — quick file reads, like <code>/etc/os-release</code>.</li>
+<li><code>scp</code> — pulled a test photo back from the Pi to the Mac.</li>
+<li><code>rpicam-hello</code> &#x2F; <code>rpicam-still</code> — checked and used the camera.</li>
+<li><code>diskutil</code> (<code>list</code>, <code>eject</code>) — flashing and safely ejecting the SD card.</li>
+<li><code>ipconfig getifaddr</code> &#x2F; <code>arp -d</code> — diagnosing the subnet and a stale ARP cache entry.</li>
+</ol>
 <h2 id="Closing-Thoughts"><a href="#Closing-Thoughts" class="headerlink" title="Closing Thoughts"></a>Closing Thoughts</h2><p>Working through this with Claude Code turned out to be less about writing any code and more about narrowing down which layer a failure lived in (router, macOS, or the Pi itself) one symptom at a time. The Pi Zero W I bought to practice SSH now quietly mirrors this very blog on my home network, and every step of getting there taught me more about my own laptop than about the Pi.</p>
 
   </div>
