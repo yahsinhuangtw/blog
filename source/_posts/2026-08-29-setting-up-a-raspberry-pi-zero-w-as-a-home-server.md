@@ -56,6 +56,31 @@ I decided that publishing this very post would be the real test, since it means 
 
 The first time it loaded, I was surprised by how fast it was for a device this weak. But there's no dynamic work happening on the Pi at all. Hexo already rendered every page into static HTML during the GitHub Actions build. nginx's only job is reading files off the SD card and streaming bytes over WiFi, which is almost entirely I/O, not computation. It's cheap work on cheap hardware, over a LAN with almost no latency, and that combination is what makes it feel instant.
 
+## Commands I Used
+
+A running list of the commands that did most of the work, mostly typed straight into the SSH session on the Pi. `ssh-keygen`, `diskutil`, `ipconfig getifaddr`, and `arp -d` are the exceptions, those ran on the Mac side rather than the Pi itself, but they were part of the same troubleshooting loop so they made the list too.
+
+1. `ssh` — the whole point of the exercise, connecting to the Pi headlessly.
+2. `ping` — first-line network reachability test.
+3. `git` (`clone`, `pull`, `log`, `add`, `commit`, `push`) — the publish pipeline on both ends.
+4. `sudo apt update && sudo apt install` — installed nginx and git on the Pi.
+5. `systemctl` (`status`, `restart`, `enable`) — managed the nginx service.
+6. `crontab -e` / `crontab -l` — scheduled and verified the hourly pull job.
+7. `curl` — smoke-tested nginx was actually serving content.
+8. `journalctl -u cron` — confirmed cron was firing on schedule.
+9. `ssh-keygen` — generated the dedicated keypair for public-key auth.
+10. `sudo shutdown -h now` — cleanly powered the Pi off at the end.
+11. `mkdir -p` / `chown` — set up `/var/www/blog` with the right ownership.
+12. `ln -s` / `rm -f` — enabled the nginx site config, removed the default one.
+13. `nginx -t` — tested the config before restarting.
+14. `nano` — edited files directly on the Pi, like the nginx config and crontab.
+15. `tail` — checked the pull log after each cron run.
+16. `cat` — quick file reads, like `/etc/os-release`.
+17. `scp` — pulled a test photo back from the Pi to the Mac.
+18. `rpicam-hello` / `rpicam-still` — checked and used the camera.
+19. `diskutil` (`list`, `eject`) — flashing and safely ejecting the SD card.
+20. `ipconfig getifaddr` / `arp -d` — diagnosing the subnet and a stale ARP cache entry.
+
 ## Closing Thoughts
 
 Working through this with Claude Code turned out to be less about writing any code and more about narrowing down which layer a failure lived in (router, macOS, or the Pi itself) one symptom at a time. The Pi Zero W I bought to practice SSH now quietly mirrors this very blog on my home network, and every step of getting there taught me more about my own laptop than about the Pi.
