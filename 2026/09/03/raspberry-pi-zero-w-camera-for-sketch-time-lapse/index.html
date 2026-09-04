@@ -15,7 +15,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="http://yahsin.me/images/snoopy_white_hat.jpeg">
 <meta property="article:published_time" content="2026-09-03T15:00:00.000Z">
-<meta property="article:modified_time" content="2026-09-04T09:09:52.052Z">
+<meta property="article:modified_time" content="2026-09-04T14:51:29.862Z">
 <meta property="article:author" content="Yahsin Huang">
 <meta property="article:tag" content="Camera">
 <meta property="article:tag" content="Raspberry Pi">
@@ -120,7 +120,7 @@
 
   <div class="content" itemprop="articleBody">
     <p>A follow-up to my <a href="/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/">Raspberry Pi Zero W home server post</a>, this time putting the camera module to use. The goal was to capture a time-lapse of a sketching session, starting from a blank sheet of ARCHES Aquarelle cold-pressed watercolor paper (300 g&#x2F;m² &#x2F; 140 lb, 18 x 26 cm &#x2F; 7 x 10 in) and working toward a bicycle I’d spotted in a magazine. The clip stops mid-drawing rather than on a finished piece, but by the end it’s clearly recognizable as a bicycle. My tools were a Faber-Castell 2B Pitt Graphite Matt pencil for the initial lines, followed by a Faber-Castell Ecco Pigment 0.3 pen.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wlc_IRF1jRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-wrapper"><iframe src="https://www.youtube.com/embed/Wlc_IRF1jRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <h2 id="A-Locale-Detour"><a href="#A-Locale-Detour" class="headerlink" title="A Locale Detour"></a>A Locale Detour</h2><p>Before any of the camera work, SSH-ing into the Pi threw a wall of <code>perl: warning: Setting locale failed</code> errors, left over from a <code>dpkg-reconfigure locales</code> run during the initial board setup. The cause was my Mac’s Terminal forwarding an <code>LC_CTYPE=UTF-8</code> environment variable over SSH. That isn’t a real locale name, just a macOS quirk. I fixed it on the Pi by commenting out the <code>AcceptEnv</code> line in <code>/etc/ssh/sshd_config</code>, so the SSH server stops accepting the forwarded <code>LC_*</code> variables.</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#AcceptEnv LANG LC_* COLORTERM NO_COLOR</span><br></pre></td></tr></table></figure>
