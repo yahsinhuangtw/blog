@@ -10,7 +10,11 @@ tags:
 date: 2026-09-03 15:00:00
 ---
 
-A follow-up to my [Raspberry Pi Zero W home server post](/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/), this time putting the camera module to use. The goal was to capture a time-lapse of a sketching session, starting from a blank sheet of ARCHES Aquarelle cold-pressed watercolor paper (300 g/m² / 140 lb, 18 x 26 cm / 7 x 10 in) and working toward a bicycle I'd spotted in a magazine. The clip stops mid-drawing rather than on a finished piece, but by the end it's clearly recognizable as a bicycle. My tools were a Faber-Castell 2B Pitt Graphite Matt pencil for the initial lines, followed by a Faber-Castell Ecco Pigment 0.3 pen.
+A follow-up to my [Raspberry Pi Zero W home server post](/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/), this time putting the camera module to use. 
+
+<figure><img src="{% asset_path pizerow_camv2.webp %}" loading="lazy" decoding="async" /><figcaption></figcaption></figure>
+
+The goal was to capture a time-lapse of a sketching session, starting from a blank sheet of ARCHES Aquarelle cold-pressed watercolor paper (300 g/m² / 140 lb, 18 x 26 cm / 7 x 10 in) and working toward a bicycle I'd spotted in a magazine. The clip stops mid-drawing rather than on a finished piece, but by the end it's clearly recognizable as a bicycle. My tools were a Faber-Castell 2B Pitt Graphite Matt pencil for the initial lines, followed by a Faber-Castell Ecco Pigment 0.3 pen.
 
 <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/Wlc_IRF1jRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
@@ -21,6 +25,7 @@ Before any of the camera work, SSH-ing into the Pi threw a wall of `perl: warnin
 ```
 #AcceptEnv LANG LC_* COLORTERM NO_COLOR
 ```
+<figure><img src="{% asset_path pizerowb.webp %}" loading="lazy" decoding="async" /><figcaption></figcaption></figure>
 
 ## The Plan
 
