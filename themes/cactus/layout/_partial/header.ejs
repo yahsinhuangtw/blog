@@ -10,6 +10,7 @@
         <a href="#"><i class="fas fa-bars fa-2x"></i></a>
       </li>
       <li><a href="<%- url_for('/') %>"<%= is_home() ? ' class="active"' : '' %>>Index</a></li>
+      <li><a href="<%- url_for('/slides/') %>"<%- page.path && page.path.indexOf('slides') === 0 ? ' class="active"' : '' %>>Slides</a></li>
       <li><a href="<%- url_for('/archives/') %>"<%= is_archive() ? ' class="active"' : '' %>>Archive</a></li>
       <li><a href="<%- url_for('/about/') %>"<%= page.path && page.path.indexOf('about') !== -1 ? ' class="active"' : '' %>>About</a></li>
     </ul>
