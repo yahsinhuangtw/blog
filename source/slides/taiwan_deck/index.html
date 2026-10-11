@@ -1,7 +1,16 @@
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Taiwan's Economy in a Global Context</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 <style>
+#stage *{box-sizing:border-box}
+#stage :is(h1,h2,h3,h4,p,ul,ol,figure,blockquote){margin:0}
+#stage table{border-collapse:collapse}
+#stage :where(td,th){padding:10px 16px;text-align:left}
+#stage x-shape{display:block;flex:none}
+#stage x-shape[kind=arrow-right]{clip-path:polygon(0 30%,60% 30%,60% 0,100% 50%,60% 100%,60% 70%,0 70%)}
+#stage x-icon{display:inline-flex;align-items:center;justify-content:center;flex:none}
+#stage x-icon>i{font-size:inherit;line-height:1}
 html,body{margin:0;height:100%;background:#000;overflow:hidden}
 #stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
 #stage>section{position:absolute;inset:0;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;display:none!important}
@@ -309,5 +318,6 @@ addEventListener('keydown',e=>{
 addEventListener('click',e=>show(e.clientX<innerWidth/3?i-1:i+1));
 let tx=null;addEventListener('touchstart',e=>tx=e.touches[0].clientX);
 addEventListener('touchend',e=>{if(tx===null)return;const d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50)show(d<0?i+1:i-1);tx=null});
+document.querySelectorAll('x-icon').forEach(e=>{const n=e.getAttribute('name').replace(/([a-z0-9])([A-Z])/g,'$1-$2').toLowerCase();e.style.fontSize=e.style.width||'48px';e.innerHTML='<i class="ph ph-'+n+'"></i>'});
 fit();show(i);setTimeout(()=>hint.style.display='none',5000);
 </script></body></html>
