@@ -1,0 +1,269 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Petros Commons: NGO Setup in Taiwan</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300..700&amp;display=swap">
+<style>
+html,body{margin:0;height:100%;background:#000;overflow:hidden}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
+#stage>section{position:absolute;inset:0;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;display:none!important}
+#stage>section.on{display:flex!important}
+#stage aside{display:none}
+#hint{position:fixed;right:12px;bottom:8px;color:#888;font:12px sans-serif;opacity:.7}
+</style></head><body>
+<div id="stage"><section id="cover" data-transition="fade" style="background:#1E2A32;color:#F5F2EA;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:center;gap:32px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#E3A27F">Development and NGO Management</p>
+<h1 style="font-family:'Libre Baskerville',Georgia,serif;font-size:120px;font-weight:700;line-height:1.1;color:#F5F2EA">Petros Commons</h1>
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:400;line-height:1.15;color:#E3A27F">Setting up an NGO in Taiwan</h2>
+<div style="width:120px;height:6px;background:#E3A27F"></div>
+<p style="font-size:36px;font-style:italic;color:#B9C2C6">The Rock Beneath the Code Shouldn’t Stand Alone</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#B9C2C6">Yahsin Huang (Louise) · Research notes, not legal advice</p>
+<aside>Petros Commons is a hypothetical NGO. This deck walks through the process of setting it up in Taiwan, based on the vision statement and the legal-form research notes (statute text retrieved 2026-10-11).</aside>
+</section>
+
+<section id="vision" data-transition="fade" style="background:#F5F2EA;color:#1E2A32;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:700;line-height:1.15;color:#1E2A32">What is being set up</h2>
+<p style="font-size:36px;line-height:1.4;color:#1E2A32">Petros Commons makes the EU Cyber Resilience Act work for the independent open-source maintainers that large foundations do not reach.</p>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FBF9F4;padding:40px;border:1px solid #D9D3C5;border-radius:16px">
+<x-icon name="Book" style="color:#B04A28;width:56px;height:56px"></x-icon>
+<h3 style="font-size:36px;font-weight:600;color:#1E2A32">Guidance</h3>
+<p style="font-size:28px;line-height:1.4;color:#55606A">Plain-language CRA compliance steps for solo and small-team maintainers.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FBF9F4;padding:40px;border:1px solid #D9D3C5;border-radius:16px">
+<x-icon name="Users" style="color:#B04A28;width:56px;height:56px"></x-icon>
+<h3 style="font-size:36px;font-weight:600;color:#1E2A32">Connection</h3>
+<p style="font-size:28px;line-height:1.4;color:#55606A">Peer matching that pairs isolated maintainers with vetted co-maintainers.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FBF9F4;padding:40px;border:1px solid #D9D3C5;border-radius:16px">
+<x-icon name="Lightning" style="color:#B04A28;width:56px;height:56px"></x-icon>
+<h3 style="font-size:36px;font-weight:600;color:#1E2A32">Funding</h3>
+<p style="font-size:28px;line-height:1.4;color:#55606A">Links to sovereign tech funds and corporate sponsorship pools.</p>
+</div>
+</div>
+<p style="font-size:36px;font-weight:600;line-height:1.3;color:#B04A28">The legal question: which Taiwanese entity can carry this mission?</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#5A646C">Petros Commons · NGO setup in Taiwan</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;text-align:right;font-size:24px;color:#5A646C">2</p>
+<aside>The vision statement rests on three pillars: guidance, connection and funding. The mission is European in focus, but the founder is a Taiwan citizen, so the first practical question is which legal form in Taiwan fits.</aside>
+</section>
+
+<section id="forms" data-transition="fade" style="background:#F5F2EA;color:#1E2A32;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:700;line-height:1.15;color:#1E2A32">Three legal forms compared</h2>
+<table style="width:100%;font-size:26px;color:#1E2A32">
+<tr style="background:#1E2A32"><th style="width:18%;color:#F5F2EA;text-align:left">&nbsp;</th><th style="width:28%;color:#F5F2EA;text-align:left">Local association 社團法人</th><th style="width:28%;color:#F5F2EA;text-align:left">Foundation 財團法人</th><th style="width:26%;color:#F5F2EA;text-align:left">Company 有限公司</th></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">Founders</td><td>30 or more adults</td><td>Donor with a charter and assets</td><td>1 or more shareholders</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">Money</td><td>No endowment in statute</td><td>Endowment, minimum set by ministry</td><td>Capital paid in full</td></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">Approval</td><td>Permission, then registration</td><td>Permission, then court registration</td><td>Company registration</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">Tax exemption</td><td>Possible, under Executive Yuan standards</td><td>Possible, under the same standards</td><td>No, profit-making</td></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">Fundraising</td><td>Yes, if public-interest, with permission</td><td>Yes, with permission</td><td>No</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">Setup time</td><td>About 3 to 6 months</td><td>About 6 to 12 months or more</td><td>About 1 to 4 weeks</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#5A646C">Setup times are practical estimates, not statutory. Confirm with the authority.</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;text-align:right;font-size:24px;color:#5A646C">3</p>
+<aside>Legal facts come from the Civil Associations Act, Foundations Act, Company Act, Income Tax Act and Public Interest Fundraising Act. The setup times are estimates, not law. A religious group is not suitable: it is only for genuinely religious activity and is excluded from the fundraising law.</aside>
+</section>
+
+<section id="decision" data-transition="fade" style="display:flex; flex-direction:column; gap:48px; padding:128px 128px 160px; background:#f5f2ea">
+  <h2 style="font-family:'Libre Baskerville', Georgia, serif; font-size:64px; font-weight:700; line-height:1.15; color:#1e2a32">Choosing the form</h2>
+  <div style="display:flex; flex-direction:column; gap:24px">
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; padding:32px 40px; background:#fbf9f4; border:1px solid #d9d3c5; border-radius:16px">
+      <div style="display:flex; flex-direction:column; gap:8px; flex:1">
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:24px; font-weight:600; color:#b04a28">Question 1</p>
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:36px; font-weight:600; line-height:1.2; color:#1e2a32">Is tax exemption needed?</p>
+      </div>
+      <x-shape kind="arrow-right" style="width:96px; height:48px; background:#b04a28"></x-shape>
+      <p style="width:600px; font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#1e2a32"><b>If no:</b> a company 有限公司, for paid work only.</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; padding:32px 40px; background:#fbf9f4; border:1px solid #d9d3c5; border-radius:16px">
+      <div style="display:flex; flex-direction:column; gap:8px; flex:1">
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:24px; font-weight:600; color:#b04a28">Question 2</p>
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:36px; font-weight:600; line-height:1.2; color:#1e2a32">Can an endowment be funded?</p>
+      </div>
+      <x-shape kind="arrow-right" style="width:96px; height:48px; background:#b04a28"></x-shape>
+      <p style="width:600px; font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#1e2a32"><b>If yes:</b> a foundation 財團法人.</p>
+    </div>
+    <div style="display:flex; flex-direction:row; gap:40px; align-items:center; padding:32px 40px; background:#fbf9f4; border:1px solid #d9d3c5; border-radius:16px">
+      <div style="display:flex; flex-direction:column; gap:8px; flex:1">
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:24px; font-weight:600; color:#b04a28">Question 3</p>
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:36px; font-weight:600; line-height:1.2; color:#1e2a32">Are 30 adult founders ready?</p>
+      </div>
+      <x-shape kind="arrow-right" style="width:96px; height:48px; background:#b04a28"></x-shape>
+      <p style="width:600px; font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#1e2a32"><b>If yes:</b> a local association 社團法人. <b>If no:</b> build the community first, or use a fiscal sponsor 靠行.</p>
+    </div>
+  </div>
+  <p style="position:absolute; bottom:64px; left:128px; width:1400px; font-family:'Public Sans', Arial, sans-serif; font-size:24px; color:#5a646c">Questions 2 and 3 apply when tax exemption is needed.</p>
+  <p style="position:absolute; right:128px; bottom:64px; width:200px; font-family:'Public Sans', Arial, sans-serif; font-size:24px; text-align:right; color:#5a646c">4</p>
+  <aside>Walk through the decision chart. The founder has no large endowment, so a foundation is out. Thirty founders is the real gate for an association; until then, a fiscal sponsor (靠行) means an existing public-benefit body hosts the project.</aside>
+</section>
+
+<section id="structure" data-transition="fade" style="display:flex; flex-direction:column; gap:48px; padding:128px 128px 160px; background:#1e2a32">
+  <h2 style="font-family:'Libre Baskerville', Georgia, serif; font-size:64px; font-weight:700; line-height:1.15; color:#f5f2ea">Possible Structure</h2>
+  <p style="font-family:'Public Sans', Arial, sans-serif; font-size:36px; line-height:1.4; color:#e3a27f">A local association carries the mission. An optional company beside it carries paid work.</p>
+  <div style="display:flex; flex-direction:row; gap:32px">
+    <div style="display:flex; flex-direction:column; gap:20px; flex:1; padding:40px; background:#2a3943; border:1px solid #44545f; border-radius:16px">
+      <h3 style="font-family:'Public Sans', Arial, sans-serif; font-size:36px; font-weight:600; color:#f5f2ea">Local association 社團法人</h3>
+      <ul style="font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#d5dcdf">
+        <li>Community, grants and donations</li>
+        <li>30 or more adult founders</li>
+        <li>Tax-exempt potential</li>
+        <li>Public fundraising with permission</li>
+      </ul>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:20px; flex:1; padding:40px; background:#2a3943; border:1px solid #44545f; border-radius:16px">
+      <h3 style="font-family:'Public Sans', Arial, sans-serif; font-size:36px; font-weight:600; color:#f5f2ea">Company 有限公司, optional</h3>
+      <ul style="font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#d5dcdf">
+        <li>Paid training and consulting</li>
+        <li>1 or more shareholders, 1 to 3 directors</li>
+        <li>Capital paid in full</li>
+        <li>Not tax-exempt, because it is profit-making</li>
+      </ul>
+    </div>
+  </div>
+  <p style="position:absolute; bottom:64px; left:128px; width:1400px; font-family:'Public Sans', Arial, sans-serif; font-size:24px; color:#b9c2c6">An association may also charge fees within its charter purpose. To be confirmed.</p>
+  <p style="position:absolute; right:128px; bottom:64px; width:200px; font-family:'Public Sans', Arial, sans-serif; font-size:24px; text-align:right; color:#b9c2c6">5</p>
+  <aside>Recommended path from the research notes: build a community, gather 30 founders, then register a county or city level association. A small limited company can run beside it if paid work grows. How an association taxes a revenue-generating arm is still an open question.</aside>
+</section>
+
+<section id="steps" data-transition="fade" style="background:#F5F2EA;color:#1E2A32;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:700;line-height:1.15;color:#1E2A32">Seven steps for a local association</h2>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px">
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px;border:1px solid #D9D3C5;border-radius:16px">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#B04A28">1</p>
+<h3 style="font-size:28px;font-weight:600;color:#1E2A32">Find founders</h3>
+<p style="font-size:24px;line-height:1.4;color:#55606A">30 adults, aged 18 or older.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px;border:1px solid #D9D3C5;border-radius:16px">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#B04A28">2</p>
+<h3 style="font-size:28px;font-weight:600;color:#1E2A32">Apply for permission</h3>
+<p style="font-size:24px;line-height:1.4;color:#55606A">Application, draft charter and founders’ list.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px;border:1px solid #D9D3C5;border-radius:16px">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#B04A28">3</p>
+<h3 style="font-size:28px;font-weight:600;color:#1E2A32">Organize</h3>
+<p style="font-size:24px;line-height:1.4;color:#55606A">Preparatory committee, then the inaugural meeting.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px;border:1px solid #D9D3C5;border-radius:16px">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#B04A28">4</p>
+<h3 style="font-size:28px;font-weight:600;color:#1E2A32">Register</h3>
+<p style="font-size:24px;line-height:1.4;color:#55606A">Within 30 days of the inaugural meeting.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px;border:1px solid #D9D3C5;border-radius:16px">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#B04A28">5</p>
+<h3 style="font-size:28px;font-weight:600;color:#1E2A32">Court registration</h3>
+<p style="font-size:24px;line-height:1.4;color:#55606A">Legal-person registration at the district court.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px;border:1px solid #D9D3C5;border-radius:16px">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#B04A28">6</p>
+<h3 style="font-size:28px;font-weight:600;color:#1E2A32">Tax status</h3>
+<p style="font-size:24px;line-height:1.4;color:#55606A">Tax registration and exemption.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px;border:1px solid #D9D3C5;border-radius:16px">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#B04A28">7</p>
+<h3 style="font-size:28px;font-weight:600;color:#1E2A32">Fundraising permit</h3>
+<p style="font-size:24px;line-height:1.4;color:#55606A">Only if soliciting the public.</p>
+</div>
+<div style="display:flex;flex-direction:column;justify-content:center;gap:8px;background:#1E2A32;padding:32px;border-radius:16px">
+<p style="font-size:24px;font-weight:600;color:#E3A27F">Main sources</p>
+<p style="font-size:24px;line-height:1.4;color:#D5DCDF">Civil Associations Act Art. 8 to 11, Civil Code Art. 30 and 46</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#5A646C">Petros Commons · NGO setup in Taiwan</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;text-align:right;font-size:24px;color:#5A646C">6</p>
+<aside>The overview of the whole route. Steps 1 to 3 are about getting permission to organize, steps 4 to 7 are about becoming a registered legal person with tax and fundraising status. The next two slides give the legal basis for each step.</aside>
+</section>
+
+<section id="permission" data-transition="fade" style="background:#F5F2EA;color:#1E2A32;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:700;line-height:1.15;color:#1E2A32">Steps 1 to 3: permission to organize</h2>
+<table style="width:100%;font-size:28px;color:#1E2A32">
+<tr style="background:#1E2A32"><th style="width:18%;color:#F5F2EA;text-align:left">Step</th><th style="width:54%;color:#F5F2EA;text-align:left">What happens</th><th style="width:28%;color:#F5F2EA;text-align:left">Basis</th></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">1 Founders</td><td>At least 30 adults, none with the listed disqualifications.</td><td>Civil Associations Act Art. 8; Civil Code Art. 12</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">2 Permission</td><td>Submit the application, draft charter and founders’ list to the city or county government.</td><td>Art. 3, 8, 12</td></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">3 Organizing</td><td>Founders’ meeting, preparatory committee, inaugural meeting, with notice to the authority.</td><td>Art. 9</td></tr>
+</table>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FBF9F4;padding:32px 40px;border-left:8px solid #B04A28">
+<p style="font-size:24px;font-weight:600;color:#B04A28">To settle early</p>
+<p style="font-size:28px;line-height:1.4;color:#1E2A32">The charter must state the organizational area (Art. 12), which is where “local” scope is declared. The mission is European, so the wording of the area and purpose matters.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#5A646C">Petros Commons · NGO setup in Taiwan</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;text-align:right;font-size:24px;color:#5A646C">7</p>
+<aside>Founders must be 18 or older under Civil Code Art. 12. The charter must state name, purpose, organizational area, seat, tasks and structure. The point about a European mission and a local charter area is my observation, not from the source notes; confirm with the Social Affairs Bureau.</aside>
+</section>
+
+<section id="registration" data-transition="fade" style="background:#F5F2EA;color:#1E2A32;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:700;line-height:1.15;color:#1E2A32">Steps 4 to 7: registration and status</h2>
+<table style="width:100%;font-size:28px;color:#1E2A32">
+<tr style="background:#1E2A32"><th style="width:18%;color:#F5F2EA;text-align:left">Step</th><th style="width:54%;color:#F5F2EA;text-align:left">What happens</th><th style="width:28%;color:#F5F2EA;text-align:left">Basis</th></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">4 Register</td><td>Within 30 days of the inaugural meeting, submit the charter, member list and officer résumés. A certificate is issued.</td><td>Civil Associations Act Art. 10</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">5 Court</td><td>Register as a legal person with the district court, then file a copy within 30 days.</td><td>Art. 11; Civil Code Art. 30, 46</td></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">6 Tax</td><td>Tax registration. Exemption applies if the group meets Executive Yuan standards.</td><td>Income Tax Act Art. 4(13), 11</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">7 Fundraising</td><td>Apply to the local authority. Proceeds go to welfare, education and culture, charity or aid.</td><td>Fundraising Act Art. 5, 7, 8</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#5A646C">Executive Yuan standards and donor deductibility are not yet verified.</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;text-align:right;font-size:24px;color:#5A646C">8</p>
+<aside>A legal person is not formed until it is registered (Civil Code Art. 30), and a public-interest association needs the authority's permission before registration (Art. 46). Only public-interest associations, foundations, public schools and administrative corporations can fundraise publicly. Religious fundraising is outside the Act.</aside>
+</section>
+
+<section id="kaohsiung" data-transition="fade" style="background:#F5F2EA;color:#1E2A32;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:700;line-height:1.15;color:#1E2A32">Kaohsiung Social Affairs Bureau practice</h2>
+<table style="width:100%;font-size:28px;color:#1E2A32">
+<tr style="background:#1E2A32"><th style="width:22%;color:#F5F2EA;text-align:left">Item</th><th style="width:78%;color:#F5F2EA;text-align:left">What the page says</th></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">Founders</td><td>30 or more adults, registered or working in Kaohsiung, spread across at least one third of the city’s districts</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">Documents</td><td>Application, founders’ list, ID copies, district distribution table, draft charter (2 copies each, except ID)</td></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">Proof of work</td><td>Needed from founders who work, but are not registered, in Kaohsiung</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">Review</td><td>Within 60 days, counted from when the file is complete</td></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">Submission</td><td>By post or in person to the 人民團體科</td></tr>
+<tr style="background:#ECE7DA"><td style="font-weight:700">Forms</td><td>Application form and a preparation example, both downloadable</td></tr>
+<tr style="background:#FBF9F4"><td style="font-weight:700">Not stated</td><td>Fees and the preparation deadline</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#5A646C">City practice, not statute. Source: 高雄市政府社會局 人民團體, read 2026-10-11.</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;text-align:right;font-size:24px;color:#5A646C">9</p>
+<aside>Kaohsiung is stricter than a plain 30-founder count: city-level groups need founders spread across at least one third of the city's districts, with a distribution table. The Bureau's 人民團體科 can be reached at 337-3409, 337-3673 or 3344885 ext. 1. For a district-level group, founders must live or work in that district, spread across a third of its villages (里). Founders registered elsewhere but working in Kaohsiung attach proof of workplace. Only this one page has been read; the Ministry of the Interior rules it links are not yet read.</aside>
+</section>
+
+<section id="numbers" data-transition="fade" style="background:#1E2A32;color:#F5F2EA;font-family:'Public Sans','Noto Sans TC',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:64px;font-weight:700;line-height:1.15;color:#F5F2EA">The process in numbers</h2>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;border-top:4px solid #E3A27F;padding:24px 0 0">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:120px;font-weight:700;line-height:1.1;color:#E3A27F">30</p>
+<p style="font-size:28px;font-weight:600;color:#F5F2EA">founders</p>
+<p style="font-size:24px;line-height:1.4;color:#B9C2C6">Adults, 18 or older (Art. 8)</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;border-top:4px solid #E3A27F;padding:24px 0 0">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:120px;font-weight:700;line-height:1.1;color:#E3A27F">⅓</p>
+<p style="font-size:28px;font-weight:600;color:#F5F2EA">of districts</p>
+<p style="font-size:24px;line-height:1.4;color:#B9C2C6">Founders must be spread across this share of the city (Kaohsiung)</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;border-top:4px solid #E3A27F;padding:24px 0 0">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:120px;font-weight:700;line-height:1.1;color:#E3A27F">60</p>
+<p style="font-size:28px;font-weight:600;color:#F5F2EA">days</p>
+<p style="font-size:24px;line-height:1.4;color:#B9C2C6">City review of the permission request (Kaohsiung)</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;border-top:4px solid #E3A27F;padding:24px 0 0">
+<p style="font-family:'Libre Baskerville',Georgia,serif;font-size:120px;font-weight:700;line-height:1.1;color:#E3A27F">30</p>
+<p style="font-size:28px;font-weight:600;color:#F5F2EA">days</p>
+<p style="font-size:24px;line-height:1.4;color:#B9C2C6">To apply for registration after the inaugural meeting (Art. 10)</p>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.4;color:#D5DCDF">In practice about 3 to 6 months is the estimate. Kaohsiung’s page states no deadline for the preparation period.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#B9C2C6">The 3 to 6 month figure is a practical estimate, not statutory.</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;text-align:right;font-size:24px;color:#B9C2C6">10</p>
+<aside>The 60-day review runs from when the application file is complete. Kaohsiung's page does not state the preparation deadline; the earlier research notes recorded 6 months plus up to 3 for Tainan, so ask the Kaohsiung 人民團體科 whether the same applies.</aside>
+</section>
+</div>
+<div id="hint">← → navigate · F fullscreen · Esc exit</div>
+<script>
+const secs=[...document.querySelectorAll('#stage>section')],stage=document.getElementById('stage');
+let i=Math.min(Math.max((parseInt(location.hash.slice(1))||1)-1,0),secs.length-1);
+function show(n){i=Math.min(Math.max(n,0),secs.length-1);secs.forEach((s,k)=>s.classList.toggle('on',k===i));history.replaceState(null,'','#'+(i+1))}
+function fit(){const k=Math.min(innerWidth/1920,innerHeight/1080);
+ stage.style.transform='translate('+(innerWidth-1920*k)/2+'px,'+(innerHeight-1080*k)/2+'px) scale('+k+')'}
+addEventListener('resize',fit);
+addEventListener('keydown',e=>{
+ if(['ArrowRight','ArrowDown','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();show(i+1)}
+ else if(['ArrowLeft','ArrowUp','PageUp','Backspace'].includes(e.key)){e.preventDefault();show(i-1)}
+ else if(e.key==='Home')show(0);else if(e.key==='End')show(secs.length-1);
+ else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}});
+addEventListener('click',e=>show(e.clientX<innerWidth/3?i-1:i+1));
+let tx=null;addEventListener('touchstart',e=>tx=e.touches[0].clientX);
+addEventListener('touchend',e=>{if(tx===null)return;const d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50)show(d<0?i+1:i-1);tx=null});
+fit();show(i);setTimeout(()=>hint.style.display='none',5000);
+</script></body></html>
