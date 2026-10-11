@@ -7,6 +7,7 @@ tags:
   - NSTM
   - Telecommunications
 date: 2026-10-10 12:00:00
+thumbnail: keynote-title-slide.webp
 ---
 
 On a Sunday morning in Kaohsiung, the whole Global Development class taught by Prof. Vincent Rollet, Professor in the Department of International Affairs and the Graduate Institute of European Studies at Wenzao Ursuline University, attended TAIWAN COP6 together as part of our class participation.
