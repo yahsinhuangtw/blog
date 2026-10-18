@@ -12,6 +12,8 @@ thumbnail: poradnik-bezpieczenstwa-booklet.webp
 
 I came across this workshop by chance while browsing some of the Academia Sinica websites the other day. At the time, I was very interested in Poland’s economy and history in general, and I had been chatting with a few Polish people living in Taiwan. So even though I knew very little about war studies or sociology, I still wanted to go and meet this Polish researcher, Artur Kościański, Associate Research Fellow at the Institute of Philosophy and Sociology of the Polish Academy of Sciences. I expected he might talk about something related to Poland, such as its history or grassroots movements, so it didn’t really bother me that the workshop’s main theme was war.
 
+<figure><img src="{% asset_path workshop-poster.webp %}" loading="lazy" decoding="async" /><figcaption>The poster for the international academic workshop “Taiwan and the Sociology of War: From Ideologies to Daily Lives” (台灣與戰爭社會學：從意識形態到日常生活), shown on a display screen at the Institute of Sociology, Academia Sinica. The workshop ran October 15–16, 2026, in Room 802 of the Institute.</figcaption></figure>
+
 I didn’t arrive until the Friday afternoon session (October 16) of the international workshop “Taiwan and the Sociology of War: From Ideology to Everyday Life” at the Institute of Sociology, Academia Sinica, in Nangang, Taipei. That meant I had missed the morning speakers and the whole previous day.
 
 <figure><img src="{% asset_path academia-sinica-north-building.webp %}" loading="lazy" decoding="async" /><figcaption>The North Building at Academia Sinica, seen from outside before going in. The Institute of Sociology is in the South Building right next to it, which shares the same architecture</figcaption></figure>
