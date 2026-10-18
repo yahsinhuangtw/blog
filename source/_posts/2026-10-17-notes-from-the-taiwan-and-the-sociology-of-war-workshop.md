@@ -38,6 +38,10 @@ The value of this map is that it breaks “preparedness” down into distinct cu
 
 <figure><img src="{% asset_path poradnik-bezpieczenstwa-booklet.webp %}" loading="lazy" decoding="async" /><figcaption>The Poradnik bezpieczeństwa (Safety Guide), a 2025 Polish government booklet on preparing for emergencies and crises</figcaption></figure>
 
+<figure><img src="{% asset_path poradnik-bezpieczenstwa-first-page.webp %}" loading="lazy" decoding="async" /><figcaption>Inside the booklet: the list of emergency phone numbers (112, 999, 998, 997 and others) and the opening page, “Twoje przygotowanie ma znaczenie” (“Your preparation matters”)</figcaption></figure>
+
+<figure><img src="{% asset_path poradnik-bezpieczenstwa-crowds-and-shelters.webp %}" loading="lazy" decoding="async" /><figcaption>Pages 24–25 of the booklet: “Bezpieczeństwo w tłumie” (Safety in a crowd) and “Schronienia” (Shelters), including the graphic sign that marks a designated shelter</figcaption></figure>
+
 After Artur Kościański’s presentation, I took a look at the booklet in the photo above, the Poradnik bezpieczeństwa (Safety Guide). It is an official Polish government publication from 2025 that helps people prepare for emergencies and crises.
 
 He also told me about mObywatel (mCitizen), the Polish e-government mobile app, which Polish people can use for their digital identity documents, such as their driver’s license. He briefly mentioned Liga Obrony Kraju (LOK, the League of National Defence), the fact that people in Poland can buy guns for self-defence and to protect their families, and volunteer firefighter groups in Poland (unfortunately, I didn’t catch their Polish name). The insights and information he shared with me were genuinely valuable.
