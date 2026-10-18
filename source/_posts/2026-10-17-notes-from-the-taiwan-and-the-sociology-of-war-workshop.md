@@ -18,6 +18,8 @@ I didn’t arrive until the Friday afternoon session (October 16) of the interna
 
 <figure><img src="{% asset_path academia-sinica-north-building.webp %}" loading="lazy" decoding="async" /><figcaption>The North Building at Academia Sinica, seen from outside before going in. The Institute of Sociology is in the South Building right next to it, which shares the same architecture</figcaption></figure>
 
+<figure><img src="{% asset_path conference-room-entering.webp %}" loading="lazy" decoding="async" /><figcaption>Walking into the conference room around 1 PM on October 16, just before the afternoon session began</figcaption></figure>
+
 This post covers two contributions from the afternoon. The first is Artur Kościański’s talk on war preparedness culture and social resilience in Poland and Taiwan. The second is Po-Yi Hung’s response to Hsiu-hua Shen’s paper on the Kinmen–Xiamen maritime border.
 
 <figure><img src="{% asset_path workshop-late-afternoon-panel.webp %}" loading="lazy" decoding="async" /><figcaption>The late-afternoon panel at the Institute of Sociology, Academia Sinica. Smiling with the microphone is 楊尚儒 (Shang-Ju Yang), Associate Professor at the Institute of Political Science, National Sun Yat-sen University. Beside him sits the panel chair, 張茂桂 (Mau-kuei Chang), Adjunct Research Fellow at the Institute of Sociology, Academia Sinica. Doctoral student 林明緯 (Ming-Wei Lin) of the Department of Sociology, National Taiwan University, also spoke on the panel.</figcaption></figure>
