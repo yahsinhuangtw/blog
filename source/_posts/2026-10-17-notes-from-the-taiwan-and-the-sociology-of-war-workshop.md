@@ -14,6 +14,8 @@ I came across this workshop by chance while browsing some of the Academia Sinica
 
 I didn’t arrive until the Friday afternoon session (October 16) of the international workshop “Taiwan and the Sociology of War: From Ideology to Everyday Life” at the Institute of Sociology, Academia Sinica, in Nangang, Taipei. That meant I had missed the morning speakers and the whole previous day.
 
+<figure><img src="{% asset_path academia-sinica-north-building.webp %}" loading="lazy" decoding="async" /><figcaption>The North Building at Academia Sinica, seen from outside before going in. The Institute of Sociology is in the South Building right next to it, which shares the same architecture</figcaption></figure>
+
 This post covers two contributions from the afternoon. The first is Artur Kościański’s talk on war preparedness culture and social resilience in Poland and Taiwan. The second is Po-Yi Hung’s response to Hsiu-hua Shen’s paper on the Kinmen–Xiamen maritime border.
 
 <figure><img src="{% asset_path workshop-late-afternoon-panel.webp %}" loading="lazy" decoding="async" /><figcaption>The late-afternoon panel at the Institute of Sociology, Academia Sinica. Smiling with the microphone is 楊尚儒 (Shang-Ju Yang), Associate Professor at the Institute of Political Science, National Sun Yat-sen University. Beside him sits the panel chair, 張茂桂 (Mau-kuei Chang), Adjunct Research Fellow at the Institute of Sociology, Academia Sinica. Doctoral student 林明緯 (Ming-Wei Lin) of the Department of Sociology, National Taiwan University, also spoke on the panel.</figcaption></figure>
@@ -21,6 +23,8 @@ This post covers two contributions from the afternoon. The first is Artur Kości
 ## Poland: resilience built from below
 
 Artur Kościański, Associate Research Fellow at the Institute of Philosophy and Sociology of the Polish Academy of Sciences (IFiS PAN), presented “War Preparedness Culture and Social Resilience in Poland and Taiwan: A Comparative Perspective.” His central claim was that Poland’s resilience is not only a state project. Much of it is being built by civil society, and his research sets out to map that work. The state does play a part, but in his account, the more interesting story is the range of civic organizations that prepare people for crises in very different ways. He walked through three of them.
+
+<figure><img src="{% asset_path koscianski-standing-at-desk.webp %}" loading="lazy" decoding="async" /><figcaption>Artur Kościański standing up at the speaker desk to get the Poradnik bezpieczeństwa (Safety Guide)</figcaption></figure>
 
 <figure><img src="{% asset_path koscianski-presenting.webp %}" loading="lazy" decoding="async" /><figcaption>Artur Kościański presenting at the workshop, holding up the Poradnik bezpieczeństwa (Safety Guide)</figcaption></figure>
 
