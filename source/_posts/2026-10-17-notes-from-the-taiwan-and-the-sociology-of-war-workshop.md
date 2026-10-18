@@ -42,6 +42,8 @@ Sokół began as a gymnastics and physical education movement rooted in patrioti
 
 The value of this map is that it breaks “preparedness” down into distinct cultures. Skills, values, and civic responsibility are different routes to resilience, and each implies a different relationship between citizens and the state. This is the comparison Kościański brought to Taiwan, where similar debates about civil defense and whole-of-society resilience are underway.
 
+<figure><img src="{% asset_path two-pathways-slide.webp %}" loading="lazy" decoding="async" /><figcaption>Slide 12 of Kościański’s presentation, “Two pathways to civic preparedness,” which he considered probably the most important slide of the talk. It compares Poland and Taiwan on threat framing, civic language, organizational logic and key resource, with organized civic agency as the common mechanism in both.</figcaption></figure>
+
 ### Talking with Kościański afterwards
 
 <figure><img src="{% asset_path poradnik-bezpieczenstwa-booklet.webp %}" loading="lazy" decoding="async" /><figcaption>The Poradnik bezpieczeństwa (Safety Guide), a 2025 Polish government booklet on preparing for emergencies and crises</figcaption></figure>
