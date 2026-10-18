@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "8.1.1"
+    "version": "8.1.2"
   },
   "scripts": {
     "add-image": "node tools/add-images.js"
