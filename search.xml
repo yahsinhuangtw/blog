@@ -99,11 +99,11 @@
             
             <tag> Claude </tag>
             
-            <tag> Linux </tag>
-            
             <tag> Raspberry Pi </tag>
             
             <tag> SSH </tag>
+            
+            <tag> Linux </tag>
             
             <tag> Networking </tag>
             
@@ -201,13 +201,13 @@
       
         <tags>
             
+            <tag> Linux </tag>
+            
             <tag> COSCUP </tag>
             
             <tag> Open Source </tag>
             
             <tag> Firmware </tag>
-            
-            <tag> Linux </tag>
             
             <tag> NixOS </tag>
             

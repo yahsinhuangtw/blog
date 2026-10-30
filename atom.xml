@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Yahsin Huang</title>
-  <icon>http://yahsin.me/images/logo.png</icon>
+  <icon>https://yahsin.me/images/logo.png</icon>
   
-  <link href="http://yahsin.me/atom.xml" rel="self"/>
+  <link href="https://yahsin.me/atom.xml" rel="self"/>
   
-  <link href="http://yahsin.me/"/>
-  <updated>2026-10-18T15:09:45.139Z</updated>
-  <id>http://yahsin.me/</id>
+  <link href="https://yahsin.me/"/>
+  <updated>2026-10-30T14:57:57.035Z</updated>
+  <id>https://yahsin.me/</id>
   
   <author>
     <name>Yahsin Huang</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Notes from the Taiwan and the Sociology of War Workshop</title>
-    <link href="http://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/"/>
-    <id>http://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/</id>
+    <link href="https://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/"/>
+    <id>https://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/</id>
     <published>2026-10-17T12:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.139Z</updated>
+    <updated>2026-10-30T14:57:57.035Z</updated>
     
     
       
@@ -35,24 +35,24 @@
     
     
     
-    <category term="Academia Sinica" scheme="http://yahsin.me/tags/Academia-Sinica/"/>
+    <category term="Academia Sinica" scheme="https://yahsin.me/tags/Academia-Sinica/"/>
     
-    <category term="Sociology of War" scheme="http://yahsin.me/tags/Sociology-of-War/"/>
+    <category term="Sociology of War" scheme="https://yahsin.me/tags/Sociology-of-War/"/>
     
-    <category term="Poland" scheme="http://yahsin.me/tags/Poland/"/>
+    <category term="Poland" scheme="https://yahsin.me/tags/Poland/"/>
     
-    <category term="Kinmen" scheme="http://yahsin.me/tags/Kinmen/"/>
+    <category term="Kinmen" scheme="https://yahsin.me/tags/Kinmen/"/>
     
-    <category term="Resilience" scheme="http://yahsin.me/tags/Resilience/"/>
+    <category term="Resilience" scheme="https://yahsin.me/tags/Resilience/"/>
     
   </entry>
   
   <entry>
     <title>Blue Resilience in Kaohsiung: Ocean Conservation at COP6 and Telecom Development at NSTM</title>
-    <link href="http://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/"/>
-    <id>http://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/</id>
+    <link href="https://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/"/>
+    <id>https://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/</id>
     <published>2026-10-10T12:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.137Z</updated>
+    <updated>2026-10-30T14:57:57.033Z</updated>
     
     
       
@@ -67,24 +67,24 @@
     
     
     
-    <category term="Kaohsiung" scheme="http://yahsin.me/tags/Kaohsiung/"/>
+    <category term="Kaohsiung" scheme="https://yahsin.me/tags/Kaohsiung/"/>
     
-    <category term="COP6" scheme="http://yahsin.me/tags/COP6/"/>
+    <category term="COP6" scheme="https://yahsin.me/tags/COP6/"/>
     
-    <category term="Ocean Conservation" scheme="http://yahsin.me/tags/Ocean-Conservation/"/>
+    <category term="Ocean Conservation" scheme="https://yahsin.me/tags/Ocean-Conservation/"/>
     
-    <category term="NSTM" scheme="http://yahsin.me/tags/NSTM/"/>
+    <category term="NSTM" scheme="https://yahsin.me/tags/NSTM/"/>
     
-    <category term="Telecommunications" scheme="http://yahsin.me/tags/Telecommunications/"/>
+    <category term="Telecommunications" scheme="https://yahsin.me/tags/Telecommunications/"/>
     
   </entry>
   
   <entry>
     <title>Raspberry Pi Zero W Camera for Sketch Time-Lapse</title>
-    <link href="http://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/"/>
-    <id>http://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/</id>
+    <link href="https://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/"/>
+    <id>https://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/</id>
     <published>2026-09-03T15:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.136Z</updated>
+    <updated>2026-10-30T14:57:57.031Z</updated>
     
     
       
@@ -101,26 +101,26 @@
     
     
     
-    <category term="Raspberry Pi" scheme="http://yahsin.me/tags/Raspberry-Pi/"/>
+    <category term="Raspberry Pi" scheme="https://yahsin.me/tags/Raspberry-Pi/"/>
     
-    <category term="SSH" scheme="http://yahsin.me/tags/SSH/"/>
+    <category term="SSH" scheme="https://yahsin.me/tags/SSH/"/>
     
-    <category term="Camera" scheme="http://yahsin.me/tags/Camera/"/>
+    <category term="Camera" scheme="https://yahsin.me/tags/Camera/"/>
     
-    <category term="Time-Lapse" scheme="http://yahsin.me/tags/Time-Lapse/"/>
+    <category term="Time-Lapse" scheme="https://yahsin.me/tags/Time-Lapse/"/>
     
-    <category term="ffmpeg" scheme="http://yahsin.me/tags/ffmpeg/"/>
+    <category term="ffmpeg" scheme="https://yahsin.me/tags/ffmpeg/"/>
     
-    <category term="Sketching" scheme="http://yahsin.me/tags/Sketching/"/>
+    <category term="Sketching" scheme="https://yahsin.me/tags/Sketching/"/>
     
   </entry>
   
   <entry>
     <title>Setting Up a Raspberry Pi Zero W as a Home Server</title>
-    <link href="http://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/"/>
-    <id>http://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/</id>
+    <link href="https://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/"/>
+    <id>https://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/</id>
     <published>2026-08-29T16:43:18.000Z</published>
-    <updated>2026-10-18T15:09:45.136Z</updated>
+    <updated>2026-10-30T14:57:57.031Z</updated>
     
     
       
@@ -135,24 +135,24 @@
     
     
     
-    <category term="Claude" scheme="http://yahsin.me/tags/Claude/"/>
+    <category term="Claude" scheme="https://yahsin.me/tags/Claude/"/>
     
-    <category term="Linux" scheme="http://yahsin.me/tags/Linux/"/>
+    <category term="Raspberry Pi" scheme="https://yahsin.me/tags/Raspberry-Pi/"/>
     
-    <category term="Raspberry Pi" scheme="http://yahsin.me/tags/Raspberry-Pi/"/>
+    <category term="SSH" scheme="https://yahsin.me/tags/SSH/"/>
     
-    <category term="SSH" scheme="http://yahsin.me/tags/SSH/"/>
+    <category term="Linux" scheme="https://yahsin.me/tags/Linux/"/>
     
-    <category term="Networking" scheme="http://yahsin.me/tags/Networking/"/>
+    <category term="Networking" scheme="https://yahsin.me/tags/Networking/"/>
     
   </entry>
   
   <entry>
     <title>DELF B2 Production Orale : script d&#39;entraînement (l&#39;IA à l&#39;école)</title>
-    <link href="http://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/"/>
-    <id>http://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/</id>
+    <link href="https://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/"/>
+    <id>https://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/</id>
     <published>2026-08-27T13:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.136Z</updated>
+    <updated>2026-10-30T14:57:57.031Z</updated>
     
     
       
@@ -167,26 +167,26 @@
     
     
     
-    <category term="French" scheme="http://yahsin.me/tags/French/"/>
+    <category term="French" scheme="https://yahsin.me/tags/French/"/>
     
-    <category term="DELF" scheme="http://yahsin.me/tags/DELF/"/>
+    <category term="DELF" scheme="https://yahsin.me/tags/DELF/"/>
     
-    <category term="B2" scheme="http://yahsin.me/tags/B2/"/>
+    <category term="B2" scheme="https://yahsin.me/tags/B2/"/>
     
-    <category term="Production Orale" scheme="http://yahsin.me/tags/Production-Orale/"/>
+    <category term="Production Orale" scheme="https://yahsin.me/tags/Production-Orale/"/>
     
-    <category term="IA" scheme="http://yahsin.me/tags/IA/"/>
+    <category term="IA" scheme="https://yahsin.me/tags/IA/"/>
     
-    <category term="l&#39;intelligence artificielle" scheme="http://yahsin.me/tags/l-intelligence-artificielle/"/>
+    <category term="l&#39;intelligence artificielle" scheme="https://yahsin.me/tags/l-intelligence-artificielle/"/>
     
   </entry>
   
   <entry>
     <title>Notes on DELF B2 Production Orale : Présenter le sujet</title>
-    <link href="http://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/"/>
-    <id>http://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/</id>
+    <link href="https://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/"/>
+    <id>https://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/</id>
     <published>2026-08-27T12:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.136Z</updated>
+    <updated>2026-10-30T14:57:57.031Z</updated>
     
     
       
@@ -204,22 +204,22 @@
     
     
     
-    <category term="French" scheme="http://yahsin.me/tags/French/"/>
+    <category term="French" scheme="https://yahsin.me/tags/French/"/>
     
-    <category term="DELF" scheme="http://yahsin.me/tags/DELF/"/>
+    <category term="DELF" scheme="https://yahsin.me/tags/DELF/"/>
     
-    <category term="B2" scheme="http://yahsin.me/tags/B2/"/>
+    <category term="B2" scheme="https://yahsin.me/tags/B2/"/>
     
-    <category term="Production Orale" scheme="http://yahsin.me/tags/Production-Orale/"/>
+    <category term="Production Orale" scheme="https://yahsin.me/tags/Production-Orale/"/>
     
   </entry>
   
   <entry>
     <title>Explaining Ethereum Blockchain to Engineers Unfamiliar with the Technical Aspects of Blockchain</title>
-    <link href="http://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/"/>
-    <id>http://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/</id>
+    <link href="https://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/"/>
+    <id>https://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/</id>
     <published>2026-08-25T00:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.136Z</updated>
+    <updated>2026-10-30T14:57:57.031Z</updated>
     
     
       
@@ -233,20 +233,20 @@
     
     
     
-    <category term="Ethereum" scheme="http://yahsin.me/tags/Ethereum/"/>
+    <category term="Ethereum" scheme="https://yahsin.me/tags/Ethereum/"/>
     
-    <category term="Blockchain" scheme="http://yahsin.me/tags/Blockchain/"/>
+    <category term="Blockchain" scheme="https://yahsin.me/tags/Blockchain/"/>
     
-    <category term="Smart Contracts" scheme="http://yahsin.me/tags/Smart-Contracts/"/>
+    <category term="Smart Contracts" scheme="https://yahsin.me/tags/Smart-Contracts/"/>
     
   </entry>
   
   <entry>
     <title>Open Source Firmware Track at COSCUP</title>
-    <link href="http://yahsin.me/2026/08/13/coscup-2026/"/>
-    <id>http://yahsin.me/2026/08/13/coscup-2026/</id>
+    <link href="https://yahsin.me/2026/08/13/coscup-2026/"/>
+    <id>https://yahsin.me/2026/08/13/coscup-2026/</id>
     <published>2026-08-13T00:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.135Z</updated>
+    <updated>2026-10-30T14:57:57.029Z</updated>
     
     
       
@@ -264,26 +264,26 @@
     
     
     
-    <category term="COSCUP" scheme="http://yahsin.me/tags/COSCUP/"/>
+    <category term="Linux" scheme="https://yahsin.me/tags/Linux/"/>
     
-    <category term="Open Source" scheme="http://yahsin.me/tags/Open-Source/"/>
+    <category term="COSCUP" scheme="https://yahsin.me/tags/COSCUP/"/>
     
-    <category term="Firmware" scheme="http://yahsin.me/tags/Firmware/"/>
+    <category term="Open Source" scheme="https://yahsin.me/tags/Open-Source/"/>
     
-    <category term="Linux" scheme="http://yahsin.me/tags/Linux/"/>
+    <category term="Firmware" scheme="https://yahsin.me/tags/Firmware/"/>
     
-    <category term="NixOS" scheme="http://yahsin.me/tags/NixOS/"/>
+    <category term="NixOS" scheme="https://yahsin.me/tags/NixOS/"/>
     
-    <category term="Framework" scheme="http://yahsin.me/tags/Framework/"/>
+    <category term="Framework" scheme="https://yahsin.me/tags/Framework/"/>
     
   </entry>
   
   <entry>
     <title>Avant que est suivie du subjonctif, et après que est suivie de l&#39;indicatif</title>
-    <link href="http://yahsin.me/2026/04/22/French-avant-que-apres-que/"/>
-    <id>http://yahsin.me/2026/04/22/French-avant-que-apres-que/</id>
+    <link href="https://yahsin.me/2026/04/22/French-avant-que-apres-que/"/>
+    <id>https://yahsin.me/2026/04/22/French-avant-que-apres-que/</id>
     <published>2026-04-22T12:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.135Z</updated>
+    <updated>2026-10-30T14:57:57.029Z</updated>
     
     
       
@@ -299,20 +299,20 @@
     
     
     
-    <category term="French" scheme="http://yahsin.me/tags/French/"/>
+    <category term="French" scheme="https://yahsin.me/tags/French/"/>
     
-    <category term="Grammar" scheme="http://yahsin.me/tags/Grammar/"/>
+    <category term="Grammar" scheme="https://yahsin.me/tags/Grammar/"/>
     
-    <category term="B1" scheme="http://yahsin.me/tags/B1/"/>
+    <category term="B1" scheme="https://yahsin.me/tags/B1/"/>
     
   </entry>
   
   <entry>
     <title>Vaundy 踊り子: Japanese Lyrics Breakdown for Learners</title>
-    <link href="http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/"/>
-    <id>http://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/</id>
+    <link href="https://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/"/>
+    <id>https://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/</id>
     <published>2026-03-27T12:00:00.000Z</published>
-    <updated>2026-10-18T15:09:45.135Z</updated>
+    <updated>2026-10-30T14:57:57.029Z</updated>
     
     
       
@@ -328,22 +328,22 @@
     
     
     
-    <category term="Japanese" scheme="http://yahsin.me/tags/Japanese/"/>
+    <category term="Japanese" scheme="https://yahsin.me/tags/Japanese/"/>
     
-    <category term="Jpop" scheme="http://yahsin.me/tags/Jpop/"/>
+    <category term="Jpop" scheme="https://yahsin.me/tags/Jpop/"/>
     
-    <category term="Songs" scheme="http://yahsin.me/tags/Songs/"/>
+    <category term="Songs" scheme="https://yahsin.me/tags/Songs/"/>
     
-    <category term="Vaundy" scheme="http://yahsin.me/tags/Vaundy/"/>
+    <category term="Vaundy" scheme="https://yahsin.me/tags/Vaundy/"/>
     
   </entry>
   
   <entry>
     <title>Improving My Hexo Blog Workflow with Claude</title>
-    <link href="http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/"/>
-    <id>http://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/</id>
+    <link href="https://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/"/>
+    <id>https://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/</id>
     <published>2026-03-17T14:14:26.000Z</published>
-    <updated>2026-10-18T15:09:45.134Z</updated>
+    <updated>2026-10-30T14:57:57.028Z</updated>
     
     
       
@@ -362,24 +362,24 @@
     
     
     
-    <category term="Hexo" scheme="http://yahsin.me/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://yahsin.me/tags/Hexo/"/>
     
-    <category term="Claude" scheme="http://yahsin.me/tags/Claude/"/>
+    <category term="Claude" scheme="https://yahsin.me/tags/Claude/"/>
     
-    <category term="Workflow" scheme="http://yahsin.me/tags/Workflow/"/>
+    <category term="Workflow" scheme="https://yahsin.me/tags/Workflow/"/>
     
-    <category term="Tools" scheme="http://yahsin.me/tags/Tools/"/>
+    <category term="Tools" scheme="https://yahsin.me/tags/Tools/"/>
     
-    <category term="JavaScript" scheme="http://yahsin.me/tags/JavaScript/"/>
+    <category term="JavaScript" scheme="https://yahsin.me/tags/JavaScript/"/>
     
   </entry>
   
   <entry>
     <title>宇多田ヒカル First Love: Japanese Lyrics Breakdown for Learners</title>
-    <link href="http://yahsin.me/2026/03/16/Jpop-playlist/"/>
-    <id>http://yahsin.me/2026/03/16/Jpop-playlist/</id>
+    <link href="https://yahsin.me/2026/03/16/Jpop-playlist/"/>
+    <id>https://yahsin.me/2026/03/16/Jpop-playlist/</id>
     <published>2026-03-16T15:25:31.000Z</published>
-    <updated>2026-10-18T15:09:45.133Z</updated>
+    <updated>2026-10-30T14:57:57.026Z</updated>
     
     
       
@@ -396,22 +396,22 @@
     
     
     
-    <category term="Japanese" scheme="http://yahsin.me/tags/Japanese/"/>
+    <category term="Japanese" scheme="https://yahsin.me/tags/Japanese/"/>
     
-    <category term="Jpop" scheme="http://yahsin.me/tags/Jpop/"/>
+    <category term="Jpop" scheme="https://yahsin.me/tags/Jpop/"/>
     
-    <category term="Songs" scheme="http://yahsin.me/tags/Songs/"/>
+    <category term="Songs" scheme="https://yahsin.me/tags/Songs/"/>
     
-    <category term="Hikaru Utada" scheme="http://yahsin.me/tags/Hikaru-Utada/"/>
+    <category term="Hikaru Utada" scheme="https://yahsin.me/tags/Hikaru-Utada/"/>
     
   </entry>
   
   <entry>
     <title>日本語で自己紹介</title>
-    <link href="http://yahsin.me/2026/03/02/jp-intro/"/>
-    <id>http://yahsin.me/2026/03/02/jp-intro/</id>
+    <link href="https://yahsin.me/2026/03/02/jp-intro/"/>
+    <id>https://yahsin.me/2026/03/02/jp-intro/</id>
     <published>2026-03-02T12:23:05.000Z</published>
-    <updated>2026-10-18T15:09:45.133Z</updated>
+    <updated>2026-10-30T14:57:57.026Z</updated>
     
     
       
@@ -428,20 +428,20 @@
     
     
     
-    <category term="Japanese" scheme="http://yahsin.me/tags/Japanese/"/>
+    <category term="Japanese" scheme="https://yahsin.me/tags/Japanese/"/>
     
-    <category term="Intro" scheme="http://yahsin.me/tags/Intro/"/>
+    <category term="Intro" scheme="https://yahsin.me/tags/Intro/"/>
     
-    <category term="日本語" scheme="http://yahsin.me/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    <category term="日本語" scheme="https://yahsin.me/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
     
   </entry>
   
   <entry>
     <title>Reflections on Growth and Self-Discipline in Rob Henderson’s Troubled</title>
-    <link href="http://yahsin.me/2025/08/20/henderson-book/"/>
-    <id>http://yahsin.me/2025/08/20/henderson-book/</id>
+    <link href="https://yahsin.me/2025/08/20/henderson-book/"/>
+    <id>https://yahsin.me/2025/08/20/henderson-book/</id>
     <published>2025-08-20T15:59:51.000Z</published>
-    <updated>2026-10-18T15:09:45.133Z</updated>
+    <updated>2026-10-30T14:57:57.026Z</updated>
     
     
       
@@ -456,20 +456,20 @@
     
     
     
-    <category term="books" scheme="http://yahsin.me/tags/books/"/>
+    <category term="books" scheme="https://yahsin.me/tags/books/"/>
     
-    <category term="notes" scheme="http://yahsin.me/tags/notes/"/>
+    <category term="notes" scheme="https://yahsin.me/tags/notes/"/>
     
-    <category term="memoir" scheme="http://yahsin.me/tags/memoir/"/>
+    <category term="memoir" scheme="https://yahsin.me/tags/memoir/"/>
     
   </entry>
   
   <entry>
     <title>Hexadecimal in Ethereum</title>
-    <link href="http://yahsin.me/2024/12/20/hexadecimal/"/>
-    <id>http://yahsin.me/2024/12/20/hexadecimal/</id>
+    <link href="https://yahsin.me/2024/12/20/hexadecimal/"/>
+    <id>https://yahsin.me/2024/12/20/hexadecimal/</id>
     <published>2024-12-20T17:34:45.000Z</published>
-    <updated>2026-10-18T15:09:45.133Z</updated>
+    <updated>2026-10-30T14:57:57.026Z</updated>
     
     
       
@@ -483,26 +483,26 @@
     
     
     
-    <category term="hexadecimal" scheme="http://yahsin.me/tags/hexadecimal/"/>
+    <category term="hexadecimal" scheme="https://yahsin.me/tags/hexadecimal/"/>
     
-    <category term="decimal" scheme="http://yahsin.me/tags/decimal/"/>
+    <category term="decimal" scheme="https://yahsin.me/tags/decimal/"/>
     
-    <category term="convert" scheme="http://yahsin.me/tags/convert/"/>
+    <category term="convert" scheme="https://yahsin.me/tags/convert/"/>
     
-    <category term="number systems" scheme="http://yahsin.me/tags/number-systems/"/>
+    <category term="number systems" scheme="https://yahsin.me/tags/number-systems/"/>
     
-    <category term="ethereum" scheme="http://yahsin.me/tags/ethereum/"/>
+    <category term="ethereum" scheme="https://yahsin.me/tags/ethereum/"/>
     
-    <category term="EVM opcodes" scheme="http://yahsin.me/tags/EVM-opcodes/"/>
+    <category term="EVM opcodes" scheme="https://yahsin.me/tags/EVM-opcodes/"/>
     
   </entry>
   
   <entry>
     <title>Want to Obtain Base Sepolia Testnet Tokens? How Hard Could It Be?</title>
-    <link href="http://yahsin.me/2024/12/13/testnet/"/>
-    <id>http://yahsin.me/2024/12/13/testnet/</id>
+    <link href="https://yahsin.me/2024/12/13/testnet/"/>
+    <id>https://yahsin.me/2024/12/13/testnet/</id>
     <published>2024-12-13T17:04:34.000Z</published>
-    <updated>2026-10-18T15:09:45.132Z</updated>
+    <updated>2026-10-30T14:57:57.025Z</updated>
     
     
       
@@ -517,22 +517,22 @@
     
     
     
-    <category term="smart contracts" scheme="http://yahsin.me/tags/smart-contracts/"/>
+    <category term="smart contracts" scheme="https://yahsin.me/tags/smart-contracts/"/>
     
-    <category term="base sepolia testnet" scheme="http://yahsin.me/tags/base-sepolia-testnet/"/>
+    <category term="base sepolia testnet" scheme="https://yahsin.me/tags/base-sepolia-testnet/"/>
     
-    <category term="testnet tokens" scheme="http://yahsin.me/tags/testnet-tokens/"/>
+    <category term="testnet tokens" scheme="https://yahsin.me/tags/testnet-tokens/"/>
     
-    <category term="web3" scheme="http://yahsin.me/tags/web3/"/>
+    <category term="web3" scheme="https://yahsin.me/tags/web3/"/>
     
   </entry>
   
   <entry>
     <title>Zkmopro: Experimentation and Testing with Zero-Knowledge Proofs in Android Development</title>
-    <link href="http://yahsin.me/2024/08/27/zkmopro-testing/"/>
-    <id>http://yahsin.me/2024/08/27/zkmopro-testing/</id>
+    <link href="https://yahsin.me/2024/08/27/zkmopro-testing/"/>
+    <id>https://yahsin.me/2024/08/27/zkmopro-testing/</id>
     <published>2024-08-27T18:48:00.000Z</published>
-    <updated>2026-10-18T15:09:45.132Z</updated>
+    <updated>2026-10-30T14:57:57.025Z</updated>
     
     
       
@@ -551,10 +551,10 @@
   
   <entry>
     <title>Moi: je me présente</title>
-    <link href="http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
-    <id>http://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
+    <link href="https://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
+    <id>https://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
     <published>2024-06-05T19:45:06.000Z</published>
-    <updated>2026-10-18T15:09:45.130Z</updated>
+    <updated>2026-10-30T14:57:57.023Z</updated>
     
     
       
@@ -575,10 +575,10 @@
   
   <entry>
     <title>Notes from a French language class</title>
-    <link href="http://yahsin.me/2024/05/01/French-class-notes/"/>
-    <id>http://yahsin.me/2024/05/01/French-class-notes/</id>
+    <link href="https://yahsin.me/2024/05/01/French-class-notes/"/>
+    <id>https://yahsin.me/2024/05/01/French-class-notes/</id>
     <published>2024-05-01T18:14:37.000Z</published>
-    <updated>2026-10-18T15:09:45.130Z</updated>
+    <updated>2026-10-30T14:57:57.023Z</updated>
     
     
       
@@ -595,24 +595,24 @@
     
     
     
-    <category term="French" scheme="http://yahsin.me/tags/French/"/>
+    <category term="French" scheme="https://yahsin.me/tags/French/"/>
     
-    <category term="Language" scheme="http://yahsin.me/tags/Language/"/>
+    <category term="Language" scheme="https://yahsin.me/tags/Language/"/>
     
-    <category term="Dépasser" scheme="http://yahsin.me/tags/Depasser/"/>
+    <category term="Dépasser" scheme="https://yahsin.me/tags/Depasser/"/>
     
-    <category term="Venir" scheme="http://yahsin.me/tags/Venir/"/>
+    <category term="Venir" scheme="https://yahsin.me/tags/Venir/"/>
     
-    <category term="Aller" scheme="http://yahsin.me/tags/Aller/"/>
+    <category term="Aller" scheme="https://yahsin.me/tags/Aller/"/>
     
   </entry>
   
   <entry>
     <title>Joan Didion’s 2011 Memoir, Blue Nights</title>
-    <link href="http://yahsin.me/2024/04/30/Didion-Blue-Nights/"/>
-    <id>http://yahsin.me/2024/04/30/Didion-Blue-Nights/</id>
+    <link href="https://yahsin.me/2024/04/30/Didion-Blue-Nights/"/>
+    <id>https://yahsin.me/2024/04/30/Didion-Blue-Nights/</id>
     <published>2024-04-30T17:28:50.000Z</published>
-    <updated>2026-10-18T15:09:45.130Z</updated>
+    <updated>2026-10-30T14:57:57.023Z</updated>
     
     
       
@@ -627,11 +627,11 @@
     
     
     
-    <category term="Memoir" scheme="http://yahsin.me/tags/Memoir/"/>
+    <category term="Memoir" scheme="https://yahsin.me/tags/Memoir/"/>
     
-    <category term="Essays" scheme="http://yahsin.me/tags/Essays/"/>
+    <category term="Essays" scheme="https://yahsin.me/tags/Essays/"/>
     
-    <category term="Didion" scheme="http://yahsin.me/tags/Didion/"/>
+    <category term="Didion" scheme="https://yahsin.me/tags/Didion/"/>
     
   </entry>
   
