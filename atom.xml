@@ -6,7 +6,7 @@
   <link href="https://yahsin.me/atom.xml" rel="self"/>
   
   <link href="https://yahsin.me/"/>
-  <updated>2026-10-30T14:57:57.035Z</updated>
+  <updated>2026-11-03T04:06:35.260Z</updated>
   <id>https://yahsin.me/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>A Day at Tainan’s National Museum of Taiwan History</title>
+    <link href="https://yahsin.me/2026/11/03/a-day-at-tainans-national-museum-of-taiwan-history/"/>
+    <id>https://yahsin.me/2026/11/03/a-day-at-tainans-national-museum-of-taiwan-history/</id>
+    <published>2026-11-03T12:00:00.000Z</published>
+    <updated>2026-11-03T04:06:35.260Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Last Saturday, we took a day trip to the National Museum of Taiwan History (國立臺灣歷史博物館) in Tainan’s Annan District. (It’s not to be confused with the museums in Taipei with similar names.) This was my third visit, and it still felt fresh. The first time, I went on my own, at my own pace. The second time, I went with a Taiwan-based Swedish researcher. This time, I invited an international graduate student from Kaohsiung to join me.&lt;/p&gt;
+&lt;figure&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Tainan" scheme="https://yahsin.me/tags/Tainan/"/>
+    
+    <category term="Museum" scheme="https://yahsin.me/tags/Museum/"/>
+    
+    <category term="Taiwan History" scheme="https://yahsin.me/tags/Taiwan-History/"/>
+    
+    <category term="Mazu" scheme="https://yahsin.me/tags/Mazu/"/>
+    
+    <category term="Non-Citizen Residents" scheme="https://yahsin.me/tags/Non-Citizen-Residents/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Notes from the Taiwan and the Sociology of War Workshop</title>
     <link href="https://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/"/>
     <id>https://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/</id>
     <published>2026-10-17T12:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.035Z</updated>
+    <updated>2026-11-03T04:06:35.258Z</updated>
     
     
       
@@ -52,7 +84,7 @@
     <link href="https://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/"/>
     <id>https://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/</id>
     <published>2026-10-10T12:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.033Z</updated>
+    <updated>2026-11-03T04:06:35.255Z</updated>
     
     
       
@@ -84,7 +116,7 @@
     <link href="https://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/"/>
     <id>https://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/</id>
     <published>2026-09-03T15:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.031Z</updated>
+    <updated>2026-11-03T04:06:35.254Z</updated>
     
     
       
@@ -120,7 +152,7 @@
     <link href="https://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/"/>
     <id>https://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/</id>
     <published>2026-08-29T16:43:18.000Z</published>
-    <updated>2026-10-30T14:57:57.031Z</updated>
+    <updated>2026-11-03T04:06:35.254Z</updated>
     
     
       
@@ -137,11 +169,11 @@
     
     <category term="Claude" scheme="https://yahsin.me/tags/Claude/"/>
     
+    <category term="Linux" scheme="https://yahsin.me/tags/Linux/"/>
+    
     <category term="Raspberry Pi" scheme="https://yahsin.me/tags/Raspberry-Pi/"/>
     
     <category term="SSH" scheme="https://yahsin.me/tags/SSH/"/>
-    
-    <category term="Linux" scheme="https://yahsin.me/tags/Linux/"/>
     
     <category term="Networking" scheme="https://yahsin.me/tags/Networking/"/>
     
@@ -152,7 +184,7 @@
     <link href="https://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/"/>
     <id>https://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/</id>
     <published>2026-08-27T13:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.031Z</updated>
+    <updated>2026-11-03T04:06:35.254Z</updated>
     
     
       
@@ -186,7 +218,7 @@
     <link href="https://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/"/>
     <id>https://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/</id>
     <published>2026-08-27T12:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.031Z</updated>
+    <updated>2026-11-03T04:06:35.254Z</updated>
     
     
       
@@ -219,7 +251,7 @@
     <link href="https://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/"/>
     <id>https://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/</id>
     <published>2026-08-25T00:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.031Z</updated>
+    <updated>2026-11-03T04:06:35.254Z</updated>
     
     
       
@@ -246,7 +278,7 @@
     <link href="https://yahsin.me/2026/08/13/coscup-2026/"/>
     <id>https://yahsin.me/2026/08/13/coscup-2026/</id>
     <published>2026-08-13T00:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.029Z</updated>
+    <updated>2026-11-03T04:06:35.252Z</updated>
     
     
       
@@ -264,13 +296,13 @@
     
     
     
-    <category term="Linux" scheme="https://yahsin.me/tags/Linux/"/>
-    
     <category term="COSCUP" scheme="https://yahsin.me/tags/COSCUP/"/>
     
     <category term="Open Source" scheme="https://yahsin.me/tags/Open-Source/"/>
     
     <category term="Firmware" scheme="https://yahsin.me/tags/Firmware/"/>
+    
+    <category term="Linux" scheme="https://yahsin.me/tags/Linux/"/>
     
     <category term="NixOS" scheme="https://yahsin.me/tags/NixOS/"/>
     
@@ -283,7 +315,7 @@
     <link href="https://yahsin.me/2026/04/22/French-avant-que-apres-que/"/>
     <id>https://yahsin.me/2026/04/22/French-avant-que-apres-que/</id>
     <published>2026-04-22T12:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.029Z</updated>
+    <updated>2026-11-03T04:06:35.252Z</updated>
     
     
       
@@ -312,7 +344,7 @@
     <link href="https://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/"/>
     <id>https://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/</id>
     <published>2026-03-27T12:00:00.000Z</published>
-    <updated>2026-10-30T14:57:57.029Z</updated>
+    <updated>2026-11-03T04:06:35.252Z</updated>
     
     
       
@@ -343,7 +375,7 @@
     <link href="https://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/"/>
     <id>https://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/</id>
     <published>2026-03-17T14:14:26.000Z</published>
-    <updated>2026-10-30T14:57:57.028Z</updated>
+    <updated>2026-11-03T04:06:35.251Z</updated>
     
     
       
@@ -379,7 +411,7 @@
     <link href="https://yahsin.me/2026/03/16/Jpop-playlist/"/>
     <id>https://yahsin.me/2026/03/16/Jpop-playlist/</id>
     <published>2026-03-16T15:25:31.000Z</published>
-    <updated>2026-10-30T14:57:57.026Z</updated>
+    <updated>2026-11-03T04:06:35.250Z</updated>
     
     
       
@@ -411,7 +443,7 @@
     <link href="https://yahsin.me/2026/03/02/jp-intro/"/>
     <id>https://yahsin.me/2026/03/02/jp-intro/</id>
     <published>2026-03-02T12:23:05.000Z</published>
-    <updated>2026-10-30T14:57:57.026Z</updated>
+    <updated>2026-11-03T04:06:35.250Z</updated>
     
     
       
@@ -441,7 +473,7 @@
     <link href="https://yahsin.me/2025/08/20/henderson-book/"/>
     <id>https://yahsin.me/2025/08/20/henderson-book/</id>
     <published>2025-08-20T15:59:51.000Z</published>
-    <updated>2026-10-30T14:57:57.026Z</updated>
+    <updated>2026-11-03T04:06:35.250Z</updated>
     
     
       
@@ -469,7 +501,7 @@
     <link href="https://yahsin.me/2024/12/20/hexadecimal/"/>
     <id>https://yahsin.me/2024/12/20/hexadecimal/</id>
     <published>2024-12-20T17:34:45.000Z</published>
-    <updated>2026-10-30T14:57:57.026Z</updated>
+    <updated>2026-11-03T04:06:35.250Z</updated>
     
     
       
@@ -502,7 +534,7 @@
     <link href="https://yahsin.me/2024/12/13/testnet/"/>
     <id>https://yahsin.me/2024/12/13/testnet/</id>
     <published>2024-12-13T17:04:34.000Z</published>
-    <updated>2026-10-30T14:57:57.025Z</updated>
+    <updated>2026-11-03T04:06:35.249Z</updated>
     
     
       
@@ -532,7 +564,7 @@
     <link href="https://yahsin.me/2024/08/27/zkmopro-testing/"/>
     <id>https://yahsin.me/2024/08/27/zkmopro-testing/</id>
     <published>2024-08-27T18:48:00.000Z</published>
-    <updated>2026-10-30T14:57:57.025Z</updated>
+    <updated>2026-11-03T04:06:35.249Z</updated>
     
     
       
@@ -554,7 +586,7 @@
     <link href="https://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
     <id>https://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
     <published>2024-06-05T19:45:06.000Z</published>
-    <updated>2026-10-30T14:57:57.023Z</updated>
+    <updated>2026-11-03T04:06:35.247Z</updated>
     
     
       
@@ -578,7 +610,7 @@
     <link href="https://yahsin.me/2024/05/01/French-class-notes/"/>
     <id>https://yahsin.me/2024/05/01/French-class-notes/</id>
     <published>2024-05-01T18:14:37.000Z</published>
-    <updated>2026-10-30T14:57:57.023Z</updated>
+    <updated>2026-11-03T04:06:35.246Z</updated>
     
     
       
@@ -604,34 +636,6 @@
     <category term="Venir" scheme="https://yahsin.me/tags/Venir/"/>
     
     <category term="Aller" scheme="https://yahsin.me/tags/Aller/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Joan Didion’s 2011 Memoir, Blue Nights</title>
-    <link href="https://yahsin.me/2024/04/30/Didion-Blue-Nights/"/>
-    <id>https://yahsin.me/2024/04/30/Didion-Blue-Nights/</id>
-    <published>2024-04-30T17:28:50.000Z</published>
-    <updated>2026-10-30T14:57:57.023Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Joan-Didion’s-Blue-Nights&quot;&gt;&lt;a href=&quot;#Joan-Didion’s-Blue-Nights&quot; class=&quot;headerlink&quot; title=&quot;Joan Didion’s Blue Nights&quot;&gt;&lt;/a&gt;Joan Didion’s Blue Nights&lt;/h2&gt;&lt;p&gt;I recently finished reading Joan Didion’s “Blue Nights,” a book about the death of her daughter Quintana Roo. For the past month, every night I would read a few pages before I fall asleep. Towards the end of the book, it was devastating; a few passages made me cry. &lt;/p&gt;
-&lt;p&gt;For some reason I might be the type of person who is quick to</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Memoir" scheme="https://yahsin.me/tags/Memoir/"/>
-    
-    <category term="Essays" scheme="https://yahsin.me/tags/Essays/"/>
-    
-    <category term="Didion" scheme="https://yahsin.me/tags/Didion/"/>
     
   </entry>
   
