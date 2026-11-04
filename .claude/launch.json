@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "blog",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["hexo", "server", "--port", "4000"],
+      "port": 4000
+    }
+  ]
+}
