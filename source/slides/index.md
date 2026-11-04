@@ -11,3 +11,6 @@ date: 2026-10-11
 
 ### [Kaohsiung 高雄: Economy in a Global Context](/slides/kaohsiung_deck/)
 2026-10-17 — Kaohsiung's port, industry and chips: ties with Europe, Japan, the US and ASEAN.
+
+### [The EU's Digital Identity Policy: Tracing Policy Punctuations](/slides/eidas_deck/)
+2026-11-05 — Research paper presentation on Weigl et al. (2022): why the EU's stable digital identity policy changed so suddenly.
