@@ -7,6 +7,7 @@ tags:
   - EU Cyber Resilience Act
   - Kaohsiung
 date: 2026-11-05 12:00:00
+thumbnail: lucien-lin-presenting.webp
 ---
 
 On the afternoon of Wednesday, November 4, I went to the Enterprise Open Source Forum, titled "Enterprise Open Source in the AI Era: Management and Value Creation", in Kaohsiung. The event was aimed at AI and tech startups and SMEs, business and product decision-makers, R&D staff, and open source communities and developers. It was organised under the Digital Industry Administration of Taiwan's Ministry of Digital Affairs.
