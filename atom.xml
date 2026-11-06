@@ -6,7 +6,7 @@
   <link href="https://yahsin.me/atom.xml" rel="self"/>
   
   <link href="https://yahsin.me/"/>
-  <updated>2026-11-05T13:04:09.428Z</updated>
+  <updated>2026-11-06T04:45:54.789Z</updated>
   <id>https://yahsin.me/</id>
   
   <author>
@@ -17,11 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>From the National Library to Academia Sinica: How the EU Is Rethinking Economic Security</title>
+    <link href="https://yahsin.me/2026/11/06/from-the-national-library-to-academia-sinica-how-the-eu-is-rethinking-economic-security/"/>
+    <id>https://yahsin.me/2026/11/06/from-the-national-library-to-academia-sinica-how-the-eu-is-rethinking-economic-security/</id>
+    <published>2026-11-06T12:00:00.000Z</published>
+    <updated>2026-11-06T04:45:54.789Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;On Friday, October 30, I joined my fellow first-year master’s students at the Graduate Institute of European Studies (GIES) for the 5th Taiwan–EU (EUTW) Forum in Taipei. The trip was led by Prof. Vincent Rollet as part of our EU Integration course. This year’s theme was Economic Security, Border Governance, and the Future of European Integration. The forum was held at the National Library’s Arts Center and organized by the EU Centre in Taiwan, the NTU Centre of Excellence, the NCCU EU Centre</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Academia Sinica" scheme="https://yahsin.me/tags/Academia-Sinica/"/>
+    
+    <category term="EU Studies" scheme="https://yahsin.me/tags/EU-Studies/"/>
+    
+    <category term="EUTW Forum" scheme="https://yahsin.me/tags/EUTW-Forum/"/>
+    
+    <category term="Taipei" scheme="https://yahsin.me/tags/Taipei/"/>
+    
+    <category term="Economic Security" scheme="https://yahsin.me/tags/Economic-Security/"/>
+    
+    <category term="Hungary" scheme="https://yahsin.me/tags/Hungary/"/>
+    
+    <category term="Constitutional Crisis" scheme="https://yahsin.me/tags/Constitutional-Crisis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Notes from Lucien C.H. Lin&#39;s Talk on AI Compliance Engineering and the EU CRA</title>
     <link href="https://yahsin.me/2026/11/05/lucien-lin-open-source-licensing-ai-compliance-engineering-and-the-cra/"/>
     <id>https://yahsin.me/2026/11/05/lucien-lin-open-source-licensing-ai-compliance-engineering-and-the-cra/</id>
     <published>2026-11-05T12:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.428Z</updated>
+    <updated>2026-11-06T04:45:54.788Z</updated>
     
     
       
@@ -53,7 +88,7 @@
     <link href="https://yahsin.me/2026/11/03/a-day-at-tainans-national-museum-of-taiwan-history/"/>
     <id>https://yahsin.me/2026/11/03/a-day-at-tainans-national-museum-of-taiwan-history/</id>
     <published>2026-11-03T12:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.425Z</updated>
+    <updated>2026-11-06T04:45:54.785Z</updated>
     
     
       
@@ -85,7 +120,7 @@
     <link href="https://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/"/>
     <id>https://yahsin.me/2026/10/17/notes-from-the-taiwan-and-the-sociology-of-war-workshop/</id>
     <published>2026-10-17T12:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.424Z</updated>
+    <updated>2026-11-06T04:45:54.784Z</updated>
     
     
       
@@ -116,7 +151,7 @@
     <link href="https://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/"/>
     <id>https://yahsin.me/2026/10/10/blue-resilience-in-kaohsiung-cop6-and-nstm/</id>
     <published>2026-10-10T12:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.422Z</updated>
+    <updated>2026-11-06T04:45:54.782Z</updated>
     
     
       
@@ -148,7 +183,7 @@
     <link href="https://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/"/>
     <id>https://yahsin.me/2026/09/03/raspberry-pi-zero-w-camera-for-sketch-time-lapse/</id>
     <published>2026-09-03T15:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.421Z</updated>
+    <updated>2026-11-06T04:45:54.781Z</updated>
     
     
       
@@ -167,13 +202,13 @@
     
     <category term="Raspberry Pi" scheme="https://yahsin.me/tags/Raspberry-Pi/"/>
     
+    <category term="SSH" scheme="https://yahsin.me/tags/SSH/"/>
+    
     <category term="Camera" scheme="https://yahsin.me/tags/Camera/"/>
     
     <category term="Time-Lapse" scheme="https://yahsin.me/tags/Time-Lapse/"/>
     
     <category term="ffmpeg" scheme="https://yahsin.me/tags/ffmpeg/"/>
-    
-    <category term="SSH" scheme="https://yahsin.me/tags/SSH/"/>
     
     <category term="Sketching" scheme="https://yahsin.me/tags/Sketching/"/>
     
@@ -184,7 +219,7 @@
     <link href="https://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/"/>
     <id>https://yahsin.me/2026/08/29/setting-up-a-raspberry-pi-zero-w-as-a-home-server/</id>
     <published>2026-08-29T16:43:18.000Z</published>
-    <updated>2026-11-05T13:04:09.420Z</updated>
+    <updated>2026-11-06T04:45:54.781Z</updated>
     
     
       
@@ -216,7 +251,7 @@
     <link href="https://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/"/>
     <id>https://yahsin.me/2026/08/27/DELF-B2-production-orale-script-entrainement/</id>
     <published>2026-08-27T13:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.420Z</updated>
+    <updated>2026-11-06T04:45:54.781Z</updated>
     
     
       
@@ -250,7 +285,7 @@
     <link href="https://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/"/>
     <id>https://yahsin.me/2026/08/27/DELF-B2-production-orale-presenter-le-sujet/</id>
     <published>2026-08-27T12:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.420Z</updated>
+    <updated>2026-11-06T04:45:54.781Z</updated>
     
     
       
@@ -283,7 +318,7 @@
     <link href="https://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/"/>
     <id>https://yahsin.me/2026/08/25/explaining-ethereum-to-engineers/</id>
     <published>2026-08-25T00:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.420Z</updated>
+    <updated>2026-11-06T04:45:54.781Z</updated>
     
     
       
@@ -310,7 +345,7 @@
     <link href="https://yahsin.me/2026/08/13/coscup-2026/"/>
     <id>https://yahsin.me/2026/08/13/coscup-2026/</id>
     <published>2026-08-13T00:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.419Z</updated>
+    <updated>2026-11-06T04:45:54.780Z</updated>
     
     
       
@@ -347,7 +382,7 @@
     <link href="https://yahsin.me/2026/04/22/French-avant-que-apres-que/"/>
     <id>https://yahsin.me/2026/04/22/French-avant-que-apres-que/</id>
     <published>2026-04-22T12:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.419Z</updated>
+    <updated>2026-11-06T04:45:54.780Z</updated>
     
     
       
@@ -376,7 +411,7 @@
     <link href="https://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/"/>
     <id>https://yahsin.me/2026/03/27/Jpop-Vaundy-odoriko/</id>
     <published>2026-03-27T12:00:00.000Z</published>
-    <updated>2026-11-05T13:04:09.419Z</updated>
+    <updated>2026-11-06T04:45:54.780Z</updated>
     
     
       
@@ -407,7 +442,7 @@
     <link href="https://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/"/>
     <id>https://yahsin.me/2026/03/17/improving-hexo-blog-with-claude/</id>
     <published>2026-03-17T14:14:26.000Z</published>
-    <updated>2026-11-05T13:04:09.418Z</updated>
+    <updated>2026-11-06T04:45:54.779Z</updated>
     
     
       
@@ -443,7 +478,7 @@
     <link href="https://yahsin.me/2026/03/16/Jpop-playlist/"/>
     <id>https://yahsin.me/2026/03/16/Jpop-playlist/</id>
     <published>2026-03-16T15:25:31.000Z</published>
-    <updated>2026-11-05T13:04:09.417Z</updated>
+    <updated>2026-11-06T04:45:54.779Z</updated>
     
     
       
@@ -475,7 +510,7 @@
     <link href="https://yahsin.me/2026/03/02/jp-intro/"/>
     <id>https://yahsin.me/2026/03/02/jp-intro/</id>
     <published>2026-03-02T12:23:05.000Z</published>
-    <updated>2026-11-05T13:04:09.417Z</updated>
+    <updated>2026-11-06T04:45:54.779Z</updated>
     
     
       
@@ -505,7 +540,7 @@
     <link href="https://yahsin.me/2025/08/20/henderson-book/"/>
     <id>https://yahsin.me/2025/08/20/henderson-book/</id>
     <published>2025-08-20T15:59:51.000Z</published>
-    <updated>2026-11-05T13:04:09.417Z</updated>
+    <updated>2026-11-06T04:45:54.779Z</updated>
     
     
       
@@ -533,7 +568,7 @@
     <link href="https://yahsin.me/2024/12/20/hexadecimal/"/>
     <id>https://yahsin.me/2024/12/20/hexadecimal/</id>
     <published>2024-12-20T17:34:45.000Z</published>
-    <updated>2026-11-05T13:04:09.417Z</updated>
+    <updated>2026-11-06T04:45:54.779Z</updated>
     
     
       
@@ -566,7 +601,7 @@
     <link href="https://yahsin.me/2024/12/13/testnet/"/>
     <id>https://yahsin.me/2024/12/13/testnet/</id>
     <published>2024-12-13T17:04:34.000Z</published>
-    <updated>2026-11-05T13:04:09.416Z</updated>
+    <updated>2026-11-06T04:45:54.778Z</updated>
     
     
       
@@ -596,7 +631,7 @@
     <link href="https://yahsin.me/2024/08/27/zkmopro-testing/"/>
     <id>https://yahsin.me/2024/08/27/zkmopro-testing/</id>
     <published>2024-08-27T18:48:00.000Z</published>
-    <updated>2026-11-05T13:04:09.416Z</updated>
+    <updated>2026-11-06T04:45:54.778Z</updated>
     
     
       
@@ -605,30 +640,6 @@
         
     <summary type="html">&lt;p&gt;Zkmopro’s GitHub repo: &lt;a href=&quot;https://github.com/zkmopro&quot;&gt;https://github.com/zkmopro&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Understanding-zkmopro&quot;&gt;&lt;a href=&quot;#Understanding-zkmopro&quot; class=&quot;headerlink&quot; title=&quot;Understanding zkmopro&quot;&gt;&lt;/a&gt;Understanding zkmopro&lt;/h3&gt;&lt;p&gt;Today I followed the zkmopro Android setup tutorial and ran the command &lt;code&gt;cargo run --bin android&lt;/code&gt;. This creates a new folder called MoproAndroidBindings. The purpose of the zkmopro package is to handle the zk generate proof part during mobile</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Moi: je me présente</title>
-    <link href="https://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/"/>
-    <id>https://yahsin.me/2024/06/05/moi-je-me-pr%C3%A9sente/</id>
-    <published>2024-06-05T19:45:06.000Z</published>
-    <updated>2026-11-05T13:04:09.414Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Bonjour à tous ! Je m’appelle Yahsin, c’est mon prénom chinois. Vous pouvez m’appeler Louise, qui est mon prénom français, si vous le souhaitez. J’ai choisi ce prénom pour sa sonorité douce et élégante. Actuellement, j’habite à Tainan, une ville située au sud de Taiwan. Avant cela, j’ai grandi à Taipei, la capitale de Taiwan.&lt;/p&gt;
-&lt;img src=&quot;/2024/06/05/moi-je-me-pr%C3%A9sente/image_moi_01.webp&quot; /&gt;
-
-&lt;h3 id=&quot;Les-sujets-qui-m’interessent-le-plus-dans-mon-travail&quot;&gt;&lt;a</summary>
         
       
     
