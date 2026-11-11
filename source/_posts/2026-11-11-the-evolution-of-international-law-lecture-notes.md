@@ -6,9 +6,12 @@ tags:
   - International Development and NGO Management
   - Latin
 date: 2026-11-11 12:00:00
+thumbnail: whiteboard-do-ut-des-ius-gentium.webp
 ---
 
 Lecture on the evolution of international law by Prof. Philipp H. Fluri. The lecture is part of the master’s course International Development and NGO Management, an elective offered by the Department of International Affairs. This post presents lecture notes based on the class.
+
+<figure><img src="{% asset_path whiteboard-do-ut-des-ius-gentium.webp %}" loading="lazy" decoding="async" /><figcaption>The whiteboard in class: "do ut des" and "ius gentium"</figcaption></figure>
 
 ## From Empire to Nation: Independent States Emerge
 
