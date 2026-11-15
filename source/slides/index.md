@@ -14,3 +14,6 @@ date: 2026-10-11
 
 ### [The EU's Digital Identity Policy: Tracing Policy Punctuations](/slides/eidas_deck/)
 2026-11-05 — Research paper presentation on Weigl et al. (2022): why the EU's stable digital identity policy changed so suddenly.
+
+### [France: Winning the Argument, Losing the Budget](/slides/france_deck/)
+2026-11-15 — EU integration course: France's ideas on industry and autonomy are shaping EU policy, yet its own finances are slipping out of control.
