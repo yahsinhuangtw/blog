@@ -6,9 +6,12 @@ tags:
   - ICRC
   - International Development and NGO Management
 date: 2026-11-18 12:00:00
+thumbnail: ngo-course-slide-ngos-in-international-law-icrc-exception.webp
 ---
 
 Comments by Prof. Philipp H. Fluri on International Humanitarian Law (IHL) and the International Committee of the Red Cross (ICRC), made after classmates gave short presentations on the ICRC as an organisation. The class is part of the master's course International Development and NGO Management, an elective offered by the Department of International Affairs. This is not a full lecture. It is a write-up of his remarks from my recollection, with background facts checked afterwards and marked as such.
+
+<figure><img src="{% asset_path ngo-course-slide-week-11-who-governs-the-globe.webp %}" loading="lazy" decoding="async" /><figcaption>The course slide in class, Week 11 "Who Governs the Globe?", showing that the course as a whole is about international law</figcaption></figure>
 
 ## The Geneva Conventions and the 1907 Hague Conventions
 
@@ -41,6 +44,10 @@ Peter Maurer, president of the ICRC from 2012 to 2022, saw that globalisation ha
 The ICRC is headquartered in Geneva under a headquarters agreement with the Swiss government, which Prof. Fluri dated to 1993. He connected this to a wave in global governance in which the UN encourages NGOs to base themselves in Switzerland, so that part of their safety and security is covered by the Swiss state.
 
 He added that the ICRC asked, when signing, not to be called as a witness in court cases. Its work depends on trust, and it cannot do that work if courts can summon its staff. It may quietly give leads or hints to an investigation, but it refuses to testify, and this was treated as a non-disclosure exemption.
+
+The course slide on NGOs in international law makes the same point, that the International Committee of the Red Cross has a uniquely recognised international legal status.
+
+<figure><img src="{% asset_path ngo-course-slide-ngos-in-international-law-icrc-exception.webp %}" loading="lazy" decoding="async" /><figcaption>The course slide in class. NGOs are generally not subjects of international law in the same sense as states, but the ICRC is the exception with a uniquely recognised international legal status</figcaption></figure>
 
 *Background check.* A 2002 memorandum by ICRC legal adviser Gabor Rona names three sources for the ICRC's right to decline to give evidence. These are Rule 73(4) of the International Criminal Court's Rules of Procedure and Evidence, a 1999 decision of the International Criminal Tribunal for the former Yugoslavia in *Prosecutor v. Simić et al.* and headquarters agreements with more than 60 states, including the 1993 Swiss agreement. The reason is that the ICRC could not promise warring parties confidentiality if courts could overrule it, and it would then lose access to victims. The memorandum also warns that this protection is not guaranteed, since the rulings and agreements behind it could be reversed or ended.
 
