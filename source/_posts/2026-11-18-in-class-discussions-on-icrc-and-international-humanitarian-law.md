@@ -1,0 +1,61 @@
+---
+title: "In-class Discussions on ICRC and International Humanitarian Law"
+tags:
+  - Lecture Notes
+  - International Humanitarian Law
+  - ICRC
+  - International Development and NGO Management
+date: 2026-11-18 12:00:00
+---
+
+Comments by Prof. Philipp H. Fluri on International Humanitarian Law (IHL) and the International Committee of the Red Cross (ICRC), made after classmates gave short presentations on the ICRC as an organisation. The class is part of the master's course International Development and NGO Management, an elective offered by the Department of International Affairs. This is not a full lecture. It is a write-up of his remarks from my recollection, with background facts checked afterwards and marked as such.
+
+## The Geneva Conventions and the 1907 Hague Conventions
+
+This part of the discussion was about the Geneva Conventions. They are the international treaties at the core of IHL. They regulate how armed conflicts must be conducted, to limit suffering and to protect people who are not taking part in the fighting. In that discussion Prof. Fluri briefly mentioned the 1907 Hague Conventions as well.
+
+He briefly mentioned the Latin phrase *do ut des*, "I give so that you may give". *Do* is "I give", the first person singular present of *dare*, "to give". The phrase expresses reciprocity, the logic of exchange and of treaties between states that came up in the international law lecture. As I understood him, it applies to the Geneva Conventions because a state that signs can be held accountable by enough other signatories. You signed, so *do ut des*. Signing is the "I give". You bind yourself to the rules, and in exchange the other signatories are bound to the same rules toward you and your people.
+
+He also drew a distinction between "human" and "humane", the word with an "e" at the end. Being human is simply being a member of the species, and you can be human without being humane. "Humane" describes how people behave towards others, with compassion and without cruelty. IHL asks for the second. It requires civilians and prisoners of war to be treated humanely, which is why Russia's abuse of Ukrainian prisoners is a failure of humane treatment even though it is done by humans.
+
+*Background check.* The Hague Conventions of 1899 and 1907 come from the two Hague Peace Conferences and set rules on the conduct of war, including limits on the means and methods of fighting. The Hague Conventions regulate how wars are fought. The Geneva Conventions protect the people affected by war, and the two have since largely merged into one body of IHL.
+
+## What International Humanitarian Law Regulates
+
+Prof. Fluri said the ICRC mainly promotes IHL in three areas.
+
+1. **How armed forces conduct war.** IHL limits which weapons may be used. Biological and chemical weapons are against IHL, and anyone who uses them can face criminal trials.
+2. **Irregular forces.** Are they combatants? Were they sent by a government? Can they be identified by army uniforms? He said this is still debated, because the status of irregular forces is not fully settled.
+3. **The rights of civilians.** Civilians must be treated humanely. War causes casualties among civilians as well as soldiers, and IHL outlaws destroying what civilians depend on, such as clean water, food and electricity in winter. His example was Russia's war in Ukraine, with its attacks on civilian infrastructure, hospitals and schools.
+
+## Signing the Law Is Not the Same as Respecting It
+
+Prof. Fluri pointed out that Russia is a party to the Geneva Conventions, yet it treats Ukrainian prisoners of war badly. Under IHL, prisoners of war must never be tortured or mistreated. In his view, abusing them shows bad faith, since the obligation is accepted on paper but not respected. This echoes the point from the international law lecture that *pacta sunt servanda* (agreements must be kept) only works if states act in good faith.
+
+## Peter Maurer and the ICRC's Search for New Funding
+
+Peter Maurer, president of the ICRC from 2012 to 2022, saw that globalisation had opened funding opportunities that did not exist before. Refugee camps are one example. People cannot sit in a camp for years with nothing, so schools, water, food and similar programmes are needed. It was debated whether this is the ICRC's job, since the UN already runs food programmes. Prof. Fluri said Maurer believed the ICRC already had confidence as a humanitarian organisation, so it could draw on that standing and its network to win new funding.
+
+## The 1993 Headquarters Agreement with Switzerland
+
+The ICRC is headquartered in Geneva under a headquarters agreement with the Swiss government, which Prof. Fluri dated to 1993. He connected this to a wave in global governance in which the UN encourages NGOs to base themselves in Switzerland, so that part of their safety and security is covered by the Swiss state.
+
+He added that the ICRC asked, when signing, not to be called as a witness in court cases. Its work depends on trust, and it cannot do that work if courts can summon its staff. It may quietly give leads or hints to an investigation, but it refuses to testify, and this was treated as a non-disclosure exemption.
+
+*Background check.* A 2002 memorandum by ICRC legal adviser Gabor Rona names three sources for the ICRC's right to decline to give evidence. These are Rule 73(4) of the International Criminal Court's Rules of Procedure and Evidence, a 1999 decision of the International Criminal Tribunal for the former Yugoslavia in *Prosecutor v. Simić et al.* and headquarters agreements with more than 60 states, including the 1993 Swiss agreement. The reason is that the ICRC could not promise warring parties confidentiality if courts could overrule it, and it would then lose access to victims. The memorandum also warns that this protection is not guaranteed, since the rulings and agreements behind it could be reversed or ended.
+
+## Who Pays for the ICRC
+
+Prof. Fluri briefly mentioned that Switzerland is a big donor and that the United States has been a leading donor for about 30 years. He wondered whether the US has recently cut its funding under the Trump administration.
+
+*Background check.* The figures differ from the version I took down in class. In 2021 the largest donors were the United States (544 million Swiss francs, or CHF), Germany (CHF 247 million) and Switzerland (CHF 156 million), so Switzerland was not the largest. In late 2025 the ICRC said the US remains its largest donor but expects reduced support, and the ICRC cut its 2026 budget by 17% to CHF 1.8 billion, with about 2,900 full-time positions to go.
+
+## Dunant and Wilson, Two Camps in the ICRC
+
+Prof. Fluri described two camps in the 20th century. One was associated with Woodrow Wilson, the 28th US president, often called the father of the League of Nations, who favoured the ICRC becoming more of a development organisation. The other was the Dunantist camp, after Henry Dunant, who founded the movement and wanted it focused on armed conflict. His impression is that the ICRC is now moving back towards the Wilsonian, development-oriented direction.
+
+*Background check.* Dunant was shaken by the aftermath of the Battle of Solferino in 1859 and published *A Memory of Solferino* in 1862. The First Geneva Convention followed in 1864. After the First World War, the League of Red Cross Societies was founded in 1919 under Henry Davison, who wanted it to take on peacetime work and criticised the Geneva-based ICRC.
+
+## Takeaway
+
+The ICRC promotes IHL in three areas. These are how armed forces conduct war, the status of irregular fighters and the rights of civilians. The law works only when states act **in good faith** and honour the rules they signed, as the *do ut des* exchange assumes. Russia's treatment of Ukrainian prisoners of war is acting **in bad faith**, because it accepts the Geneva Conventions on paper but does not respect them. The wider principle behind both is *pacta sunt servanda*, "agreements must be kept", which came up in the international law lecture.
