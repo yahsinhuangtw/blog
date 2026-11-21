@@ -33,6 +33,8 @@ The textile section showed most clearly how policy shapes an industry. Between 1
 
 Many of the firms that grew on this base began in Shanghai. Hsu Yu-hsiang (徐有庠) founded Far Eastern Weaving there in 1945, followed the Nationalist government to Taiwan in 1949 and built Far Eastern Textile (遠東紡織) into the first Taiwanese company to cover spinning, weaving, dyeing and garments by 1965. The same retreat brought the Tompkins knitting machine, the "trolley machine," which Chung Shing Textile (中興紡織) and skilled Shanghai craftsmen used to make Three Gun (三槍牌) underwear. Three Gun shared fame with Far Eastern's 洋房牌 (Skyscraper) brand. A photo of the 1966 opening of a Skyscraper brand store in Taichung can be seen on the [Taiwan Cultural Memory Bank](https://cmsdb.culture.tw/object/0C2394A1-1076-4DEF-8ED3-68ECF4B0EB58). Policy set the conditions, but private entrepreneurs built these firms. When US Aid ended in 1965, Taiwan lost American cotton and turned to man-made fibers. That year Tainan Spinning (臺南紡織) produced the durable Tai Zi Long (太子龍) fabric, which was widely used to make students' uniforms and pushed the industry up the value chain.
 
+<figure><img src="{% asset_path tai-zi-long-student-uniform-advertisement.webp %}" alt="A vintage advertisement for Tai Zi Long student uniforms showing a boy in a khaki uniform and a girl in a white blouse and dark skirt, with the Tainan Spinning name at the bottom" loading="lazy" decoding="async" /><figcaption>A vintage advertisement for Tai Zi Long student uniforms from Tainan Spinning, on display in the exhibition</figcaption></figure>
+
 ## Semiconductors, from Packaging to Foundry
 
 The museum's industrial history site gives a clear timeline, from back-end packaging in the 1960s to System-on-Chip (SoC) innovation after 2000.
@@ -43,6 +45,10 @@ In the foreign-led stage (1960-1974), export policy drew American firms to do tr
 
 The state then cultivated local firms (1980-1989). The Hsinchu Science Park opened in 1980, and ERSO spun off UMC in 1981 and TSMC in 1987, the world's first dedicated foundry, both with private capital. From 1990 onward, local firms took control, and by 1994, when ERSO spun off Vanguard International Semiconductor, private firms were complaining about unfair state competition, a sign they had grown strong.
 
+<figure><img src="{% asset_path ic-supply-chain-exhibition-panel.webp %}" alt="An exhibition flowchart of the IC industry with five yellow circles for design, mask, manufacture, packaging and testing, arrows leading to IC products, and lists of Taiwanese companies under each step" loading="lazy" decoding="async" /><figcaption>The exhibition panel on Taiwan's IC supply chain, from design, masks and manufacturing to packaging and testing, with Taiwanese companies listed under each step</figcaption></figure>
+
+<figure><img src="{% asset_path 12-inch-silicon-wafer-display.webp %}" alt="A round 12-inch silicon wafer mounted behind a clear acrylic disc on a wall, with a label and an English button beside it" loading="lazy" decoding="async" /><figcaption>A 12-inch silicon wafer on display in the exhibition</figcaption></figure>
+
 In short, the state supplied technology, institutions and the first firms, while private capital funded them, returning scholars joined them and foreign firms provided the early work and know-how.
 
 ## Conclusion, Who Built It and What Comes Next
@@ -50,5 +56,7 @@ In short, the state supplied technology, institutions and the first firms, while
 The pattern across the exhibition is a mix. The institutions included the Qing provincial government, US Aid, ITRI and the Hsinchu Science Park. The people included Liu Mingchuan, Yin Chung-jung, Hsu Yu-hsiang (徐有庠) and Howard L. Parsons. My answer to the top-down question is "partly." The state set the frame, but outside powers shaped what was possible, and private entrepreneurs did much of the building.
 
 Looking ahead, Stan Shih, founder of Acer, proposed the "smiling curve," in which value added is high in R&D, design, branding and service and low in the manufacturing and assembly stages in the middle. Semiconductor manufacturing is Taiwan's great strength, and with AI rising, much of the profit goes to firms that design and make advanced chips. Two challenges stand out. The first is over-concentration. Semiconductors are the only industry making big money, while many others remain underdeveloped, underrepresented or underfunded. The second is geopolitics. The politics of the regimes around Taiwan have always shaped its industry and remain its largest risk. Whether Taiwan moves toward the high-value ends of the smiling curve will depend on the same mix of state, outside powers and entrepreneurs that built its industry.
+
+<figure><img src="{% asset_path smile-curve-exhibition-panel.webp %}" alt="An exhibition wall panel with two smile curve charts in Chinese and English, the lower chart showing arrows for how Taiwanese electronics makers move toward the high-value ends of the curve" loading="lazy" decoding="async" /><figcaption>The exhibition panel on the smile curve</figcaption></figure>
 
 <figure><img src="{% asset_path class-group-photo-at-exhibition-entrance.webp %}" alt="A group of ten people standing in a row in front of the Industrial History of Taiwan entrance wall" loading="lazy" decoding="async" /><figcaption>Our class at the exhibition entrance</figcaption></figure>
