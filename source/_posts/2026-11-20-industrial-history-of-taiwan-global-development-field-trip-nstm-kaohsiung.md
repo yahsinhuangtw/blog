@@ -7,6 +7,7 @@ tags:
   - Industrial Policy
   - Semiconductors
 date: 2026-11-20
+thumbnail: steam-locomotive-display.webp
 ---
 
 On Friday morning, November 20, from 9.10 a.m. to 11.50 a.m., our Global Development class visited the 6F permanent exhibition "Industrial History of Taiwan" (臺灣工業史蹟廳) at the National Science and Technology Museum (國立科學工藝博物館) in Kaohsiung (高雄科工館). The master's course is taught by Prof. Vincent Rollet of the Department of International Affairs. I wanted to test one idea from class. Was Taiwan's industrialization planned from the top down by the state, or was it less orderly, shaped by outside powers, foreign capital and private entrepreneurs?
