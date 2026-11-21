@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+<title id="t">Taiwan IC industry development stages, 1966 to present</title>
+<desc id="d">A rising staircase of seven stages. 1966-1974 back-end packaging. 1974-1980 design and manufacturing R&amp;D. 1980-1987 front-end manufacturing. 1987-1994 specialized design, foundry and testing. 1994-1996 8-inch DRAM fabs. 1996-2000 foundry and DRAM become the mainstays. 2000 onward System-on-Chip (SoC) innovation.</desc>
+<style>text{font-family:"Helvetica Neue",Arial,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}.zh{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}</style>
+<rect width="1200" height="700" rx="18" fill="#fbfcfe"/>
+<text x="60" y="64" font-size="36" font-weight="700" fill="#2a3f66">Taiwan's IC Industry Development Stages</text>
+<text x="60" y="94" class="zh" font-size="16" fill="#8d9bb5">台灣IC產業發展歷程</text>
+<line x1="60" y1="600" x2="1110" y2="600" stroke="#b6c3da" stroke-width="2"/>
+<rect x="71.0" y="425" width="128" height="175" rx="12" fill="#c9ece8"/>
+<text x="83.0" y="451" font-size="13" font-weight="700" fill="#3d5580">1</text>
+<text x="135.0" y="483" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">Back-end</text>
+<text x="135.0" y="506" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">packaging</text>
+<text x="135.0" y="535" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">後段封裝</text>
+<text x="135.0" y="634" font-size="16" font-weight="700" fill="#2a3f66" text-anchor="middle">1966-1974</text>
+<rect x="221.0" y="380" width="128" height="220" rx="12" fill="#b4e3e8"/>
+<text x="233.0" y="406" font-size="13" font-weight="700" fill="#3d5580">2</text>
+<text x="285.0" y="438" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">Design and</text>
+<text x="285.0" y="461" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">manufacturing</text>
+<text x="285.0" y="484" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">R&amp;D</text>
+<text x="285.0" y="513" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">設計、製造的研發</text>
+<text x="285.0" y="634" font-size="16" font-weight="700" fill="#2a3f66" text-anchor="middle">1974-1980</text>
+<rect x="371.0" y="335" width="128" height="265" rx="12" fill="#9fd9ea"/>
+<text x="383.0" y="361" font-size="13" font-weight="700" fill="#3d5580">3</text>
+<text x="435.0" y="393" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">Front-end</text>
+<text x="435.0" y="416" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">manufacturing</text>
+<text x="435.0" y="445" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">前段製造</text>
+<text x="435.0" y="634" font-size="16" font-weight="700" fill="#2a3f66" text-anchor="middle">1980-1987</text>
+<rect x="521.0" y="290" width="128" height="310" rx="12" fill="#8ccdea"/>
+<text x="533.0" y="316" font-size="13" font-weight="700" fill="#3d5580">4</text>
+<text x="585.0" y="348" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">Specialized</text>
+<text x="585.0" y="371" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">design,</text>
+<text x="585.0" y="394" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">foundry and</text>
+<text x="585.0" y="417" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">testing</text>
+<text x="585.0" y="446" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">專業設計</text>
+<text x="585.0" y="463" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">專業代工</text>
+<text x="585.0" y="480" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">專業測試</text>
+<text x="585.0" y="634" font-size="16" font-weight="700" fill="#2a3f66" text-anchor="middle">1987-1994</text>
+<rect x="671.0" y="245" width="128" height="355" rx="12" fill="#7dbfe9"/>
+<text x="683.0" y="271" font-size="13" font-weight="700" fill="#3d5580">5</text>
+<text x="735.0" y="303" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">8-inch</text>
+<text x="735.0" y="326" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">DRAM fabs</text>
+<text x="735.0" y="355" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">8吋DRAM廠</text>
+<text x="735.0" y="634" font-size="16" font-weight="700" fill="#2a3f66" text-anchor="middle">1994-1996</text>
+<rect x="821.0" y="200" width="128" height="400" rx="12" fill="#74b0e8"/>
+<text x="833.0" y="226" font-size="13" font-weight="700" fill="#3d5580">6</text>
+<text x="885.0" y="258" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">Foundry and</text>
+<text x="885.0" y="281" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">DRAM become</text>
+<text x="885.0" y="304" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">the mainstays</text>
+<text x="885.0" y="333" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">專業代工與DRAM</text>
+<text x="885.0" y="350" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">成為產業主力</text>
+<text x="885.0" y="634" font-size="16" font-weight="700" fill="#2a3f66" text-anchor="middle">1996-2000</text>
+<rect x="971.0" y="155" width="128" height="445" rx="12" fill="#6aa0e6"/>
+<text x="983.0" y="181" font-size="13" font-weight="700" fill="#3d5580">7</text>
+<text x="1035.0" y="213" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">System-on-Chip</text>
+<text x="1035.0" y="236" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">(SoC)</text>
+<text x="1035.0" y="259" font-size="15.5" font-weight="700" fill="#1d3357" text-anchor="middle">innovation</text>
+<text x="1035.0" y="288" class="zh" font-size="12" fill="#3d5580" text-anchor="middle">SoC創新導向</text>
+<text x="1035.0" y="634" font-size="16" font-weight="700" fill="#2a3f66" text-anchor="middle">2000 onward</text>
+<text x="60" y="674" font-size="13" fill="#7a88a3">Data from the ITRI Industrial Economics and Knowledge Center (工研院經資中心), as shown on the National Science and Technology Museum industrial heritage site</text>
+</svg>
