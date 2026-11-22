@@ -17,3 +17,6 @@ date: 2026-10-11
 
 ### [France: Winning the Argument, Losing the Budget](/slides/france_deck/)
 2026-11-15 — EU integration course: France's ideas on industry and autonomy are shaping EU policy, yet its own finances are slipping out of control.
+
+### [Extractivism: Does It Need Exports?](/slides/extractivism_deck/)
+2026-11-23 — Global Development course: Gudynas's export-based definition of extractivism, tested on a 2026 case from Peru and a 2017 cement mine in Hualien, Taiwan.
